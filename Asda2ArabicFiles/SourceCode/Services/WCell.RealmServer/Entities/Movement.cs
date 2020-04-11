@@ -1,0 +1,425 @@
+using System.Collections.Generic;
+using WCell.Constants.NPCs;
+using WCell.Constants.Updates;
+using WCell.Core.Paths;
+using WCell.RealmServer.Handlers;
+using WCell.Util;
+using WCell.Util.Graphics;
+
+namespace WCell.RealmServer.Entities
+{
+	public class Movement
+	{
+		private const float SPEED_FACTOR = 0.001f;
+		//public static int MoveUpdateDelay = ;
+
+		/// <summary>
+		/// Starting time of movement
+		/// </summary>
+		protected uint m_lastMoveTime;
+
+		/// <summary>
+		/// Total time of movement
+		/// </summary>
+		protected uint m_totalMovingTime;
+
+		/// <summary>
+		/// Time at which movement should end
+		/// </summary>
+		protected uint m_desiredEndMovingTime;
+
+		/// <summary>
+		/// The target of the current (or last) travel
+		/// </summary>
+		protected Vector3 m_destination;
+
+		protected Path _currentPath;
+
+		/// <summary>
+		/// The movement type (walking, running or flying)
+		/// </summary>
+		protected AIMoveType m_moveType;
+
+		protected internal Unit m_owner;
+
+		protected bool m_moving, m_MayMove;
+
+		protected PathQuery m_currentQuery;
+
+		#region Constructors
+
+		public Movement(Unit owner)
+			: this(owner, AIMoveType.Run)
+		{
+		}
+
+		public Movement(Unit owner, AIMoveType moveType)
+		{
+			m_owner = owner;
+			m_moveType = moveType;
+			m_MayMove = true;
+		}
+
+		#endregion
+
+		#region Properties
+
+		public Vector3 Destination
+		{
+			get { return m_destination; }
+		}
+
+		/// <summary>
+		/// AI-controlled Movement setting
+		/// </summary>
+		public bool MayMove
+		{
+			get { return m_MayMove; }
+			set { m_MayMove = value; }
+		}
+
+		public bool IsMoving
+		{
+			get { return m_moving; }
+		}
+
+		/// <summary>
+		/// Whether the owner is within 1 yard of the Destination
+		/// </summary>
+		public bool IsAtDestination
+		{
+			get
+			{
+				return m_owner.Position.DistanceSquared(ref m_destination) < 1f;
+			}
+		}
+
+		/// <summary>
+		/// Get movement flags for the packet
+		/// </summary>
+		/// <returns></returns>
+		public virtual MonsterMoveFlags MovementFlags
+		{
+			get
+			{
+				MonsterMoveFlags moveFlags;
+
+				switch (m_moveType)
+				{
+					case AIMoveType.Fly:
+						moveFlags = MonsterMoveFlags.Fly;
+						break;
+					case AIMoveType.Run:
+					case AIMoveType.Walk:
+						moveFlags = MonsterMoveFlags.Walk;
+						break;
+					case AIMoveType.Sprint:
+						moveFlags = MonsterMoveFlags.DefaultMask;
+						break;
+					default:
+						moveFlags = MonsterMoveFlags.DefaultMask;
+						break;
+				}
+
+				return moveFlags;
+			}
+		}
+
+		public AIMoveType MoveType
+		{
+			get
+			{
+				return m_moveType;
+			}
+			set
+			{
+				m_moveType = value;
+				//if (!IsAtDestination)
+				//{
+				//    // re-compute route
+				//    MoveToDestination();
+				//}
+			}
+		}
+
+		/// <summary>
+		/// Remaining movement time to current Destination (in millis)
+		/// </summary>
+		public uint RemainingTime
+		{
+			get
+			{
+				float speed, distanceToTarget;
+
+				if (m_owner.IsFlying)
+				{
+					speed = m_owner.FlightSpeed;
+					distanceToTarget = m_owner.GetDistance(ref m_destination);
+				}
+				else if (m_moveType == AIMoveType.Run)
+				{
+					speed = m_owner.RunSpeed;
+					distanceToTarget = m_owner.GetDistanceXY(ref m_destination);
+				}
+				else // walk
+				{
+					speed = m_owner.WalkSpeed;
+					distanceToTarget = m_owner.GetDistanceXY(ref m_destination);
+				}
+
+				speed *= SPEED_FACTOR;
+
+				return (uint)(distanceToTarget / speed);
+			}
+		}
+
+		#endregion
+
+		#region MoveTo / Update / Stop
+		/// <summary>
+		/// Starts the MovementAI
+		/// </summary>
+		/// <returns>Whether already arrived</returns>
+		public bool MoveTo(Vector3 destination, bool findPath = true)
+		{
+			if (!m_owner.IsInWorld)
+			{
+				// something's wrong here
+				m_owner.DeleteNow();
+				return false;
+			}
+
+			m_destination = destination;
+			if (IsAtDestination)
+			{
+				return true;
+			}
+
+			if (findPath)
+			{
+				// TODO: Consider flying units & liquid levels
+				var pos = m_owner.Position;
+				pos.Z += 5;
+				m_currentQuery = new PathQuery(pos, ref destination, m_owner.ContextHandler, OnPathQueryReply);
+
+				m_owner.Map.Terrain.FindPath(m_currentQuery);
+			}
+			else if (m_owner.CanMove)
+			{
+				// start moving
+				MoveToDestination();
+			}
+			// cannot move
+			return false;
+		}
+
+		/// <summary>
+		/// Starts the MovementAI
+		/// </summary>
+		/// <returns>Whether already arrived</returns>
+		public bool MoveToPoints(List<Vector3> points)
+		{
+			if (!m_owner.IsInWorld)
+			{
+				// something's wrong here
+				m_owner.DeleteNow();
+				return false;
+			}
+
+			m_destination = points[points.Count - 1];
+			if (IsAtDestination)
+			{
+				return true;
+			}
+
+
+			// TODO: Consider flying units & liquid levels
+			var pos = m_owner.Position;
+			pos.Z += 5;
+			m_currentQuery = new PathQuery(pos, ref m_destination, m_owner.ContextHandler, OnPathQueryReply);
+
+			m_currentQuery.Path.Reset(points.Count);
+			foreach (var point in points)
+			{
+				m_currentQuery.Path.Add(point);
+			}
+			m_currentQuery.Reply();
+
+			//m_owner.Map.Terrain.FindPath(m_currentQuery);
+
+			// cannot move
+			return false;
+		}
+
+		/// <summary>
+		/// Interpolates the current Position
+		/// </summary>
+		/// <returns>Whether we arrived</returns>
+		public bool Update()
+		{
+			if (!m_moving)
+			{
+				// is not moving
+				return false;
+			}
+
+			if (!MayMove)
+			{
+				// cannot continue moving
+				Stop();
+				return false;
+			}
+
+            if (UpdatePosition())
+            {
+				// arrived
+                if (!CheckCollision())
+                    return true;
+			}
+			// still going
+			return false;
+		}
+
+	    private bool CheckCollision()
+	    {
+	        var posColObjs = m_owner.GetObjectsInRadius(m_owner.BoundingCollisionRadius, ObjectTypes.Unit, false);
+            posColObjs.Remove(m_owner);
+	        var totalX = 0f;
+	        var totalY = 0f;
+	        foreach (Unit worldObject in posColObjs)
+	        {
+	            var colDist = m_owner.IsCollisionWith(worldObject);
+	            if (colDist > 0)
+	            {
+	                var x = (m_owner.Position.X - worldObject.Position.X);
+	                var y = (m_owner.Position.Y - worldObject.Position.Y);
+                    var vect = new Vector3(x, y);
+                    vect.Normalize();
+	                totalX += vect.X*colDist;
+	                totalY += vect.Y*colDist;
+	            }
+	        }
+	        var totalVector = new Vector3(totalX, totalY);
+	        if (totalVector != Vector3.Zero)
+            {
+                var len = totalVector.Length();
+                if (len > m_owner.BoundingRadius/2)
+                {
+                    m_destination = new Vector3(m_owner.Position.X + totalX, m_owner.Position.Y + totalY);
+                    MoveToDestination();
+                }
+	            return true;
+	        }
+	        return false;
+	    }
+
+	    /// <summary>
+		/// Stops at the current position
+		/// </summary>
+		public void Stop()
+		{
+			if (m_moving)
+			{
+				UpdatePosition();
+				m_moving = false;
+			}
+		}
+
+		#endregion
+
+	    private Vector2 _lastDestPosition;
+
+		/// <summary>
+		/// Starts moving to current Destination
+		/// </summary>
+		/// <remarks>Sends movement packet to client</remarks>
+		protected void MoveToDestination()
+        {
+            m_moving = true;
+
+            m_totalMovingTime = RemainingTime;
+            m_owner.SetOrientationTowards(ref m_destination);
+            var npc = m_owner as NPC;
+            {
+                if (_lastDestPosition != m_destination.XY)
+                {
+                    Asda2MovmentHandler.SendMonstMoveOrAtackResponse(-1, npc, -1, new Vector3(m_destination.X - m_owner.Map.Offset, m_destination.Y - m_owner.Map.Offset), false);
+                    _lastDestPosition = m_destination.XY;
+                }
+            }
+		    //MovementHandler.SendMoveToPacket(m_owner, ref m_destination, 0f, m_totalMovingTime, MovementFlags);
+
+            m_lastMoveTime = Utility.GetSystemTime();
+            m_desiredEndMovingTime = m_lastMoveTime + m_totalMovingTime;
+        }
+
+		protected void OnPathQueryReply(PathQuery query)
+		{
+			if (query != m_currentQuery)
+			{
+				// deprecated query
+				return;
+			}
+			m_currentQuery = null;
+
+		    FollowPath(query.Path);
+		}
+
+	    public void FollowPath(Path path)
+	    {
+	        _currentPath = path;
+
+	        m_destination = _currentPath.Next();
+	        MoveToDestination();
+	    }
+
+	    /// <summary>
+		/// Updates position of unit
+		/// </summary>
+		/// <returns>true if target point is reached</returns>
+		protected bool UpdatePosition()
+		{
+			var currentTime = Utility.GetSystemTime();
+
+			// ratio between time passed since last update and total movement time
+			var delta = (currentTime - m_lastMoveTime)/(float) m_totalMovingTime;
+
+			// if the ratio is more than 1, then we have reached the target
+			if (currentTime >= m_desiredEndMovingTime || delta >= 1f)
+			{
+				// move target directly to the destination
+				m_owner.Map.MoveObject(m_owner, ref m_destination);
+				if (_currentPath != null)
+				{
+					if (_currentPath.HasNext())
+                    {
+                        if (!CheckCollision())
+                        {
+                            // go to next destination
+                            m_destination = _currentPath.Next();
+                            MoveToDestination();
+                        }
+                    }
+					else
+					{
+						_currentPath = null;
+					}
+					return false;
+				}
+				else
+				{
+					m_moving = false;
+					return true;
+				}
+			}
+
+			// otherwise we've passed delta part of the path
+			var currentPos = m_owner.Position;
+			var newPosition = currentPos + (m_destination - currentPos)*delta;
+
+			m_lastMoveTime = currentTime;
+			m_owner.Map.MoveObject(m_owner, ref newPosition);
+			return false;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e111b249-0e14-41f1-88bd-3b93a0ee0dbf" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:14608/GetFilesService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GetFilesService.xsd" MetadataType="Schema" ID="09d1813e-4cd6-44c9-885d-a5588d6af5fd" SourceId="1" SourceUrl="http://localhost:14608/GetFilesService.svc?xsd=xsd0" />
+    <MetadataFile FileName="GetFilesService.disco" MetadataType="Disco" ID="337bfe1d-2717-4b6e-88cb-fcb7f1a6ce5f" SourceId="1" SourceUrl="http://localhost:14608/GetFilesService.svc?disco" />
+    <MetadataFile FileName="GetFilesService1.xsd" MetadataType="Schema" ID="b32c9f04-5899-4de6-952d-98427746b3fe" SourceId="1" SourceUrl="http://localhost:14608/GetFilesService.svc?xsd=xsd3" />
+    <MetadataFile FileName="GetFilesService.wsdl" MetadataType="Wsdl" ID="5dce5e17-107a-4597-a560-ee0e7f39fd3d" SourceId="1" SourceUrl="http://localhost:14608/GetFilesService.svc?wsdl" />
+    <MetadataFile FileName="GetFilesService2.xsd" MetadataType="Schema" ID="ffb6727c-e413-4546-9540-60410fbaa10e" SourceId="1" SourceUrl="http://localhost:14608/GetFilesService.svc?xsd=xsd2" />
+    <MetadataFile FileName="GetFilesService3.xsd" MetadataType="Schema" ID="d8fb27dd-60a8-4c9e-a5a5-7373c3351c53" SourceId="1" SourceUrl="http://localhost:14608/GetFilesService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

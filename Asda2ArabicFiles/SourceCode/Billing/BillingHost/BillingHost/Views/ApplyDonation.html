@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="logs" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.4.0.js"></script>
+    <script src="../Scripts/app.js"></script>
+    <title>logs</title>
+</head>
+<body ng-controller="ApplyDonationCtrl">
+    <div>
+        <h5>Your name in CashU system</h5>
+        <input ng-model="model.payerName"/>
+        <h5>CashU transaction id</h5>
+        <input ng-model="model.transactionId"/>
+        <h5>Ingame character name</h5>
+        <input ng-model="model.characterName"/>
+        <button ng-click="applyDonation()" ng-hide="loading">Apply donation</button>
+        <h3>{{message}}</h3>
+    </div>
+</body>
+</html>

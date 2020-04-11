@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Battlegrounds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Setting>
+    <Name>AlteracValley</Name>
+    <Type> </Type>
+  </Setting>
+  <Setting>
+    <Name>WarsongGulch</Name>
+    <Type> </Type>
+  </Setting>
+  <Setting>
+    <Name>ArathiBasin</Name>
+    <Type> </Type>
+  </Setting>
+  <Setting>
+    <Name>NagrandArena</Name>
+    <Type> </Type>
+  </Setting>
+  <Setting>
+    <Name>BladesEdgeArena</Name>
+    <Type> </Type>
+  </Setting>
+  <Setting>
+    <Name>EyeOfTheStorm</Name>
+    <Type> </Type>
+  </Setting>
+  <Setting>
+    <Name>RuinsOfLordaeron</Name>
+    <Type> </Type>
+  </Setting>
+  <Setting>
+    <Name>StrandOfTheAncients</Name>
+    <Type> </Type>
+  </Setting>
+  <Setting>
+    <Name>DalaranSewers</Name>
+    <Type> </Type>
+  </Setting>
+  <Setting>
+    <Name>TheRingOfValor</Name>
+    <Type> </Type>
+  </Setting>
+  <Setting>
+    <Name>IsleOfConquest</Name>
+    <Type> </Type>
+  </Setting>
+</Battlegrounds>

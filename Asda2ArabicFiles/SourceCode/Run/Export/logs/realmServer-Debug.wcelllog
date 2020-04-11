@@ -1,0 +1,127 @@
+(2012-07-28 14:25:19.1377) [Debug] Starting server... 
+(2012-07-28 14:27:16.2527) [Debug] Starting server... 
+(2012-07-28 14:29:30.1119) [Debug] Registered all packet handlers! 
+(2012-07-28 14:33:24.8650) [Debug] Starting server... 
+(2012-07-28 14:33:48.5394) [Debug] Registered all packet handlers! 
+(2012-07-28 14:37:19.5267) [Debug] zoxer1 starting login chalange 
+(2012-07-28 14:37:40.9734) [Debug] Map Aquaton now running! 
+(2012-07-28 16:01:14.5677) [Debug] Starting server... 
+(2012-07-28 16:02:26.3813) [Debug] Registered all packet handlers! 
+(2012-07-29 00:45:58.7566) [Debug] Starting server... 
+(2012-07-29 00:46:20.3768) [Debug] Registered all packet handlers! 
+(2012-07-29 00:49:29.5849) [Debug] m4rket starting login chalange 
+(2012-07-29 00:49:29.8469) [Debug] Client 10.8.0.10:24427 failed to login: WrongLoginOrPass 
+(2012-07-29 00:49:38.6914) [Debug] zoxer starting login chalange 
+(2012-07-29 00:49:58.3095) [Debug] Map Alpia now running! 
+(2012-07-29 00:53:31.9912) [Debug] juytT starting login chalange 
+(2012-07-29 00:53:45.0350) [Debug] Map RainRiver now running! 
+(2012-07-29 00:55:21.9695) [Debug] softich starting login chalange 
+(2012-07-29 00:59:03.7687) [Debug] Relation added successfully: Character=''(10000021), RelatedCharacter=''(10000033), RelationType=GroupInvite, RelationResult=0 
+(2012-07-29 00:59:06.2618) [Debug] Relation removing succeeded: Character=10000021, RelatedCharacter=10000033, RelationType=GroupInvite, RelationResult=0 
+(2012-07-29 00:59:11.7491) [Debug] Relation added successfully: Character=''(10000021), RelatedCharacter=''(10000034), RelationType=GroupInvite, RelationResult=0 
+(2012-07-29 00:59:14.2433) [Debug] Relation removing succeeded: Character=10000021, RelatedCharacter=10000034, RelationType=GroupInvite, RelationResult=0 
+(2012-07-29 01:14:22.8655) [Debug] Starting server... 
+(2012-07-29 01:14:42.5606) [Debug] Registered all packet handlers! 
+(2012-07-29 01:16:18.3493) [Debug] zoxer starting login chalange 
+(2012-07-29 01:16:35.3193) [Debug] Map Alpia now running! 
+(2012-07-29 01:17:05.6780) [Debug] juytT starting login chalange 
+(2012-07-29 01:17:54.7965) [Debug] Relation added successfully: Character=''(10000033), RelatedCharacter=''(10000021), RelationType=GroupInvite, RelationResult=0 
+(2012-07-29 01:17:57.9057) [Debug] Relation removing succeeded: Character=10000033, RelatedCharacter=10000021, RelationType=GroupInvite, RelationResult=0 
+(2012-07-29 01:22:03.5002) [Debug] zoxer1 starting login chalange 
+(2012-07-29 01:22:29.2246) [Debug] Map Aquaton now running! 
+(2012-07-29 01:25:16.7552) [Debug] Relation added successfully: Character=''(10000033), RelatedCharacter=''(10000022), RelationType=GroupInvite, RelationResult=0 
+(2012-07-29 01:25:24.1116) [Debug] Relation removing succeeded: Character=10000033, RelatedCharacter=10000022, RelationType=GroupInvite, RelationResult=0 
+(2012-07-29 01:44:12.8104) [Debug] Starting server... 
+(2012-07-29 01:44:31.7910) [Debug] Registered all packet handlers! 
+(2012-07-29 01:59:46.7509) [Debug] zoxer1 starting login chalange 
+(2012-07-29 02:00:08.3771) [Debug] Map Alpia now running! 
+(2012-07-29 03:01:51.2962) [Debug] zoxer1 starting login chalange 
+(2012-07-29 03:02:44.5413) [Debug] zoxer1 starting login chalange 
+(2012-07-29 03:02:44.7763) [Debug] Client 10.8.0.26:50737 failed to login: InvalidInformation 
+(2012-07-29 03:02:46.6354) [Debug] zoxer1 starting login chalange 
+(2012-07-29 03:02:46.8634) [Debug] Client 10.8.0.26:50737 failed to login: InvalidInformation 
+(2012-07-29 03:02:49.8126) [Debug] zoxer starting login chalange 
+(2012-07-29 03:06:54.1346) [Debug] Map SunnyCoast now running! 
+(2012-07-29 11:27:30.0988) [Debug] Starting server... 
+(2012-07-29 11:27:48.7118) [Debug] Registered all packet handlers! 
+(2012-07-29 11:37:59.7787) [Debug] zoxer starting login chalange 
+(2012-07-29 11:38:14.3885) [Debug] Map Alpia now running! 
+(2012-07-29 11:42:26.0711) [Debug] Starting server... 
+(2012-07-29 11:55:51.4021) [Debug] Starting server... 
+(2012-07-29 11:56:09.6660) [Debug] Registered all packet handlers! 
+(2012-07-29 12:00:22.4365) [Debug] Starting server... 
+(2012-07-29 12:00:39.6374) [Debug] Registered all packet handlers! 
+(2012-07-29 12:04:08.6994) [Debug] Starting server... 
+(2012-07-29 12:04:28.5265) [Debug] Registered all packet handlers! 
+(2012-07-29 12:17:44.5534) [Debug] Starting server... 
+(2012-07-29 12:18:02.8045) [Debug] Registered all packet handlers! 
+(2012-07-29 12:27:25.8006) [Debug] Starting server... 
+(2012-07-29 12:27:46.1608) [Debug] Registered all packet handlers! 
+(2012-07-29 12:32:17.3078) [Debug] Starting server... 
+(2012-07-29 12:32:37.4170) [Debug] Registered all packet handlers! 
+(2012-07-29 13:36:29.7269) [Debug] Starting server... 
+(2012-07-29 13:36:52.1412) [Debug] Registered all packet handlers! 
+(2012-07-29 13:40:54.0145) [Debug] Starting server... 
+(2012-07-29 13:41:11.8515) [Debug] Registered all packet handlers! 
+(2012-07-29 13:44:13.4387) [Debug] Starting server... 
+(2012-07-29 13:44:33.7089) [Debug] Registered all packet handlers! 
+(2012-07-29 13:46:44.7316) [Debug] zoxer starting login chalange 
+(2012-07-29 13:51:53.2934) [Debug] Starting server... 
+(2012-07-29 13:57:50.9049) [Debug] Starting server... 
+(2012-07-29 13:58:13.5992) [Debug] Registered all packet handlers! 
+(2012-07-29 14:03:15.8085) [Debug] Starting server... 
+(2012-07-29 14:03:37.7640) [Debug] Registered all packet handlers! 
+(2012-07-29 14:13:13.6965) [Debug] zoxer starting login chalange 
+(2012-07-29 14:16:33.5970) [Debug] Starting server... 
+(2012-07-29 14:17:01.0295) [Debug] Registered all packet handlers! 
+(2012-07-29 14:24:45.7428) [Debug] zoxer starting login chalange 
+(2012-07-29 14:35:27.9065) [Debug] zoxer starting login chalange 
+(2012-07-29 14:35:50.1378) [Debug] Map Alpia now running! 
+(2012-07-29 16:31:18.4037) [Debug] Starting server... 
+(2012-07-29 16:31:37.7842) [Debug] Registered all packet handlers! 
+(2012-07-29 16:36:00.0929) [Debug] Starting server... 
+(2012-07-29 16:36:18.4182) [Debug] Registered all packet handlers! 
+(2012-07-29 16:39:45.4135) [Debug] zoxer starting login chalange 
+(2012-07-29 16:40:05.8492) [Debug] Map Alpia now running! 
+(2012-07-29 16:44:05.9417) [Debug] zoxer starting login chalange 
+(2012-07-29 16:46:40.1754) [Debug] zoxer starting login chalange 
+(2012-07-29 16:46:40.4114) [Debug] Client 10.8.0.10:29558 failed to login: InvalidInformation 
+(2012-07-29 16:46:45.9417) [Debug] zoxer1 starting login chalange 
+(2012-07-29 16:46:46.1738) [Debug] Client 10.8.0.10:29558 failed to login: WrongLoginOrPass 
+(2012-07-29 16:47:03.7388) [Debug] zoxer starting login chalange 
+(2012-07-29 16:47:03.9688) [Debug] Client 10.8.0.10:29558 failed to login: WrongLoginOrPass 
+(2012-07-29 16:47:12.9613) [Debug] zoxer starting login chalange 
+(2012-07-29 16:47:13.1983) [Debug] Client 10.8.0.10:29558 failed to login: InvalidInformation 
+(2012-07-29 16:47:16.0315) [Debug] zoxer starting login chalange 
+(2012-07-29 16:47:16.2635) [Debug] Client 10.8.0.10:29558 failed to login: InvalidInformation 
+(2012-07-29 16:47:20.1017) [Debug] zoxer1 starting login chalange 
+(2012-07-29 17:06:01.5233) [Debug] Starting server... 
+(2012-07-29 17:06:20.5190) [Debug] Registered all packet handlers! 
+(2012-07-29 17:10:38.3815) [Debug] zoxer starting login chalange 
+(2012-07-29 17:10:55.5900) [Debug] Map Alpia now running! 
+(2012-07-29 17:16:26.9361) [Debug] Starting server... 
+(2012-07-29 17:16:47.1563) [Debug] Registered all packet handlers! 
+(2012-07-29 17:19:35.8964) [Debug] zoxer starting login chalange 
+(2012-07-29 17:19:58.6206) [Debug] Map Alpia now running! 
+(2012-07-29 17:25:02.7363) [Debug] Starting server... 
+(2012-07-29 17:25:24.2419) [Debug] Registered all packet handlers! 
+(2012-08-01 18:07:47.4272) [Debug] Starting server... 
+(2012-08-01 18:08:24.7793) [Debug] Registered all packet handlers! 
+(2012-08-01 18:29:12.7957) [Debug] zoxer starting login chalange 
+(2012-08-01 18:29:23.9473) [Debug] Map NeptillanNode now running! 
+(2012-08-01 18:29:55.1781) [Debug] Map Alpia now running! 
+(2012-08-05 14:57:17.7955) [Debug] Starting server... 
+(2012-08-05 14:58:00.8857) [Debug] Starting server... 
+(2012-08-05 14:58:18.2159) [Debug] Registered all packet handlers! 
+(2012-08-05 19:45:18.5434) [Debug] Starting server... 
+(2012-08-05 21:29:02.4433) [Debug] Starting server... 
+(2012-08-05 21:29:18.4197) [Debug] Registered all packet handlers! 
+(2012-08-05 21:31:15.3840) [Debug] Starting server... 
+(2012-08-05 21:34:14.6280) [Debug] Starting server... 
+(2012-08-05 21:34:28.6576) [Debug] Registered all packet handlers! 
+(2012-08-05 21:34:38.6681) [Debug] Starting server... 
+(2012-08-05 21:34:52.7821) [Debug] Starting server... 
+(2013-05-01 13:18:55.4139) [Debug] Starting server... 
+(2013-05-01 13:18:57.6010) [Debug] Registered all packet handlers! 
+(2013-05-01 13:19:50.6800) [Debug] Starting server... 
+(2013-05-01 13:19:52.8502) [Debug] Registered all packet handlers! 

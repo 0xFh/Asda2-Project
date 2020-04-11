@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="Spell">
+    <DefaultTable>SkillTemplate</DefaultTable>
+<Flat Name="Id" Column="Id" />
+<Flat Name="Name" Column="Name" />
+<Flat Name="Description" Column="Description" />
+<Flat Name="Category" Column="Category" />
+<Flat Name="DispelType" Column="DispelType" />
+<Flat Name="Mechanic" Column="Mechanic" />
+<Flat Name="Attributes" Column="Attributes" />
+<Flat Name="AttributesEx" Column="AttributesEx" />
+<Flat Name="AttributesExB" Column="AttributesExB" />
+<Flat Name="AttributesExC" Column="AttributesExC" />
+<Flat Name="AttributesExD" Column="AttributesExD" />
+<Flat Name="TargetFlags" Column="TargetFlags" />
+<Flat Name="RequiredCasterAuraState" Column="RequiredCasterAuraState" />
+<Flat Name="RequiredTargetAuraState" Column="RequiredTargetAuraState" />
+<Flat Name="ExcludeCasterAuraState" Column="ExcludeCasterAuraState" />
+<Flat Name="ExcludeTargetAuraState" Column="ExcludeTargetAuraState" />
+<Flat Name="RequiredCasterAuraId" Column="RequiredCasterAuraId" />
+<Flat Name="RequiredTargetAuraId" Column="RequiredTargetAuraId" />
+<Flat Name="ExcludeCasterAuraId" Column="ExcludeCasterAuraId" />
+<Flat Name="ExcludeTargetAuraId" Column="ExcludeTargetAuraId" />
+<Flat Name="CastDelay" Column="CastDelay" />
+<Flat Name="CooldownTime" Column="CooldownTime" />
+<Flat Name="categoryCooldownTime" Column="categoryCooldownTime" />
+<Flat Name="InterruptFlags" Column="InterruptFlags" />
+<Flat Name="AuraInterruptFlags" Column="AuraInterruptFlags" />
+<Flat Name="ChannelInterruptFlags" Column="ChannelInterruptFlags" />
+<Flat Name="ProcTriggerFlags" Column="ProcTriggerFlags" />
+<Flat Name="ProcChance" Column="ProcChance" />
+<Flat Name="ProcCharges" Column="ProcCharges" />
+<Flat Name="MaxLevel" Column="MaxLevel" />
+<Flat Name="BaseLevel" Column="BaseLevel" />
+<Flat Name="Level" Column="Level" />
+<Flat Name="PowerCost" Column="PowerCost" />
+<Flat Name="PowerCostPerlevel" Column="PowerCostPerlevel" />
+<Flat Name="PowerPerSecond" Column="PowerPerSecond" />
+<Flat Name="Duration" Column="Duration" />
+<Flat Name="MaxRange" Column="MaxRange" />
+<Flat Name="MaxStackCount" Column="MaxStackCount" />
+<Flat Name="DamageType" Column="DamageType" />
+<Flat Name="SchoolMask" Column="SchoolMask" />
+<Flat Name="LearnLevel" Column="LearnLevel" />
+<Flat Name="Effect0_EffectType" Column="Effect0_EffectType" />
+<Flat Name="Effect0_Value" Column="Effect0_Value" />
+<Flat Name="Effect0_Duration" Column="Effect0_Duration" />
+<Flat Name="Effect0_Amplitude" Column="Effect0_Amplitude" />
+<Flat Name="Effect0_SpellMechanic" Column="Effect0_SpellMechanic" />
+<Flat Name="Effect0_ImplicitTargetB" Column="Effect0_ImplicitTargetB" />
+<Flat Name="Effect0_ImplicitTargetA" Column="Effect0_ImplicitTargetA" />
+<Flat Name="Effect0_AuraType" Column="Effect0_AuraType" />
+<Flat Name="Effect0_ProcValue" Column="Effect0_ProcValue" />
+<Flat Name="Effect0_Radius" Column="Effect0_Radius" />
+<Flat Name="Effect0_MiscValue" Column="Effect0_MiscValue" />
+<Flat Name="Effect0_MiscValueB" Column="Effect0_MiscValueB" />
+<Flat Name="Effect0_MiscValueС" Column="Effect0_MiscValueС" />
+<Flat Name="Effect1_EffectType" Column="Effect1_EffectType" />
+<Flat Name="Effect1_Value" Column="Effect1_Value" />
+<Flat Name="Effect1_Duration" Column="Effect1_Duration" />
+<Flat Name="Effect1_Amplitude" Column="Effect1_Amplitude" />
+<Flat Name="Effect1_SpellMechanic" Column="Effect1_SpellMechanic" />
+<Flat Name="Effect1_ImplicitTargetB" Column="Effect1_ImplicitTargetB" />
+<Flat Name="Effect1_ImplicitTargetA" Column="Effect1_ImplicitTargetA" />
+<Flat Name="Effect1_AuraType" Column="Effect1_AuraType" />
+<Flat Name="Effect1_ProcValue" Column="Effect1_ProcValue" />
+<Flat Name="Effect1_Radius" Column="Effect1_Radius" />
+<Flat Name="Effect1_MiscValue" Column="Effect1_MiscValue" />
+<Flat Name="Effect1_MiscValueB" Column="Effect1_MiscValueB" />
+<Flat Name="Effect1_MiscValueС" Column="Effect1_MiscValueС" />
+<Flat Name="ProffNum" Column="ProffNum" />
+<Flat Name="ClassMask" Column="ClassMask" />
+<Flat Name="Cost" Column="Cost" />
+<Flat Name="RealId" Column="RealId" />
+
+    
+
+	</DataHolder>
+</DataHolders>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="PerlevelItemBonusTemplate">
+    <DefaultTable>PerlevelItemBonusTemplate</DefaultTable>
+    
+    <Flat Name="Id" Column="Id" />
+    <Flat Name="Name" Column="Name" />
+	<Flat Name="RebornCount" Column="RebornCount" />
+	<Flat Name="IsPrivate" Column="IsPrivate" />
+  </DataHolder>
+</DataHolders>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WCell.RealmServerConsole</name>
+    </assembly>
+    <members>
+        <member name="M:WCell.RealmServerConsole.Program.DecompressZLib(System.Byte[],System.Byte[])">
+            <summary>
+            Performs inflate decompression on the given data.
+            </summary>
+            <param name="input">the data to decompress</param>
+            <param name="output">the decompressed data</param>
+        </member>
+    </members>
+</doc>

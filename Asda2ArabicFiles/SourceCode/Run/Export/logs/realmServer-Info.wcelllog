@@ -1,0 +1,1390 @@
+(2012-07-28 14:25:20.4358) [Info] Initialization Pass #0 
+(2012-07-28 14:25:21.9979) [Info] Step:  'Initialize Config' (00:01.560) 
+(2012-07-28 14:25:21.9979) [Info] Initialization Pass #1 
+(2012-07-28 14:26:44.1570) [Info] [Broadcast] Initiating Shutdown... 
+(2012-07-28 14:26:44.1570) [Info] [Broadcast] Halting server and saving World... 
+(2012-07-28 14:26:44.2590) [Info] [Broadcast] World saved. 
+(2012-07-28 14:26:44.2590) [Info] [Broadcast] Shutting down... 
+(2012-07-28 14:26:44.3280) [Info] Stopping the network layer! 
+(2012-07-28 14:26:44.3280) [Info] Server has been shutdown. 
+(2012-07-28 14:27:17.6378) [Info] Initialization Pass #0 
+(2012-07-28 14:27:25.0292) [Info] Step:  'Initialize Config' (00:07.387) 
+(2012-07-28 14:27:25.0292) [Info] Initialization Pass #1 
+(2012-07-28 14:29:24.8766) [Info] Step:  'Initialize Spells' (01:59.847) 
+(2012-07-28 14:29:24.9596) [Info] Found 1 Addon(s): 
+(2012-07-28 14:29:24.9616) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-28 14:29:24.9616) [Info] Step:  'Initialize Addons' (00:00.90) 
+(2012-07-28 14:29:29.6479) [Info] Step:  'Initialize database' (00:04.643) 
+(2012-07-28 14:29:29.6479) [Info] Initialization Pass #2 
+(2012-07-28 14:29:29.9579) [Info] Step:  'Initialize Factions' (00:00.310) 
+(2012-07-28 14:29:30.1119) [Info] Step:  'Register packet handlers' (00:00.154) 
+(2012-07-28 14:29:30.1119) [Info] Initialization Pass #3 
+(2012-07-28 14:29:30.6849) [Info] Step:  'Initializing World' (00:00.573) 
+(2012-07-28 14:29:30.8489) [Info] Step:  'Initialize Spells (2)' (00:00.164) 
+(2012-07-28 14:29:31.6260) [Info] Initialization Pass #4 
+(2012-07-28 14:29:31.8850) [Info] Step:  'Initialize Taxi Paths' (00:00.259) 
+(2012-07-28 14:29:32.0350) [Info] Step:  'Initialize Commands' (00:00.150) 
+(2012-07-28 14:29:32.0350) [Info] Step:  'Initialize WorldSafeLocs' (00:00.04) 
+(2012-07-28 14:30:15.7983) [Info] Step:  'Initialize Items' (00:43.759) 
+(2012-07-28 14:30:16.2874) [Info] Step:  'Privilege manager' (00:00.489) 
+(2012-07-28 14:30:20.1363) [Info] Step:  'Caching Ban list...' (00:03.848) 
+(2012-07-28 14:30:20.1363) [Info] Initialization Pass #5 
+(2012-07-28 14:30:32.4268) [Info] Step:  'Initialize NPCs' (00:12.290) 
+(2012-07-28 14:30:32.4268) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-07-28 14:30:32.9409) [Info] Step:  'Initializing World' (00:00.514) 
+(2012-07-28 14:30:40.9392) [Info] Step:  'Initialize GameObjects' (00:07.997) 
+(2012-07-28 14:30:45.3306) [Info] Step:  'Initialize Instances' (00:04.375) 
+(2012-07-28 14:30:45.5997) [Info] Step:  'Initialize Guilds' (00:00.268) 
+(2012-07-28 14:30:46.2689) [Info] Step:  'Initialize Accounts' (00:00.669) 
+(2012-07-28 14:30:47.3130) [Info] Step:  'Initialize Auctions' (00:01.44) 
+(2012-07-28 14:30:47.3242) [Info] Step:  'Initialize Repair Costs' (00:00.11) 
+(2012-07-28 14:30:47.3642) [Info] Step:  'Initialize performance counters' (00:00.40) 
+(2012-07-28 14:30:47.8553) [Info] Step:  'Start relation manager' (00:00.491) 
+(2012-07-28 14:30:47.8993) [Info] Step:  'Create default channels' (00:00.44) 
+(2012-07-28 14:30:47.8993) [Info] Initialization Pass #6 
+(2012-07-28 14:30:48.5958) [Info] Initialization Pass #7 
+(2012-07-28 14:30:48.8633) [Info] Step:  'Initializing Races and Classes' (00:00.267) 
+(2012-07-28 14:30:48.8633) [Info] Initialization Pass #10 
+(2012-07-28 14:30:50.8932) [Info] Step:  'Initializing Debug Tools' (00:02.29) 
+(2012-07-28 14:31:00.1339) [Info] Step:  'Initialize Soulmates' (00:09.240) 
+(2012-07-28 14:31:02.0820) [Info] Step:  'Load Loot' (00:01.947) 
+(2012-07-28 14:31:02.1580) [Info] Initialization Pass #11 
+(2012-07-28 14:31:02.2451) [Info] Step:  'Initialize Default Addon' (00:00.07) 
+(2012-07-28 14:31:02.2451) [Info] Initialization complete! 47 successful steps, 0 non-fatal failures. 
+(2012-07-28 14:31:02.3301) [Info] Starting the network layer! 
+(2012-07-28 14:31:02.6321) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-28 14:31:02.6321) [Info] Server is ready for connections! 
+(2012-07-28 14:31:02.6351) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-28 14:33:26.0561) [Info] Initialization Pass #0 
+(2012-07-28 14:33:27.4582) [Info] Step:  'Initialize Config' (00:01.399) 
+(2012-07-28 14:33:27.4582) [Info] Initialization Pass #1 
+(2012-07-28 14:33:43.5461) [Info] Step:  'Initialize Spells' (00:16.87) 
+(2012-07-28 14:33:43.6281) [Info] Found 1 Addon(s): 
+(2012-07-28 14:33:43.6281) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-28 14:33:43.6281) [Info] Step:  'Initialize Addons' (00:00.90) 
+(2012-07-28 14:33:48.0371) [Info] Step:  'Initialize database' (00:04.361) 
+(2012-07-28 14:33:48.0371) [Info] Initialization Pass #2 
+(2012-07-28 14:33:48.3771) [Info] Step:  'Initialize Factions' (00:00.340) 
+(2012-07-28 14:33:48.5394) [Info] Step:  'Register packet handlers' (00:00.162) 
+(2012-07-28 14:33:48.5394) [Info] Initialization Pass #3 
+(2012-07-28 14:33:49.2522) [Info] Step:  'Initializing World' (00:00.712) 
+(2012-07-28 14:33:49.4522) [Info] Step:  'Initialize Spells (2)' (00:00.200) 
+(2012-07-28 14:33:50.3382) [Info] Initialization Pass #4 
+(2012-07-28 14:33:50.4512) [Info] Step:  'Initialize Taxi Paths' (00:00.113) 
+(2012-07-28 14:33:50.6122) [Info] Step:  'Initialize Commands' (00:00.161) 
+(2012-07-28 14:33:50.6172) [Info] Step:  'Initialize WorldSafeLocs' (00:00.05) 
+(2012-07-28 14:34:35.6809) [Info] Step:  'Initialize Items' (00:45.63) 
+(2012-07-28 14:34:36.1532) [Info] Step:  'Privilege manager' (00:00.472) 
+(2012-07-28 14:34:40.4614) [Info] Step:  'Caching Ban list...' (00:04.308) 
+(2012-07-28 14:34:40.4614) [Info] Initialization Pass #5 
+(2012-07-28 14:34:52.9031) [Info] Step:  'Initialize NPCs' (00:12.441) 
+(2012-07-28 14:34:52.9031) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-07-28 14:34:53.3612) [Info] Step:  'Initializing World' (00:00.458) 
+(2012-07-28 14:35:01.2346) [Info] Step:  'Initialize GameObjects' (00:07.873) 
+(2012-07-28 14:35:05.4399) [Info] Step:  'Initialize Instances' (00:04.174) 
+(2012-07-28 14:35:05.7439) [Info] Step:  'Initialize Guilds' (00:00.304) 
+(2012-07-28 14:35:06.4819) [Info] Step:  'Initialize Accounts' (00:00.738) 
+(2012-07-28 14:35:07.5960) [Info] Step:  'Initialize Auctions' (00:01.114) 
+(2012-07-28 14:35:07.6050) [Info] Step:  'Initialize Repair Costs' (00:00.09) 
+(2012-07-28 14:35:07.6050) [Info] Step:  'Initialize performance counters' (00:00.07) 
+(2012-07-28 14:35:08.1230) [Info] Step:  'Start relation manager' (00:00.511) 
+(2012-07-28 14:35:08.1600) [Info] Step:  'Create default channels' (00:00.37) 
+(2012-07-28 14:35:08.1600) [Info] Initialization Pass #6 
+(2012-07-28 14:35:08.7420) [Info] Initialization Pass #7 
+(2012-07-28 14:35:09.1051) [Info] Step:  'Initializing Races and Classes' (00:00.363) 
+(2012-07-28 14:35:09.1051) [Info] Initialization Pass #10 
+(2012-07-28 14:35:10.9902) [Info] Step:  'Initializing Debug Tools' (00:01.885) 
+(2012-07-28 14:35:20.5377) [Info] Step:  'Initialize Soulmates' (00:09.547) 
+(2012-07-28 14:35:21.8638) [Info] Step:  'Load Loot' (00:01.325) 
+(2012-07-28 14:35:21.9498) [Info] Initialization Pass #11 
+(2012-07-28 14:35:22.0448) [Info] Step:  'Initialize Default Addon' (00:00.10) 
+(2012-07-28 14:35:22.0448) [Info] Initialization complete! 47 successful steps, 0 non-fatal failures. 
+(2012-07-28 14:35:22.1468) [Info] Starting the network layer! 
+(2012-07-28 14:35:22.3828) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-28 14:35:22.3828) [Info] Server is ready for connections! 
+(2012-07-28 14:35:22.3828) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-28 14:37:09.8532) [Info] (10.8.0.18:52650) -> Connected 
+(2012-07-28 14:37:20.4768) [Info] Account "ZOXER1" logged in from 10.8.0.18. 
+(2012-07-28 14:37:21.9409) [Info] Account "ZOXER1" logged in from 10.8.0.18. 
+(2012-07-28 14:37:40.9734) [Info] [Broadcast] Cdr is now Online. 
+(2012-07-28 14:37:43.9961) [Info] (10.8.0.18:52658) -> Connected 
+(2012-07-28 14:37:51.6145) [Info] (10.8.0.18:52650 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-28 14:37:51.9025) [Info] (:-1 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-28 14:38:44.6999) [Info] [Broadcast] Initiating Shutdown... 
+(2012-07-28 14:38:44.6999) [Info] [Broadcast] Halting server and saving World... 
+(2012-07-28 14:38:53.7865) [Info] (10.8.0.18:52658 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-28 14:38:53.7875) [Info] (:-1 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-28 14:38:53.8475) [Info] [Broadcast] World saved. 
+(2012-07-28 14:38:53.8475) [Info] [Broadcast] Shutting down... 
+(2012-07-28 14:38:53.8505) [Info] Stopping the network layer! 
+(2012-07-28 14:38:53.8505) [Info] Server has been shutdown. 
+(2012-07-28 14:38:53.8505) [Info] Server is no longer accepting connections! 
+(2012-07-28 16:01:16.0193) [Info] Initialization Pass #0 
+(2012-07-28 16:01:17.7716) [Info] Step:  'Initialize Config' (00:01.747) 
+(2012-07-28 16:01:17.7716) [Info] Initialization Pass #1 
+(2012-07-28 16:02:13.2245) [Info] Step:  'Initialize Spells' (00:55.452) 
+(2012-07-28 16:02:13.3045) [Info] Found 1 Addon(s): 
+(2012-07-28 16:02:13.3045) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-28 16:02:13.3125) [Info] Step:  'Initialize Addons' (00:00.86) 
+(2012-07-28 16:02:25.8493) [Info] Step:  'Initialize database' (00:12.500) 
+(2012-07-28 16:02:25.8493) [Info] Initialization Pass #2 
+(2012-07-28 16:02:26.2193) [Info] Step:  'Initialize Factions' (00:00.370) 
+(2012-07-28 16:02:26.3813) [Info] Step:  'Register packet handlers' (00:00.162) 
+(2012-07-28 16:02:26.3813) [Info] Initialization Pass #3 
+(2012-07-28 16:02:26.9943) [Info] Step:  'Initializing World' (00:00.613) 
+(2012-07-28 16:02:27.1773) [Info] Step:  'Initialize Spells (2)' (00:00.183) 
+(2012-07-28 16:02:28.3184) [Info] Initialization Pass #4 
+(2012-07-28 16:02:28.4324) [Info] Step:  'Initialize Taxi Paths' (00:00.114) 
+(2012-07-28 16:02:28.5814) [Info] Step:  'Initialize Commands' (00:00.149) 
+(2012-07-28 16:02:28.5814) [Info] Step:  'Initialize WorldSafeLocs' (00:00.04) 
+(2012-07-28 16:03:01.8428) [Info] Step:  'Initialize Items' (00:33.257) 
+(2012-07-28 16:03:02.2858) [Info] Step:  'Privilege manager' (00:00.443) 
+(2012-07-28 16:03:05.6853) [Info] Step:  'Caching Ban list...' (00:03.399) 
+(2012-07-28 16:03:05.6853) [Info] Initialization Pass #5 
+(2012-07-28 16:03:15.5548) [Info] Step:  'Initialize NPCs' (00:09.869) 
+(2012-07-28 16:03:15.5548) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-07-28 16:03:16.0049) [Info] Step:  'Initializing World' (00:00.450) 
+(2012-07-28 16:03:22.7917) [Info] Step:  'Initialize GameObjects' (00:06.786) 
+(2012-07-28 16:03:26.8837) [Info] Step:  'Initialize Instances' (00:04.75) 
+(2012-07-28 16:03:27.1067) [Info] Step:  'Initialize Guilds' (00:00.223) 
+(2012-07-28 16:03:27.5728) [Info] Step:  'Initialize Accounts' (00:00.466) 
+(2012-07-28 16:03:28.3828) [Info] Step:  'Initialize Auctions' (00:00.810) 
+(2012-07-28 16:03:28.3918) [Info] Step:  'Initialize Repair Costs' (00:00.09) 
+(2012-07-28 16:03:28.3918) [Info] Step:  'Initialize performance counters' (00:00.06) 
+(2012-07-28 16:03:28.7928) [Info] Step:  'Start relation manager' (00:00.395) 
+(2012-07-28 16:03:28.8348) [Info] Step:  'Create default channels' (00:00.42) 
+(2012-07-28 16:03:28.8348) [Info] Initialization Pass #6 
+(2012-07-28 16:03:29.3419) [Info] Initialization Pass #7 
+(2012-07-28 16:03:29.5889) [Info] Step:  'Initializing Races and Classes' (00:00.247) 
+(2012-07-28 16:03:29.5889) [Info] Initialization Pass #10 
+(2012-07-28 16:03:31.6690) [Info] Step:  'Initializing Debug Tools' (00:02.80) 
+(2012-07-28 16:03:39.4964) [Info] Step:  'Initialize Soulmates' (00:07.827) 
+(2012-07-28 16:03:40.2715) [Info] Step:  'Load Loot' (00:00.774) 
+(2012-07-28 16:03:40.3395) [Info] Initialization Pass #11 
+(2012-07-28 16:03:40.4345) [Info] Step:  'Initialize Default Addon' (00:00.15) 
+(2012-07-28 16:03:40.4345) [Info] Initialization complete! 47 successful steps, 0 non-fatal failures. 
+(2012-07-28 16:03:40.5175) [Info] Starting the network layer! 
+(2012-07-28 16:03:40.8285) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-28 16:03:40.8285) [Info] Server is ready for connections! 
+(2012-07-28 16:03:40.8285) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-28 16:59:05.1770) [Info] [Broadcast] Initiating Shutdown... 
+(2012-07-28 16:59:05.1770) [Info] [Broadcast] Halting server and saving World... 
+(2012-07-28 16:59:05.2500) [Info] [Broadcast] World saved. 
+(2012-07-28 16:59:05.2500) [Info] [Broadcast] Shutting down... 
+(2012-07-28 16:59:05.2520) [Info] Stopping the network layer! 
+(2012-07-28 16:59:05.2520) [Info] Server has been shutdown. 
+(2012-07-28 16:59:05.2520) [Info] Server is no longer accepting connections! 
+(2012-07-29 00:46:00.3047) [Info] Initialization Pass #0 
+(2012-07-29 00:46:02.2388) [Info] Step:  'Initialize Config' (00:01.930) 
+(2012-07-29 00:46:02.2388) [Info] Initialization Pass #1 
+(2012-07-29 00:46:15.7966) [Info] Step:  'Initialize Spells' (00:13.557) 
+(2012-07-29 00:46:15.9156) [Info] Found 1 Addon(s): 
+(2012-07-29 00:46:15.9176) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 00:46:15.9176) [Info] Step:  'Initialize Addons' (00:00.132) 
+(2012-07-29 00:46:19.7608) [Info] Step:  'Initialize database' (00:03.772) 
+(2012-07-29 00:46:19.7608) [Info] Initialization Pass #2 
+(2012-07-29 00:46:20.2128) [Info] Step:  'Initialize Factions' (00:00.452) 
+(2012-07-29 00:46:20.3768) [Info] Step:  'Register packet handlers' (00:00.164) 
+(2012-07-29 00:46:20.3768) [Info] Initialization Pass #3 
+(2012-07-29 00:46:21.1649) [Info] Step:  'Initializing World' (00:00.788) 
+(2012-07-29 00:46:21.3439) [Info] Step:  'Initialize Spells (2)' (00:00.179) 
+(2012-07-29 00:46:21.8449) [Info] Initialization Pass #4 
+(2012-07-29 00:46:22.0849) [Info] Step:  'Initialize Taxi Paths' (00:00.240) 
+(2012-07-29 00:46:22.3159) [Info] Step:  'Initialize Commands' (00:00.231) 
+(2012-07-29 00:46:22.3289) [Info] Step:  'Initialize WorldSafeLocs' (00:00.13) 
+(2012-07-29 00:46:54.7998) [Info] Step:  'Initialize Items' (00:32.470) 
+(2012-07-29 00:46:55.2578) [Info] Step:  'Privilege manager' (00:00.458) 
+(2012-07-29 00:46:58.6890) [Info] Step:  'Caching Ban list...' (00:03.431) 
+(2012-07-29 00:46:58.6890) [Info] Initialization Pass #5 
+(2012-07-29 00:47:10.3377) [Info] Step:  'Initialize NPCs' (00:11.648) 
+(2012-07-29 00:47:10.3377) [Info] Step:  'Initialize Experience-Table' (00:00.01) 
+(2012-07-29 00:47:11.0497) [Info] Step:  'Initializing World' (00:00.711) 
+(2012-07-29 00:47:17.8381) [Info] Step:  'Initialize GameObjects' (00:06.788) 
+(2012-07-29 00:47:21.8643) [Info] Step:  'Initialize Instances' (00:04.05) 
+(2012-07-29 00:47:22.0943) [Info] Step:  'Initialize Guilds' (00:00.230) 
+(2012-07-29 00:47:22.5514) [Info] Step:  'Initialize Accounts' (00:00.457) 
+(2012-07-29 00:47:23.3944) [Info] Step:  'Initialize Auctions' (00:00.843) 
+(2012-07-29 00:47:23.4184) [Info] Step:  'Initialize Repair Costs' (00:00.24) 
+(2012-07-29 00:47:23.4734) [Info] Step:  'Initialize performance counters' (00:00.55) 
+(2012-07-29 00:47:23.7084) [Info] Step:  'Start relation manager' (00:00.235) 
+(2012-07-29 00:47:23.7514) [Info] Step:  'Create default channels' (00:00.43) 
+(2012-07-29 00:47:23.7514) [Info] Initialization Pass #6 
+(2012-07-29 00:47:24.2045) [Info] Initialization Pass #7 
+(2012-07-29 00:47:24.4625) [Info] Step:  'Initializing Races and Classes' (00:00.258) 
+(2012-07-29 00:47:24.4625) [Info] Initialization Pass #10 
+(2012-07-29 00:47:26.7656) [Info] Step:  'Initializing Debug Tools' (00:02.303) 
+(2012-07-29 00:47:34.6941) [Info] Step:  'Initialize Soulmates' (00:07.927) 
+(2012-07-29 00:47:35.4941) [Info] Step:  'Load Loot' (00:00.799) 
+(2012-07-29 00:47:35.6551) [Info] Initialization Pass #11 
+(2012-07-29 00:47:35.8191) [Info] Step:  'Initialize Default Addon' (00:00.63) 
+(2012-07-29 00:47:35.8191) [Info] Initialization complete! 47 successful steps, 0 non-fatal failures. 
+(2012-07-29 00:47:35.9131) [Info] Starting the network layer! 
+(2012-07-29 00:47:36.4632) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-29 00:47:36.4632) [Info] Server is ready for connections! 
+(2012-07-29 00:47:36.4632) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-29 00:49:07.0546) [Info] (10.8.0.10:24427) -> Connected 
+(2012-07-29 00:49:39.1974) [Info] Account "ZOXER" logged in from 10.8.0.10. 
+(2012-07-29 00:49:39.9145) [Info] Account "ZOXER" logged in from 10.8.0.10. 
+(2012-07-29 00:49:58.3155) [Info] [Broadcast] Qucdr is now Online. 
+(2012-07-29 00:50:00.8307) [Info] (10.8.0.10:24430) -> Connected 
+(2012-07-29 00:50:07.5391) [Info] (10.8.0.10:24427 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 00:50:07.5391) [Info] (:-1 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 00:53:16.3679) [Info] (10.8.0.14:55040) -> Connected 
+(2012-07-29 00:53:32.4862) [Info] Account "JUYTT" logged in from 10.8.0.14. 
+(2012-07-29 00:53:32.9743) [Info] Account "JUYTT" logged in from 10.8.0.14. 
+(2012-07-29 00:53:45.0350) [Info] [Broadcast] Kloyp is now Online. 
+(2012-07-29 00:53:46.2750) [Info] (10.8.0.14:55041) -> Connected 
+(2012-07-29 00:54:03.8830) [Info] (10.8.0.14:55040 - Account: JUYTT - Char: Kloyp) -> Disconnected 
+(2012-07-29 00:54:04.1951) [Info] (:-1 - Account: JUYTT - Char: Kloyp) -> Disconnected 
+(2012-07-29 00:54:29.9935) [Info] (10.8.0.14:55042) -> Connected 
+(2012-07-29 00:54:43.3013) [Info] (10.8.0.14:55041 - Account: JUYTT - Char: Kloyp) -> Disconnected 
+(2012-07-29 00:54:45.9364) [Info] (:-1 - Account: JUYTT - Char: Kloyp) -> Disconnected 
+(2012-07-29 00:55:13.3510) [Info] (10.8.0.18:65040) -> Connected 
+(2012-07-29 00:55:22.4855) [Info] Account "SOFTICH" logged in from 10.8.0.18. 
+(2012-07-29 00:55:23.0166) [Info] Account "SOFTICH" logged in from 10.8.0.18. 
+(2012-07-29 00:55:35.0602) [Info] [Broadcast] Buuuuk is now Online. 
+(2012-07-29 00:55:36.2603) [Info] (10.8.0.18:65044) -> Connected 
+(2012-07-29 00:55:49.6911) [Info] (10.8.0.18:65040 - Account: SOFTICH - Char: Buuuuk) -> Disconnected 
+(2012-07-29 00:55:50.0161) [Info] (:-1 - Account: SOFTICH - Char: Buuuuk) -> Disconnected 
+(2012-07-29 01:12:08.7338) [Info] [Broadcast] Initiating Shutdown... 
+(2012-07-29 01:12:08.7338) [Info] [Broadcast] Halting server and saving World... 
+(2012-07-29 01:14:23.9716) [Info] Initialization Pass #0 
+(2012-07-29 01:14:25.7057) [Info] Step:  'Initialize Config' (00:01.731) 
+(2012-07-29 01:14:25.7057) [Info] Initialization Pass #1 
+(2012-07-29 01:14:38.1714) [Info] Step:  'Initialize Spells' (00:12.465) 
+(2012-07-29 01:14:38.2574) [Info] Found 1 Addon(s): 
+(2012-07-29 01:14:38.2574) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 01:14:38.2574) [Info] Step:  'Initialize Addons' (00:00.92) 
+(2012-07-29 01:14:42.0926) [Info] Step:  'Initialize database' (00:03.792) 
+(2012-07-29 01:14:42.0926) [Info] Initialization Pass #2 
+(2012-07-29 01:14:42.4066) [Info] Step:  'Initialize Factions' (00:00.314) 
+(2012-07-29 01:14:42.5606) [Info] Step:  'Register packet handlers' (00:00.154) 
+(2012-07-29 01:14:42.5606) [Info] Initialization Pass #3 
+(2012-07-29 01:14:43.1767) [Info] Step:  'Initializing World' (00:00.616) 
+(2012-07-29 01:14:43.3527) [Info] Step:  'Initialize Spells (2)' (00:00.175) 
+(2012-07-29 01:14:43.9487) [Info] Initialization Pass #4 
+(2012-07-29 01:14:44.0807) [Info] Step:  'Initialize Taxi Paths' (00:00.132) 
+(2012-07-29 01:14:44.2877) [Info] Step:  'Initialize Commands' (00:00.207) 
+(2012-07-29 01:14:44.2947) [Info] Step:  'Initialize WorldSafeLocs' (00:00.07) 
+(2012-07-29 01:15:18.6247) [Info] Step:  'Initialize Items' (00:34.329) 
+(2012-07-29 01:15:19.0647) [Info] Step:  'Privilege manager' (00:00.440) 
+(2012-07-29 01:15:22.4659) [Info] Step:  'Caching Ban list...' (00:03.401) 
+(2012-07-29 01:15:22.4659) [Info] Initialization Pass #5 
+(2012-07-29 01:15:33.3995) [Info] Step:  'Initialize NPCs' (00:10.933) 
+(2012-07-29 01:15:33.3995) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-07-29 01:15:33.8946) [Info] Step:  'Initializing World' (00:00.495) 
+(2012-07-29 01:15:40.6570) [Info] Step:  'Initialize GameObjects' (00:06.762) 
+(2012-07-29 01:15:44.7157) [Info] Step:  'Initialize Instances' (00:04.40) 
+(2012-07-29 01:15:44.9455) [Info] Step:  'Initialize Guilds' (00:00.229) 
+(2012-07-29 01:15:45.4025) [Info] Step:  'Initialize Accounts' (00:00.457) 
+(2012-07-29 01:15:46.1303) [Info] Step:  'Initialize Auctions' (00:00.727) 
+(2012-07-29 01:15:46.1303) [Info] Step:  'Initialize Repair Costs' (00:00.09) 
+(2012-07-29 01:15:46.1463) [Info] Step:  'Initialize performance counters' (00:00.06) 
+(2012-07-29 01:15:46.3793) [Info] Step:  'Start relation manager' (00:00.233) 
+(2012-07-29 01:15:46.4283) [Info] Step:  'Create default channels' (00:00.49) 
+(2012-07-29 01:15:46.4283) [Info] Initialization Pass #6 
+(2012-07-29 01:15:46.8808) [Info] Initialization Pass #7 
+(2012-07-29 01:15:47.1328) [Info] Step:  'Initializing Races and Classes' (00:00.252) 
+(2012-07-29 01:15:47.1328) [Info] Initialization Pass #10 
+(2012-07-29 01:15:49.1494) [Info] Step:  'Initializing Debug Tools' (00:02.16) 
+(2012-07-29 01:15:57.0001) [Info] Step:  'Initialize Soulmates' (00:07.850) 
+(2012-07-29 01:15:57.7792) [Info] Step:  'Load Loot' (00:00.778) 
+(2012-07-29 01:15:57.8492) [Info] Initialization Pass #11 
+(2012-07-29 01:15:57.9502) [Info] Step:  'Initialize Default Addon' (00:00.12) 
+(2012-07-29 01:15:57.9502) [Info] Initialization complete! 47 successful steps, 0 non-fatal failures. 
+(2012-07-29 01:15:58.0452) [Info] Starting the network layer! 
+(2012-07-29 01:15:58.3352) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-29 01:15:58.3352) [Info] Server is ready for connections! 
+(2012-07-29 01:15:58.3352) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-29 01:16:10.4799) [Info] (10.8.0.10:24530) -> Connected 
+(2012-07-29 01:16:18.8764) [Info] Account "ZOXER" logged in from 10.8.0.10. 
+(2012-07-29 01:16:19.7444) [Info] Account "ZOXER" logged in from 10.8.0.10. 
+(2012-07-29 01:16:33.2112) [Info] (10.8.0.14:55101) -> Connected 
+(2012-07-29 01:16:35.3193) [Info] [Broadcast] Qucdr is now Online. 
+(2012-07-29 01:16:37.7435) [Info] (10.8.0.10:24533) -> Connected 
+(2012-07-29 01:16:44.5948) [Info] (10.8.0.10:24530 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 01:16:44.5948) [Info] (:-1 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 01:17:06.1791) [Info] Account "JUYTT" logged in from 10.8.0.14. 
+(2012-07-29 01:17:06.9851) [Info] Account "JUYTT" logged in from 10.8.0.14. 
+(2012-07-29 01:17:19.8899) [Info] [Broadcast] Kloyp is now Online. 
+(2012-07-29 01:17:21.1209) [Info] (10.8.0.14:55103) -> Connected 
+(2012-07-29 01:17:40.4957) [Info] (10.8.0.14:55101 - Account: JUYTT - Char: Kloyp) -> Disconnected 
+(2012-07-29 01:17:40.8117) [Info] (:-1 - Account: JUYTT - Char: Kloyp) -> Disconnected 
+(2012-07-29 01:21:56.8568) [Info] (10.8.0.10:24612) -> Connected 
+(2012-07-29 01:22:07.0764) [Info] Account "ZOXER1" logged in from 10.8.0.10. 
+(2012-07-29 01:22:07.5634) [Info] Account "ZOXER1" logged in from 10.8.0.10. 
+(2012-07-29 01:22:29.2246) [Info] [Broadcast] Cdr is now Online. 
+(2012-07-29 01:22:30.9097) [Info] (10.8.0.10:24621) -> Connected 
+(2012-07-29 01:22:38.2502) [Info] (10.8.0.10:24612 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-29 01:22:38.2512) [Info] (:-1 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-29 01:22:49.8648) [Info] (10.8.0.10:24621 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-29 01:22:51.3209) [Info] (10.8.0.10:24624) -> Connected 
+(2012-07-29 01:22:55.7172) [Info] (:-1 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-29 01:32:23.3598) [Info] (10.8.0.14:55103 - Account: JUYTT - Char: Kloyp) -> Disconnected 
+(2012-07-29 01:33:37.3221) [Info] [Broadcast] Kloyp has been kicked by Cdr. 
+(2012-07-29 01:44:14.2735) [Info] Initialization Pass #0 
+(2012-07-29 01:44:15.3726) [Info] Step:  'Initialize Config' (00:01.97) 
+(2012-07-29 01:44:15.3726) [Info] Initialization Pass #1 
+(2012-07-29 01:44:26.7907) [Info] Step:  'Initialize Spells' (00:11.418) 
+(2012-07-29 01:44:26.8727) [Info] Found 1 Addon(s): 
+(2012-07-29 01:44:26.8727) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 01:44:26.8817) [Info] Step:  'Initialize Addons' (00:00.89) 
+(2012-07-29 01:44:31.2860) [Info] Step:  'Initialize database' (00:04.360) 
+(2012-07-29 01:44:31.2860) [Info] Initialization Pass #2 
+(2012-07-29 01:44:31.6070) [Info] Step:  'Initialize Factions' (00:00.321) 
+(2012-07-29 01:44:31.7910) [Info] Step:  'Register packet handlers' (00:00.184) 
+(2012-07-29 01:44:31.7910) [Info] Initialization Pass #3 
+(2012-07-29 01:44:32.5690) [Info] Step:  'Initializing World' (00:00.778) 
+(2012-07-29 01:44:32.8511) [Info] Step:  'Initialize Spells (2)' (00:00.282) 
+(2012-07-29 01:44:34.3001) [Info] Initialization Pass #4 
+(2012-07-29 01:44:34.4471) [Info] Step:  'Initialize Taxi Paths' (00:00.147) 
+(2012-07-29 01:44:34.6502) [Info] Step:  'Initialize Commands' (00:00.203) 
+(2012-07-29 01:44:34.6502) [Info] Step:  'Initialize WorldSafeLocs' (00:00.05) 
+(2012-07-29 01:45:10.9442) [Info] Step:  'Initialize Items' (00:36.289) 
+(2012-07-29 01:45:11.4033) [Info] Step:  'Privilege manager' (00:00.459) 
+(2012-07-29 01:45:15.6055) [Info] Step:  'Caching Ban list...' (00:04.202) 
+(2012-07-29 01:45:15.6055) [Info] Initialization Pass #5 
+(2012-07-29 01:45:32.9425) [Info] Step:  'Initialize NPCs' (00:17.336) 
+(2012-07-29 01:45:32.9425) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-07-29 01:45:33.4115) [Info] Step:  'Initializing World' (00:00.468) 
+(2012-07-29 01:45:45.0802) [Info] Step:  'Initialize GameObjects' (00:11.668) 
+(2012-07-29 01:45:51.0745) [Info] Step:  'Initialize Instances' (00:05.977) 
+(2012-07-29 01:45:51.9206) [Info] Step:  'Initialize Guilds' (00:00.846) 
+(2012-07-29 01:45:53.6547) [Info] Step:  'Initialize Accounts' (00:01.734) 
+(2012-07-29 01:45:55.7528) [Info] Step:  'Initialize Auctions' (00:02.98) 
+(2012-07-29 01:45:55.7628) [Info] Step:  'Initialize Repair Costs' (00:00.10) 
+(2012-07-29 01:45:55.7708) [Info] Step:  'Initialize performance counters' (00:00.08) 
+(2012-07-29 01:45:56.4398) [Info] Step:  'Start relation manager' (00:00.669) 
+(2012-07-29 01:45:56.4888) [Info] Step:  'Create default channels' (00:00.49) 
+(2012-07-29 01:45:56.4888) [Info] Initialization Pass #6 
+(2012-07-29 01:45:58.2039) [Info] Initialization Pass #7 
+(2012-07-29 01:45:58.9977) [Info] Step:  'Initializing Races and Classes' (00:00.793) 
+(2012-07-29 01:45:58.9977) [Info] Initialization Pass #10 
+(2012-07-29 01:46:01.2559) [Info] Step:  'Initializing Debug Tools' (00:02.257) 
+(2012-07-29 01:46:14.5206) [Info] Step:  'Initialize Soulmates' (00:13.263) 
+(2012-07-29 01:46:19.9624) [Info] Step:  'Load Loot' (00:05.440) 
+(2012-07-29 01:46:20.0434) [Info] Initialization Pass #11 
+(2012-07-29 01:46:20.3524) [Info] Step:  'Initialize Default Addon' (00:00.20) 
+(2012-07-29 01:46:20.3524) [Info] Initialization complete! 47 successful steps, 0 non-fatal failures. 
+(2012-07-29 01:46:20.4975) [Info] Starting the network layer! 
+(2012-07-29 01:46:20.7505) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-29 01:46:20.7505) [Info] Server is ready for connections! 
+(2012-07-29 01:46:20.7505) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-29 01:59:39.3125) [Info] (10.8.0.10:25220) -> Connected 
+(2012-07-29 01:59:47.3049) [Info] Account "ZOXER1" logged in from 10.8.0.10. 
+(2012-07-29 01:59:47.8979) [Info] Account "ZOXER1" logged in from 10.8.0.10. 
+(2012-07-29 02:00:08.3831) [Info] [Broadcast] Cdr is now Online. 
+(2012-07-29 02:00:10.9093) [Info] (10.8.0.10:25223) -> Connected 
+(2012-07-29 02:00:17.7397) [Info] (10.8.0.10:25220 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-29 02:00:17.7397) [Info] (:-1 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-29 03:01:31.9921) [Info] (10.8.0.10:25223 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-29 03:01:46.3180) [Info] (10.8.0.26:50730) -> Connected 
+(2012-07-29 03:01:51.5282) [Info] (:-1 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-29 03:01:52.0373) [Info] (10.8.0.26:50731) -> Connected 
+(2012-07-29 03:01:56.5605) [Info] (10.8.0.26:50730 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-29 03:01:56.9346) [Info] (10.8.0.26:50731) -> Disconnected 
+(2012-07-29 03:01:56.9346) [Info] (:-1) -> Disconnected 
+(2012-07-29 03:02:40.2080) [Info] (10.8.0.26:50737) -> Connected 
+(2012-07-29 03:02:50.3036) [Info] Account "ZOXER" logged in from 10.8.0.26. 
+(2012-07-29 03:02:51.0707) [Info] Account "ZOXER" logged in from 10.8.0.26. 
+(2012-07-29 03:03:07.3256) [Info] [Broadcast] Qucdr is now Online. 
+(2012-07-29 03:03:08.5277) [Info] (10.8.0.26:50741) -> Connected 
+(2012-07-29 03:03:12.7849) [Info] (10.8.0.26:50737 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 03:03:13.0829) [Info] (:-1 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 03:06:56.1057) [Info] (10.8.0.26:50768) -> Connected 
+(2012-07-29 03:06:57.5418) [Info] (10.8.0.26:50741 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 03:06:57.8548) [Info] (:-1 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 03:11:56.6019) [Info] [Broadcast] Cdr is now Offline. 
+(2012-07-29 03:11:56.6019) [Info] (:-1 - Account: ZOXER1) -> Disconnected 
+(2012-07-29 03:12:10.2226) [Info] (10.8.0.26:50768 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 11:27:31.0048) [Info] Initialization Pass #0 
+(2012-07-29 11:27:32.3589) [Info] Step:  'Initialize Config' (00:01.352) 
+(2012-07-29 11:27:32.3589) [Info] Initialization Pass #1 
+(2012-07-29 11:27:44.4966) [Info] Step:  'Initialize Spells' (00:12.137) 
+(2012-07-29 11:27:44.5306) [Info] Found 1 Addon(s): 
+(2012-07-29 11:27:44.5306) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 11:27:44.5436) [Info] Step:  'Initialize Addons' (00:00.47) 
+(2012-07-29 11:27:48.3948) [Info] Step:  'Initialize database' (00:03.799) 
+(2012-07-29 11:27:48.3948) [Info] Initialization Pass #2 
+(2012-07-29 11:27:48.6398) [Info] Step:  'Initialize Factions' (00:00.245) 
+(2012-07-29 11:27:48.7118) [Info] Step:  'Register packet handlers' (00:00.73) 
+(2012-07-29 11:27:48.7118) [Info] Initialization Pass #3 
+(2012-07-29 11:27:49.3399) [Info] Step:  'Initializing World' (00:00.627) 
+(2012-07-29 11:27:49.4799) [Info] Step:  'Initialize Spells (2)' (00:00.140) 
+(2012-07-29 11:27:50.0699) [Info] Initialization Pass #4 
+(2012-07-29 11:27:50.2029) [Info] Step:  'Initialize Taxi Paths' (00:00.132) 
+(2012-07-29 11:27:50.3299) [Info] Step:  'Initialize Commands' (00:00.127) 
+(2012-07-29 11:27:50.3299) [Info] Step:  'Initialize WorldSafeLocs' (00:00.07) 
+(2012-07-29 11:28:26.2792) [Info] Step:  'Initialize Items' (00:35.942) 
+(2012-07-29 11:28:26.6323) [Info] Step:  'Privilege manager' (00:00.352) 
+(2012-07-29 11:28:30.7737) [Info] Step:  'Caching Ban list...' (00:04.141) 
+(2012-07-29 11:28:30.7737) [Info] Initialization Pass #5 
+(2012-07-29 11:28:49.2958) [Info] Step:  'Initialize NPCs' (00:18.521) 
+(2012-07-29 11:28:49.2958) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-07-29 11:28:49.7638) [Info] Step:  'Initializing World' (00:00.468) 
+(2012-07-29 11:28:58.8333) [Info] Step:  'Initialize GameObjects' (00:09.68) 
+(2012-07-29 11:29:03.8046) [Info] Step:  'Initialize Instances' (00:04.943) 
+(2012-07-29 11:29:04.5087) [Info] Step:  'Initialize Guilds' (00:00.704) 
+(2012-07-29 11:29:05.8617) [Info] Step:  'Initialize Accounts' (00:01.353) 
+(2012-07-29 11:29:07.7439) [Info] Step:  'Initialize Auctions' (00:01.882) 
+(2012-07-29 11:29:07.7679) [Info] Step:  'Initialize Repair Costs' (00:00.27) 
+(2012-07-29 11:29:07.7679) [Info] Step:  'Initialize performance counters' (00:00.05) 
+(2012-07-29 11:29:08.3629) [Info] Step:  'Start relation manager' (00:00.587) 
+(2012-07-29 11:29:08.4069) [Info] Step:  'Create default channels' (00:00.44) 
+(2012-07-29 11:29:08.4069) [Info] Initialization Pass #6 
+(2012-07-29 11:29:09.4760) [Info] Initialization Pass #7 
+(2012-07-29 11:29:10.1780) [Info] Step:  'Initializing Races and Classes' (00:00.702) 
+(2012-07-29 11:29:10.1780) [Info] Initialization Pass #10 
+(2012-07-29 11:29:12.3931) [Info] Step:  'Initializing Debug Tools' (00:02.215) 
+(2012-07-29 11:29:24.9758) [Info] Step:  'Initialize Soulmates' (00:12.582) 
+(2012-07-29 11:29:28.9621) [Info] Step:  'Load Loot' (00:03.985) 
+(2012-07-29 11:29:29.0331) [Info] Initialization Pass #11 
+(2012-07-29 11:29:29.1201) [Info] Step:  'Initialize Default Addon' (00:00.05) 
+(2012-07-29 11:29:29.1201) [Info] Initialization complete! 47 successful steps, 0 non-fatal failures. 
+(2012-07-29 11:29:29.1201) [Info] Starting the network layer! 
+(2012-07-29 11:29:29.3411) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-29 11:29:29.3411) [Info] Server is ready for connections! 
+(2012-07-29 11:29:29.3411) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-29 11:37:49.6741) [Info] (10.8.0.26:55735) -> Connected 
+(2012-07-29 11:38:00.3797) [Info] Account "ZOXER" logged in from 10.8.0.26. 
+(2012-07-29 11:38:01.0947) [Info] Account "ZOXER" logged in from 10.8.0.26. 
+(2012-07-29 11:38:14.3945) [Info] [Broadcast] Qucdr is now Online. 
+(2012-07-29 11:38:16.5346) [Info] (10.8.0.26:55736) -> Connected 
+(2012-07-29 11:38:20.8789) [Info] (10.8.0.26:55735 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 11:38:21.1769) [Info] (:-1 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 11:39:20.3833) [Info] (10.8.0.26:55736 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 11:42:27.4352) [Info] Initialization Pass #0 
+(2012-07-29 11:42:28.8733) [Info] Step:  'Initialize Config' (00:01.435) 
+(2012-07-29 11:42:28.8733) [Info] Initialization Pass #1 
+(2012-07-29 11:42:41.2370) [Info] Step:  'Initialize Spells' (00:12.363) 
+(2012-07-29 11:42:41.3150) [Info] Found 1 Addon(s): 
+(2012-07-29 11:42:41.3150) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 11:42:41.3150) [Info] Step:  'Initialize Addons' (00:00.83) 
+(2012-07-29 11:45:40.3633) [Info] [Broadcast] Initiating Shutdown... 
+(2012-07-29 11:45:40.3633) [Info] [Broadcast] Halting server and saving World... 
+(2012-07-29 11:45:44.5605) [Info] (10.8.0.26:55736 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 11:45:44.6605) [Info] [Broadcast] World saved. 
+(2012-07-29 11:45:44.6825) [Info] [Broadcast] Shutting down... 
+(2012-07-29 11:45:44.6825) [Info] Stopping the network layer! 
+(2012-07-29 11:45:44.6825) [Info] Server has been shutdown. 
+(2012-07-29 11:45:44.6825) [Info] Server is no longer accepting connections! 
+(2012-07-29 11:55:52.7632) [Info] Initialization Pass #0 
+(2012-07-29 11:55:54.0685) [Info] Step:  'Initialize Config' (00:01.302) 
+(2012-07-29 11:55:54.0685) [Info] Initialization Pass #1 
+(2012-07-29 11:56:05.5388) [Info] Step:  'Initialize Spells' (00:11.470) 
+(2012-07-29 11:56:05.6248) [Info] Found 1 Addon(s): 
+(2012-07-29 11:56:05.6248) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 11:56:05.6248) [Info] Step:  'Initialize Addons' (00:00.90) 
+(2012-07-29 11:56:09.4850) [Info] Step:  'Initialize database' (00:03.848) 
+(2012-07-29 11:56:09.4850) [Info] Initialization Pass #2 
+(2012-07-29 11:56:09.4860) [Info] Step:  'Initialize Factions' (00:00.01) 
+(2012-07-29 11:56:09.6660) [Info] Step:  'Register packet handlers' (00:00.180) 
+(2012-07-29 11:56:09.6660) [Info] Initialization Pass #3 
+(2012-07-29 11:58:09.1558) [Info] Step:  'Initializing World' (01:59.489) 
+(2012-07-29 11:58:09.3729) [Info] Step:  'Initialize Spells (2)' (00:00.217) 
+(2012-07-29 11:58:09.9049) [Info] Initialization Pass #4 
+(2012-07-29 11:58:10.0599) [Info] Step:  'Initialize Commands' (00:00.155) 
+(2012-07-29 12:00:23.8126) [Info] Initialization Pass #0 
+(2012-07-29 12:00:24.9122) [Info] Step:  'Initialize Config' (00:01.97) 
+(2012-07-29 12:00:24.9122) [Info] Initialization Pass #1 
+(2012-07-29 12:00:35.5442) [Info] Step:  'Initialize Spells' (00:10.632) 
+(2012-07-29 12:00:35.6412) [Info] Found 1 Addon(s): 
+(2012-07-29 12:00:35.6412) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 12:00:35.6412) [Info] Step:  'Initialize Addons' (00:00.105) 
+(2012-07-29 12:00:39.4684) [Info] Step:  'Initialize database' (00:03.806) 
+(2012-07-29 12:00:39.4684) [Info] Initialization Pass #2 
+(2012-07-29 12:00:39.4684) [Info] Step:  'Initialize Factions' (00:00.01) 
+(2012-07-29 12:00:39.6374) [Info] Step:  'Register packet handlers' (00:00.168) 
+(2012-07-29 12:00:39.6374) [Info] Initialization Pass #3 
+(2012-07-29 12:01:16.0685) [Info] Step:  'Initializing World' (00:36.431) 
+(2012-07-29 12:01:16.2755) [Info] Step:  'Initialize Spells (2)' (00:00.207) 
+(2012-07-29 12:01:16.9616) [Info] Initialization Pass #4 
+(2012-07-29 12:01:17.1296) [Info] Step:  'Initialize Commands' (00:00.168) 
+(2012-07-29 12:01:17.1296) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-07-29 12:01:51.9766) [Info] Step:  'Initialize Items' (00:34.846) 
+(2012-07-29 12:01:52.4336) [Info] Step:  'Privilege manager' (00:00.457) 
+(2012-07-29 12:01:55.8448) [Info] Step:  'Caching Ban list...' (00:03.411) 
+(2012-07-29 12:01:55.8448) [Info] Initialization Pass #5 
+(2012-07-29 12:04:10.1555) [Info] Initialization Pass #0 
+(2012-07-29 12:04:11.8066) [Info] Step:  'Initialize Config' (00:01.647) 
+(2012-07-29 12:04:11.8066) [Info] Initialization Pass #1 
+(2012-07-29 12:04:24.3773) [Info] Step:  'Initialize Spells' (00:12.570) 
+(2012-07-29 12:04:24.5023) [Info] Found 1 Addon(s): 
+(2012-07-29 12:04:24.5023) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 12:04:24.5093) [Info] Step:  'Initialize Addons' (00:00.130) 
+(2012-07-29 12:04:28.3515) [Info] Step:  'Initialize database' (00:03.834) 
+(2012-07-29 12:04:28.3515) [Info] Initialization Pass #2 
+(2012-07-29 12:04:28.3515) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-07-29 12:04:28.5265) [Info] Step:  'Register packet handlers' (00:00.175) 
+(2012-07-29 12:04:28.5265) [Info] Initialization Pass #3 
+(2012-07-29 12:04:29.1446) [Info] Step:  'Initializing World' (00:00.618) 
+(2012-07-29 12:04:29.3296) [Info] Step:  'Initialize Spells (2)' (00:00.185) 
+(2012-07-29 12:04:29.9236) [Info] Initialization Pass #4 
+(2012-07-29 12:04:30.0766) [Info] Step:  'Initialize Commands' (00:00.153) 
+(2012-07-29 12:04:30.0766) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-07-29 12:05:08.1128) [Info] Step:  'Initialize Items' (00:38.36) 
+(2012-07-29 12:05:08.6238) [Info] Step:  'Privilege manager' (00:00.511) 
+(2012-07-29 12:05:12.0710) [Info] Step:  'Caching Ban list...' (00:03.447) 
+(2012-07-29 12:05:12.0710) [Info] Initialization Pass #5 
+(2012-07-29 12:17:45.9315) [Info] Initialization Pass #0 
+(2012-07-29 12:17:47.2886) [Info] Step:  'Initialize Config' (00:01.354) 
+(2012-07-29 12:17:47.2886) [Info] Initialization Pass #1 
+(2012-07-29 12:17:58.7382) [Info] Step:  'Initialize Spells' (00:11.449) 
+(2012-07-29 12:17:58.8162) [Info] Found 1 Addon(s): 
+(2012-07-29 12:17:58.8162) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 12:17:58.8232) [Info] Step:  'Initialize Addons' (00:00.84) 
+(2012-07-29 12:18:02.6235) [Info] Step:  'Initialize database' (00:03.792) 
+(2012-07-29 12:18:02.6235) [Info] Initialization Pass #2 
+(2012-07-29 12:18:02.6235) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-07-29 12:18:02.8045) [Info] Step:  'Register packet handlers' (00:00.181) 
+(2012-07-29 12:18:02.8045) [Info] Initialization Pass #3 
+(2012-07-29 12:18:03.3555) [Info] Step:  'Initializing World' (00:00.551) 
+(2012-07-29 12:18:03.5275) [Info] Step:  'Initialize Spells (2)' (00:00.172) 
+(2012-07-29 12:18:04.0815) [Info] Initialization Pass #4 
+(2012-07-29 12:18:04.2385) [Info] Step:  'Initialize Commands' (00:00.157) 
+(2012-07-29 12:18:04.2385) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-07-29 12:18:38.6345) [Info] Step:  'Initialize Items' (00:34.395) 
+(2012-07-29 12:18:39.0655) [Info] Step:  'Privilege manager' (00:00.431) 
+(2012-07-29 12:18:42.5587) [Info] Step:  'Caching Ban list...' (00:03.493) 
+(2012-07-29 12:18:42.5587) [Info] Initialization Pass #5 
+(2012-07-29 12:20:34.0701) [Info] Step:  'Initialize NPCs' (01:51.511) 
+(2012-07-29 12:20:34.0701) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-07-29 12:27:27.3177) [Info] Initialization Pass #0 
+(2012-07-29 12:27:28.7668) [Info] Step:  'Initialize Config' (00:01.447) 
+(2012-07-29 12:27:28.7668) [Info] Initialization Pass #1 
+(2012-07-29 12:27:42.0856) [Info] Step:  'Initialize Spells' (00:13.318) 
+(2012-07-29 12:27:42.1626) [Info] Found 1 Addon(s): 
+(2012-07-29 12:27:42.1626) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 12:27:42.1696) [Info] Step:  'Initialize Addons' (00:00.82) 
+(2012-07-29 12:27:45.9898) [Info] Step:  'Initialize database' (00:03.812) 
+(2012-07-29 12:27:45.9898) [Info] Initialization Pass #2 
+(2012-07-29 12:27:45.9898) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-07-29 12:27:46.1608) [Info] Step:  'Register packet handlers' (00:00.171) 
+(2012-07-29 12:27:46.1608) [Info] Initialization Pass #3 
+(2012-07-29 12:27:46.7528) [Info] Step:  'Initializing World' (00:00.592) 
+(2012-07-29 12:27:46.9368) [Info] Step:  'Initialize Spells (2)' (00:00.184) 
+(2012-07-29 12:27:47.5659) [Info] Initialization Pass #4 
+(2012-07-29 12:27:47.7309) [Info] Step:  'Initialize Commands' (00:00.165) 
+(2012-07-29 12:27:47.7309) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-07-29 12:28:23.9580) [Info] Step:  'Initialize Items' (00:36.227) 
+(2012-07-29 12:28:24.4780) [Info] Step:  'Privilege manager' (00:00.520) 
+(2012-07-29 12:28:28.4712) [Info] Step:  'Caching Ban list...' (00:03.993) 
+(2012-07-29 12:28:28.4712) [Info] Initialization Pass #5 
+(2012-07-29 12:28:38.7908) [Info] Step:  'Initialize NPCs' (00:10.319) 
+(2012-07-29 12:28:38.7908) [Info] Step:  'Initialize Experience-Table' (00:00.01) 
+(2012-07-29 12:32:18.8069) [Info] Initialization Pass #0 
+(2012-07-29 12:32:20.4470) [Info] Step:  'Initialize Config' (00:01.636) 
+(2012-07-29 12:32:20.4470) [Info] Initialization Pass #1 
+(2012-07-29 12:32:33.3357) [Info] Step:  'Initialize Spells' (00:12.888) 
+(2012-07-29 12:32:33.4387) [Info] Found 1 Addon(s): 
+(2012-07-29 12:32:33.4387) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 12:32:33.4387) [Info] Step:  'Initialize Addons' (00:00.109) 
+(2012-07-29 12:32:37.2479) [Info] Step:  'Initialize database' (00:03.792) 
+(2012-07-29 12:32:37.2479) [Info] Initialization Pass #2 
+(2012-07-29 12:32:37.2479) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-07-29 12:32:37.4170) [Info] Step:  'Register packet handlers' (00:00.169) 
+(2012-07-29 12:32:37.4170) [Info] Initialization Pass #3 
+(2012-07-29 13:36:31.0920) [Info] Initialization Pass #0 
+(2012-07-29 13:36:32.7531) [Info] Step:  'Initialize Config' (00:01.658) 
+(2012-07-29 13:36:32.7531) [Info] Initialization Pass #1 
+(2012-07-29 13:36:47.9440) [Info] Step:  'Initialize Spells' (00:15.190) 
+(2012-07-29 13:36:48.1210) [Info] Found 1 Addon(s): 
+(2012-07-29 13:36:48.1210) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 13:36:48.1310) [Info] Step:  'Initialize Addons' (00:00.185) 
+(2012-07-29 13:36:51.9562) [Info] Step:  'Initialize database' (00:03.816) 
+(2012-07-29 13:36:51.9562) [Info] Initialization Pass #2 
+(2012-07-29 13:36:51.9562) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-07-29 13:36:52.1412) [Info] Step:  'Register packet handlers' (00:00.185) 
+(2012-07-29 13:36:52.1412) [Info] Initialization Pass #3 
+(2012-07-29 13:36:52.7972) [Info] Step:  'Initializing World' (00:00.656) 
+(2012-07-29 13:36:53.1383) [Info] Step:  'Initialize Spells (2)' (00:00.341) 
+(2012-07-29 13:36:53.6383) [Info] Initialization Pass #4 
+(2012-07-29 13:36:53.7983) [Info] Step:  'Initialize Commands' (00:00.160) 
+(2012-07-29 13:36:53.7983) [Info] Step:  'Initialize WorldSafeLocs' (00:00.01) 
+(2012-07-29 13:37:27.9409) [Info] Step:  'Initialize Items' (00:34.141) 
+(2012-07-29 13:37:28.4067) [Info] Step:  'Privilege manager' (00:00.465) 
+(2012-07-29 13:37:31.8631) [Info] Step:  'Caching Ban list...' (00:03.456) 
+(2012-07-29 13:37:31.8631) [Info] Initialization Pass #5 
+(2012-07-29 13:37:41.7639) [Info] Step:  'Initialize NPCs' (00:09.900) 
+(2012-07-29 13:37:41.7639) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-07-29 13:37:41.9989) [Info] Step:  'Initializing World' (00:00.235) 
+(2012-07-29 13:37:48.8133) [Info] Step:  'Initialize GameObjects' (00:06.814) 
+(2012-07-29 13:38:20.1181) [Info] Step:  'Initialize Instances' (00:31.304) 
+(2012-07-29 13:38:20.3731) [Info] Step:  'Initialize Guilds' (00:00.255) 
+(2012-07-29 13:38:20.8361) [Info] Step:  'Initialize Accounts' (00:00.462) 
+(2012-07-29 13:38:21.5742) [Info] Step:  'Initialize Auctions' (00:00.738) 
+(2012-07-29 13:38:21.6742) [Info] Step:  'Initialize performance counters' (00:00.100) 
+(2012-07-29 13:38:21.9182) [Info] Step:  'Start relation manager' (00:00.244) 
+(2012-07-29 13:38:21.9182) [Info] Step:  'Create default channels' (00:00.07) 
+(2012-07-29 13:38:21.9182) [Info] Initialization Pass #6 
+(2012-07-29 13:40:55.5586) [Info] Initialization Pass #0 
+(2012-07-29 13:40:56.8997) [Info] Step:  'Initialize Config' (00:01.338) 
+(2012-07-29 13:40:56.8997) [Info] Initialization Pass #1 
+(2012-07-29 13:41:07.7833) [Info] Step:  'Initialize Spells' (00:10.883) 
+(2012-07-29 13:41:07.8763) [Info] Found 1 Addon(s): 
+(2012-07-29 13:41:07.8763) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 13:41:07.8763) [Info] Step:  'Initialize Addons' (00:00.99) 
+(2012-07-29 13:41:11.6895) [Info] Step:  'Initialize database' (00:03.796) 
+(2012-07-29 13:41:11.6895) [Info] Initialization Pass #2 
+(2012-07-29 13:41:11.6895) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-07-29 13:41:11.8515) [Info] Step:  'Register packet handlers' (00:00.161) 
+(2012-07-29 13:41:11.8515) [Info] Initialization Pass #3 
+(2012-07-29 13:41:12.4676) [Info] Step:  'Initializing World' (00:00.615) 
+(2012-07-29 13:41:12.6756) [Info] Step:  'Initialize Spells (2)' (00:00.208) 
+(2012-07-29 13:41:13.1886) [Info] Initialization Pass #4 
+(2012-07-29 13:41:13.3466) [Info] Step:  'Initialize Commands' (00:00.158) 
+(2012-07-29 13:41:13.3466) [Info] Step:  'Initialize WorldSafeLocs' (00:00.01) 
+(2012-07-29 13:41:48.9827) [Info] Step:  'Initialize Items' (00:35.635) 
+(2012-07-29 13:41:49.4327) [Info] Step:  'Privilege manager' (00:00.450) 
+(2012-07-29 13:41:52.8369) [Info] Step:  'Caching Ban list...' (00:03.404) 
+(2012-07-29 13:41:52.8369) [Info] Initialization Pass #5 
+(2012-07-29 13:42:03.3142) [Info] Step:  'Initialize NPCs' (00:10.477) 
+(2012-07-29 13:42:03.3142) [Info] Step:  'Initialize Experience-Table' (00:00.01) 
+(2012-07-29 13:42:03.6132) [Info] Step:  'Initializing World' (00:00.298) 
+(2012-07-29 13:42:10.4303) [Info] Step:  'Initialize GameObjects' (00:06.817) 
+(2012-07-29 13:42:14.3566) [Info] Step:  'Initialize Instances' (00:03.926) 
+(2012-07-29 13:42:14.6216) [Info] Step:  'Initialize Guilds' (00:00.265) 
+(2012-07-29 13:42:15.0846) [Info] Step:  'Initialize Accounts' (00:00.463) 
+(2012-07-29 13:42:15.8366) [Info] Step:  'Initialize Auctions' (00:00.752) 
+(2012-07-29 13:42:15.8426) [Info] Step:  'Initialize performance counters' (00:00.06) 
+(2012-07-29 13:42:16.0757) [Info] Step:  'Start relation manager' (00:00.233) 
+(2012-07-29 13:42:16.0757) [Info] Step:  'Create default channels' (00:00.07) 
+(2012-07-29 13:42:16.0757) [Info] Initialization Pass #6 
+(2012-07-29 13:42:16.5397) [Info] Initialization Pass #7 
+(2012-07-29 13:42:16.7907) [Info] Step:  'Initializing Races and Classes' (00:00.251) 
+(2012-07-29 13:42:16.7907) [Info] Initialization Pass #10 
+(2012-07-29 13:44:14.7788) [Info] Initialization Pass #0 
+(2012-07-29 13:44:16.3589) [Info] Step:  'Initialize Config' (00:01.575) 
+(2012-07-29 13:44:16.3589) [Info] Initialization Pass #1 
+(2012-07-29 13:44:29.5946) [Info] Step:  'Initialize Spells' (00:13.235) 
+(2012-07-29 13:44:29.7107) [Info] Found 1 Addon(s): 
+(2012-07-29 13:44:29.7107) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 13:44:29.7107) [Info] Step:  'Initialize Addons' (00:00.122) 
+(2012-07-29 13:44:33.5399) [Info] Step:  'Initialize database' (00:03.807) 
+(2012-07-29 13:44:33.5399) [Info] Initialization Pass #2 
+(2012-07-29 13:44:33.5399) [Info] Step:  'Initialize Factions' (00:00.01) 
+(2012-07-29 13:44:33.7089) [Info] Step:  'Register packet handlers' (00:00.168) 
+(2012-07-29 13:44:33.7089) [Info] Initialization Pass #3 
+(2012-07-29 13:44:34.3219) [Info] Step:  'Initializing World' (00:00.613) 
+(2012-07-29 13:44:34.5189) [Info] Step:  'Initialize Spells (2)' (00:00.197) 
+(2012-07-29 13:44:34.9990) [Info] Initialization Pass #4 
+(2012-07-29 13:44:35.1530) [Info] Step:  'Initialize Commands' (00:00.154) 
+(2012-07-29 13:44:35.1530) [Info] Step:  'Initialize WorldSafeLocs' (00:00.01) 
+(2012-07-29 13:45:09.3089) [Info] Step:  'Initialize Items' (00:34.154) 
+(2012-07-29 13:45:09.7589) [Info] Step:  'Privilege manager' (00:00.450) 
+(2012-07-29 13:45:13.1601) [Info] Step:  'Caching Ban list...' (00:03.401) 
+(2012-07-29 13:45:13.1601) [Info] Initialization Pass #5 
+(2012-07-29 13:45:23.0397) [Info] Step:  'Initialize NPCs' (00:09.879) 
+(2012-07-29 13:45:23.0397) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-07-29 13:45:23.2077) [Info] Step:  'Initializing World' (00:00.167) 
+(2012-07-29 13:45:30.0401) [Info] Step:  'Initialize GameObjects' (00:06.832) 
+(2012-07-29 13:45:33.8953) [Info] Step:  'Initialize Instances' (00:03.855) 
+(2012-07-29 13:45:34.1273) [Info] Step:  'Initialize Guilds' (00:00.232) 
+(2012-07-29 13:45:34.6074) [Info] Step:  'Initialize Accounts' (00:00.480) 
+(2012-07-29 13:45:35.3354) [Info] Step:  'Initialize Auctions' (00:00.727) 
+(2012-07-29 13:45:35.3354) [Info] Step:  'Initialize performance counters' (00:00.06) 
+(2012-07-29 13:45:35.5854) [Info] Step:  'Start relation manager' (00:00.244) 
+(2012-07-29 13:45:35.5854) [Info] Step:  'Create default channels' (00:00.07) 
+(2012-07-29 13:45:35.5854) [Info] Initialization Pass #6 
+(2012-07-29 13:45:36.0535) [Info] Initialization Pass #7 
+(2012-07-29 13:45:36.3035) [Info] Step:  'Initializing Races and Classes' (00:00.250) 
+(2012-07-29 13:45:36.3035) [Info] Initialization Pass #10 
+(2012-07-29 13:45:44.3599) [Info] Step:  'Initialize Soulmates' (00:08.55) 
+(2012-07-29 13:45:45.4420) [Info] Step:  'Load Loot' (00:01.81) 
+(2012-07-29 13:45:45.4440) [Info] Initialization Pass #11 
+(2012-07-29 13:45:45.5550) [Info] Step:  'Initialize Default Addon' (00:00.16) 
+(2012-07-29 13:45:45.5550) [Info] Initialization complete! 40 successful steps, 0 non-fatal failures. 
+(2012-07-29 13:45:45.6560) [Info] Starting the network layer! 
+(2012-07-29 13:45:46.0560) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-29 13:45:46.0560) [Info] Server is ready for connections! 
+(2012-07-29 13:45:46.0560) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-29 13:46:35.1911) [Info] (10.8.0.26:56633) -> Connected 
+(2012-07-29 13:46:45.2716) [Info] Account "ZOXER" logged in from 10.8.0.26. 
+(2012-07-29 13:46:45.9607) [Info] Account "ZOXER" logged in from 10.8.0.26. 
+(2012-07-29 13:51:54.5695) [Info] Initialization Pass #0 
+(2012-07-29 13:51:56.1566) [Info] Step:  'Initialize Config' (00:01.582) 
+(2012-07-29 13:51:56.1566) [Info] Initialization Pass #1 
+(2012-07-29 13:57:11.7216) [Info] [Broadcast] Initiating Shutdown... 
+(2012-07-29 13:57:11.7216) [Info] [Broadcast] Halting server and saving World... 
+(2012-07-29 13:57:11.8576) [Info] [Broadcast] World saved. 
+(2012-07-29 13:57:11.8576) [Info] [Broadcast] Shutting down... 
+(2012-07-29 13:57:11.9856) [Info] Stopping the network layer! 
+(2012-07-29 13:57:11.9856) [Info] Server has been shutdown. 
+(2012-07-29 13:57:52.5790) [Info] Initialization Pass #0 
+(2012-07-29 13:57:54.3591) [Info] Step:  'Initialize Config' (00:01.772) 
+(2012-07-29 13:57:54.3591) [Info] Initialization Pass #1 
+(2012-07-29 13:58:09.4899) [Info] Step:  'Initialize Spells' (00:15.130) 
+(2012-07-29 13:58:09.5739) [Info] Found 1 Addon(s): 
+(2012-07-29 13:58:09.5739) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 13:58:09.5839) [Info] Step:  'Initialize Addons' (00:00.91) 
+(2012-07-29 13:58:13.3962) [Info] Step:  'Initialize database' (00:03.803) 
+(2012-07-29 13:58:13.3962) [Info] Initialization Pass #2 
+(2012-07-29 13:58:13.3962) [Info] Step:  'Initialize Factions' (00:00.01) 
+(2012-07-29 13:58:13.5992) [Info] Step:  'Register packet handlers' (00:00.202) 
+(2012-07-29 13:58:13.5992) [Info] Initialization Pass #3 
+(2012-07-29 13:58:14.3242) [Info] Step:  'Initializing World' (00:00.725) 
+(2012-07-29 13:58:14.5382) [Info] Step:  'Initialize Spells (2)' (00:00.214) 
+(2012-07-29 13:58:15.2343) [Info] Initialization Pass #4 
+(2012-07-29 13:58:15.4453) [Info] Step:  'Initialize Commands' (00:00.211) 
+(2012-07-29 13:58:15.4453) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-07-29 13:58:58.4599) [Info] Step:  'Initialize Items' (00:43.14) 
+(2012-07-29 13:58:59.0690) [Info] Step:  'Privilege manager' (00:00.609) 
+(2012-07-29 13:59:03.7752) [Info] Step:  'Caching Ban list...' (00:04.705) 
+(2012-07-29 13:59:03.7752) [Info] Initialization Pass #5 
+(2012-07-29 13:59:17.7890) [Info] Step:  'Initialize NPCs' (00:14.13) 
+(2012-07-29 13:59:17.7890) [Info] Step:  'Initialize Experience-Table' (00:00.01) 
+(2012-07-29 13:59:17.9851) [Info] Step:  'Initializing World' (00:00.195) 
+(2012-07-29 13:59:29.0007) [Info] Step:  'Initialize GameObjects' (00:11.15) 
+(2012-07-29 13:59:34.0910) [Info] Step:  'Initialize Instances' (00:05.90) 
+(2012-07-29 13:59:34.3280) [Info] Step:  'Initialize Guilds' (00:00.237) 
+(2012-07-29 13:59:34.7990) [Info] Step:  'Initialize Accounts' (00:00.471) 
+(2012-07-29 13:59:35.5321) [Info] Step:  'Initialize Auctions' (00:00.733) 
+(2012-07-29 13:59:35.5321) [Info] Step:  'Initialize performance counters' (00:00.06) 
+(2012-07-29 13:59:35.7711) [Info] Step:  'Start relation manager' (00:00.232) 
+(2012-07-29 13:59:35.7781) [Info] Step:  'Create default channels' (00:00.07) 
+(2012-07-29 13:59:35.7781) [Info] Initialization Pass #6 
+(2012-07-29 13:59:36.2751) [Info] Initialization Pass #7 
+(2012-07-29 13:59:36.5361) [Info] Step:  'Initializing Races and Classes' (00:00.261) 
+(2012-07-29 13:59:36.5361) [Info] Initialization Pass #10 
+(2012-07-29 13:59:44.5746) [Info] Step:  'Initialize Soulmates' (00:08.38) 
+(2012-07-29 13:59:45.8997) [Info] Step:  'Load Loot' (00:01.324) 
+(2012-07-29 13:59:45.8997) [Info] Initialization Pass #11 
+(2012-07-29 13:59:45.9947) [Info] Step:  'Initialize Default Addon' (00:00.08) 
+(2012-07-29 13:59:45.9947) [Info] Initialization complete! 40 successful steps, 0 non-fatal failures. 
+(2012-07-29 13:59:46.0917) [Info] Starting the network layer! 
+(2012-07-29 13:59:46.3667) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-29 13:59:46.3667) [Info] Server is ready for connections! 
+(2012-07-29 13:59:46.3667) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-29 14:01:10.6141) [Info] [Broadcast] Initiating Shutdown... 
+(2012-07-29 14:01:10.6141) [Info] [Broadcast] Halting server and saving World... 
+(2012-07-29 14:01:10.6881) [Info] [Broadcast] World saved. 
+(2012-07-29 14:01:10.6881) [Info] [Broadcast] Shutting down... 
+(2012-07-29 14:01:10.6881) [Info] Stopping the network layer! 
+(2012-07-29 14:01:10.6881) [Info] Server has been shutdown. 
+(2012-07-29 14:01:10.6881) [Info] Server is no longer accepting connections! 
+(2012-07-29 14:03:17.6913) [Info] Initialization Pass #0 
+(2012-07-29 14:03:19.3144) [Info] Step:  'Initialize Config' (00:01.620) 
+(2012-07-29 14:03:19.3144) [Info] Initialization Pass #1 
+(2012-07-29 14:03:33.5775) [Info] Step:  'Initialize Spells' (00:14.263) 
+(2012-07-29 14:03:33.6705) [Info] Found 1 Addon(s): 
+(2012-07-29 14:03:33.6705) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 14:03:33.6785) [Info] Step:  'Initialize Addons' (00:00.98) 
+(2012-07-29 14:03:37.4820) [Info] Step:  'Initialize database' (00:03.796) 
+(2012-07-29 14:03:37.4820) [Info] Initialization Pass #2 
+(2012-07-29 14:03:37.4820) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-07-29 14:03:37.7640) [Info] Step:  'Register packet handlers' (00:00.281) 
+(2012-07-29 14:03:37.7640) [Info] Initialization Pass #3 
+(2012-07-29 14:03:38.4800) [Info] Step:  'Initializing World' (00:00.716) 
+(2012-07-29 14:03:38.7070) [Info] Step:  'Initialize Spells (2)' (00:00.227) 
+(2012-07-29 14:03:39.2701) [Info] Initialization Pass #4 
+(2012-07-29 14:03:39.4391) [Info] Step:  'Initialize Commands' (00:00.169) 
+(2012-07-29 14:03:39.4391) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-07-29 14:04:14.2830) [Info] Step:  'Initialize Items' (00:34.843) 
+(2012-07-29 14:04:14.8611) [Info] Step:  'Privilege manager' (00:00.578) 
+(2012-07-29 14:04:18.2993) [Info] Step:  'Caching Ban list...' (00:03.438) 
+(2012-07-29 14:04:18.2993) [Info] Initialization Pass #5 
+(2012-07-29 14:04:35.5452) [Info] Step:  'Initialize NPCs' (00:17.245) 
+(2012-07-29 14:04:35.5452) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-07-29 14:04:35.7753) [Info] Step:  'Initializing World' (00:00.230) 
+(2012-07-29 14:04:44.8848) [Info] Step:  'Initialize GameObjects' (00:09.109) 
+(2012-07-29 14:04:49.7331) [Info] Step:  'Initialize Instances' (00:04.848) 
+(2012-07-29 14:04:50.1751) [Info] Step:  'Initialize Guilds' (00:00.442) 
+(2012-07-29 14:04:51.2751) [Info] Step:  'Initialize Accounts' (00:01.100) 
+(2012-07-29 14:04:52.8622) [Info] Step:  'Initialize Auctions' (00:01.587) 
+(2012-07-29 14:04:53.6643) [Info] Step:  'Start relation manager' (00:00.802) 
+(2012-07-29 14:04:53.6643) [Info] Step:  'Create default channels' (00:00.07) 
+(2012-07-29 14:04:53.6643) [Info] Initialization Pass #6 
+(2012-07-29 14:04:55.5494) [Info] Initialization Pass #7 
+(2012-07-29 14:04:56.1734) [Info] Step:  'Initializing Races and Classes' (00:00.624) 
+(2012-07-29 14:04:56.1734) [Info] Initialization Pass #10 
+(2012-07-29 14:05:07.4991) [Info] Step:  'Initialize Soulmates' (00:11.324) 
+(2012-07-29 14:05:09.4942) [Info] Step:  'Load Loot' (00:01.994) 
+(2012-07-29 14:05:09.4942) [Info] Initialization Pass #11 
+(2012-07-29 14:05:09.6122) [Info] Step:  'Initialize Default Addon' (00:00.07) 
+(2012-07-29 14:05:09.6122) [Info] Initialization complete! 39 successful steps, 0 non-fatal failures. 
+(2012-07-29 14:05:09.7132) [Info] Starting the network layer! 
+(2012-07-29 14:05:10.0062) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-29 14:05:10.0062) [Info] Server is ready for connections! 
+(2012-07-29 14:05:10.0062) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-29 14:13:01.8758) [Info] (10.8.0.26:56884) -> Connected 
+(2012-07-29 14:13:14.2415) [Info] Account "ZOXER" logged in from 10.8.0.26. 
+(2012-07-29 14:16:34.7590) [Info] Initialization Pass #0 
+(2012-07-29 14:16:36.2791) [Info] Step:  'Initialize Config' (00:01.517) 
+(2012-07-29 14:16:36.2791) [Info] Initialization Pass #1 
+(2012-07-29 14:16:55.3162) [Info] Step:  'Initialize Spells' (00:19.37) 
+(2012-07-29 14:16:55.4582) [Info] Found 1 Addon(s): 
+(2012-07-29 14:16:55.4582) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 14:16:55.4582) [Info] Step:  'Initialize Addons' (00:00.148) 
+(2012-07-29 14:17:00.8655) [Info] Step:  'Initialize database' (00:05.391) 
+(2012-07-29 14:17:00.8655) [Info] Initialization Pass #2 
+(2012-07-29 14:17:00.8655) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-07-29 14:17:01.0295) [Info] Step:  'Register packet handlers' (00:00.164) 
+(2012-07-29 14:17:01.0295) [Info] Initialization Pass #3 
+(2012-07-29 14:17:01.7106) [Info] Step:  'Initializing World' (00:00.681) 
+(2012-07-29 14:17:01.9106) [Info] Step:  'Initialize Spells (2)' (00:00.200) 
+(2012-07-29 14:17:03.6617) [Info] Initialization Pass #4 
+(2012-07-29 14:17:03.8217) [Info] Step:  'Initialize Commands' (00:00.160) 
+(2012-07-29 14:17:03.8217) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-07-29 14:17:58.8038) [Info] Step:  'Initialize Items' (00:54.982) 
+(2012-07-29 14:17:59.2919) [Info] Step:  'Privilege manager' (00:00.488) 
+(2012-07-29 14:18:03.5031) [Info] Step:  'Caching Ban list...' (00:04.211) 
+(2012-07-29 14:18:03.5031) [Info] Initialization Pass #5 
+(2012-07-29 14:18:14.5455) [Info] Step:  'Initialize NPCs' (00:11.42) 
+(2012-07-29 14:18:14.5455) [Info] Step:  'Initialize Experience-Table' (00:00.01) 
+(2012-07-29 14:18:14.7435) [Info] Step:  'Initializing World' (00:00.197) 
+(2012-07-29 14:18:23.1472) [Info] Step:  'Initialize GameObjects' (00:08.403) 
+(2012-07-29 14:18:28.0319) [Info] Step:  'Initialize Instances' (00:04.883) 
+(2012-07-29 14:18:28.3789) [Info] Step:  'Initialize Guilds' (00:00.347) 
+(2012-07-29 14:18:29.1792) [Info] Step:  'Initialize Accounts' (00:00.800) 
+(2012-07-29 14:18:30.6748) [Info] Step:  'Initialize Auctions' (00:01.495) 
+(2012-07-29 14:18:31.1063) [Info] Step:  'Start relation manager' (00:00.431) 
+(2012-07-29 14:18:31.1063) [Info] Step:  'Create default channels' (00:00.07) 
+(2012-07-29 14:18:31.1063) [Info] Initialization Pass #6 
+(2012-07-29 14:18:32.4254) [Info] Initialization Pass #7 
+(2012-07-29 14:18:32.9944) [Info] Step:  'Initializing Races and Classes' (00:00.569) 
+(2012-07-29 14:18:32.9944) [Info] Initialization Pass #10 
+(2012-07-29 14:18:46.0452) [Info] Step:  'Initialize Soulmates' (00:13.50) 
+(2012-07-29 14:18:48.7233) [Info] Step:  'Load Loot' (00:02.678) 
+(2012-07-29 14:18:48.7233) [Info] Initialization Pass #11 
+(2012-07-29 14:18:48.8294) [Info] Step:  'Initialize Default Addon' (00:00.15) 
+(2012-07-29 14:18:48.8294) [Info] Initialization complete! 39 successful steps, 0 non-fatal failures. 
+(2012-07-29 14:18:48.9354) [Info] Starting the network layer! 
+(2012-07-29 14:18:49.4154) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-29 14:18:49.4154) [Info] Server is ready for connections! 
+(2012-07-29 14:18:49.4174) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-29 14:24:36.2143) [Info] (10.8.0.26:57192) -> Connected 
+(2012-07-29 14:24:46.2888) [Info] Account "ZOXER" logged in from 10.8.0.26. 
+(2012-07-29 14:24:46.9429) [Info] Account "ZOXER" logged in from 10.8.0.26. 
+(2012-07-29 14:24:49.8501) [Info] (10.8.0.26:57192) -> Disconnected 
+(2012-07-29 14:34:54.8056) [Info] (10.8.0.26:57443) -> Connected 
+(2012-07-29 14:35:28.3995) [Info] Account "ZOXER" logged in from 10.8.0.26. 
+(2012-07-29 14:35:28.8985) [Info] Account "ZOXER" logged in from 10.8.0.26. 
+(2012-07-29 14:35:50.1378) [Info] [Broadcast] Qucdr is now Online. 
+(2012-07-29 14:35:52.3089) [Info] (10.8.0.26:57460) -> Connected 
+(2012-07-29 14:35:59.0073) [Info] (10.8.0.26:57443 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 14:35:59.3443) [Info] (:-1 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 14:37:28.4525) [Info] (10.8.0.26:57460 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 16:31:19.7687) [Info] Initialization Pass #0 
+(2012-07-29 16:31:21.1833) [Info] Step:  'Initialize Config' (00:01.410) 
+(2012-07-29 16:31:21.1833) [Info] Initialization Pass #1 
+(2012-07-29 16:31:33.6600) [Info] Step:  'Initialize Spells' (00:12.476) 
+(2012-07-29 16:31:33.7597) [Info] Found 1 Addon(s): 
+(2012-07-29 16:31:33.7597) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 16:31:33.7677) [Info] Step:  'Initialize Addons' (00:00.105) 
+(2012-07-29 16:31:37.5802) [Info] Step:  'Initialize database' (00:03.800) 
+(2012-07-29 16:31:37.5802) [Info] Initialization Pass #2 
+(2012-07-29 16:31:37.5802) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-07-29 16:31:37.7842) [Info] Step:  'Register packet handlers' (00:00.204) 
+(2012-07-29 16:31:37.7842) [Info] Initialization Pass #3 
+(2012-07-29 16:31:38.3902) [Info] Step:  'Initializing World' (00:00.605) 
+(2012-07-29 16:31:38.5722) [Info] Step:  'Initialize Spells (2)' (00:00.182) 
+(2012-07-29 16:31:39.1113) [Info] Initialization Pass #4 
+(2012-07-29 16:31:39.2653) [Info] Step:  'Initialize Commands' (00:00.154) 
+(2012-07-29 16:31:39.2653) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-07-29 16:32:14.2477) [Info] Step:  'Initialize Items' (00:34.982) 
+(2012-07-29 16:32:14.7567) [Info] Step:  'Privilege manager' (00:00.509) 
+(2012-07-29 16:32:18.1659) [Info] Step:  'Caching Ban list...' (00:03.409) 
+(2012-07-29 16:32:18.1659) [Info] Initialization Pass #5 
+(2012-07-29 16:32:28.3405) [Info] Step:  'Initialize NPCs' (00:10.174) 
+(2012-07-29 16:32:28.3405) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-07-29 16:32:28.6145) [Info] Step:  'Initializing World' (00:00.274) 
+(2012-07-29 16:32:35.6369) [Info] Step:  'Initialize GameObjects' (00:07.22) 
+(2012-07-29 16:32:39.5101) [Info] Step:  'Initialize Instances' (00:03.873) 
+(2012-07-29 16:32:39.8071) [Info] Step:  'Initialize Guilds' (00:00.297) 
+(2012-07-29 16:32:40.2752) [Info] Step:  'Initialize Accounts' (00:00.468) 
+(2012-07-29 16:32:40.9962) [Info] Step:  'Initialize Auctions' (00:00.721) 
+(2012-07-29 16:32:41.2312) [Info] Step:  'Start relation manager' (00:00.235) 
+(2012-07-29 16:32:41.2312) [Info] Step:  'Create default channels' (00:00.06) 
+(2012-07-29 16:32:41.2312) [Info] Initialization Pass #6 
+(2012-07-29 16:32:41.7083) [Info] Initialization Pass #7 
+(2012-07-29 16:32:41.9793) [Info] Step:  'Initializing Races and Classes' (00:00.271) 
+(2012-07-29 16:32:41.9793) [Info] Initialization Pass #10 
+(2012-07-29 16:32:50.0097) [Info] Step:  'Initialize Soulmates' (00:08.30) 
+(2012-07-29 16:32:50.9248) [Info] Step:  'Load Loot' (00:00.914) 
+(2012-07-29 16:32:50.9258) [Info] Initialization Pass #11 
+(2012-07-29 16:32:51.0088) [Info] Step:  'Initialize Default Addon' (00:00.07) 
+(2012-07-29 16:32:51.0088) [Info] Initialization complete! 39 successful steps, 0 non-fatal failures. 
+(2012-07-29 16:32:51.1158) [Info] Starting the network layer! 
+(2012-07-29 16:32:51.3518) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-29 16:32:51.3518) [Info] Server is ready for connections! 
+(2012-07-29 16:32:51.3518) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-29 16:36:01.1950) [Info] Initialization Pass #0 
+(2012-07-29 16:36:02.5661) [Info] Step:  'Initialize Config' (00:01.367) 
+(2012-07-29 16:36:02.5661) [Info] Initialization Pass #1 
+(2012-07-29 16:36:14.2290) [Info] Step:  'Initialize Spells' (00:11.662) 
+(2012-07-29 16:36:14.3060) [Info] Found 1 Addon(s): 
+(2012-07-29 16:36:14.3060) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 16:36:14.3060) [Info] Step:  'Initialize Addons' (00:00.89) 
+(2012-07-29 16:36:18.1512) [Info] Step:  'Initialize database' (00:03.824) 
+(2012-07-29 16:36:18.1512) [Info] Initialization Pass #2 
+(2012-07-29 16:36:18.1512) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-07-29 16:36:18.4182) [Info] Step:  'Register packet handlers' (00:00.268) 
+(2012-07-29 16:36:18.4182) [Info] Initialization Pass #3 
+(2012-07-29 16:36:19.0533) [Info] Step:  'Initializing World' (00:00.634) 
+(2012-07-29 16:36:19.2563) [Info] Step:  'Initialize Spells (2)' (00:00.203) 
+(2012-07-29 16:36:19.7423) [Info] Initialization Pass #4 
+(2012-07-29 16:36:19.9023) [Info] Step:  'Initialize Commands' (00:00.160) 
+(2012-07-29 16:36:19.9023) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-07-29 16:36:54.0153) [Info] Step:  'Initialize Items' (00:34.112) 
+(2012-07-29 16:36:54.4483) [Info] Step:  'Privilege manager' (00:00.433) 
+(2012-07-29 16:36:57.8595) [Info] Step:  'Caching Ban list...' (00:03.411) 
+(2012-07-29 16:36:57.8595) [Info] Initialization Pass #5 
+(2012-07-29 16:37:11.0442) [Info] Step:  'Initialize NPCs' (00:13.184) 
+(2012-07-29 16:37:11.0442) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-07-29 16:37:11.3062) [Info] Step:  'Initializing World' (00:00.262) 
+(2012-07-29 16:37:18.2636) [Info] Step:  'Initialize GameObjects' (00:06.957) 
+(2012-07-29 16:37:22.1639) [Info] Step:  'Initialize Instances' (00:03.900) 
+(2012-07-29 16:37:22.3959) [Info] Step:  'Initialize Guilds' (00:00.232) 
+(2012-07-29 16:37:22.8769) [Info] Step:  'Initialize Accounts' (00:00.481) 
+(2012-07-29 16:37:23.6049) [Info] Step:  'Initialize Auctions' (00:00.728) 
+(2012-07-29 16:37:23.8480) [Info] Step:  'Start relation manager' (00:00.243) 
+(2012-07-29 16:37:23.8540) [Info] Step:  'Create default channels' (00:00.06) 
+(2012-07-29 16:37:23.8540) [Info] Initialization Pass #6 
+(2012-07-29 16:37:24.3130) [Info] Initialization Pass #7 
+(2012-07-29 16:37:24.5690) [Info] Step:  'Initializing Races and Classes' (00:00.256) 
+(2012-07-29 16:37:24.5690) [Info] Initialization Pass #10 
+(2012-07-29 16:37:32.7695) [Info] Step:  'Initialize Soulmates' (00:08.200) 
+(2012-07-29 16:37:33.5507) [Info] Step:  'Load Loot' (00:00.780) 
+(2012-07-29 16:37:33.5507) [Info] Initialization Pass #11 
+(2012-07-29 16:37:33.6578) [Info] Step:  'Initialize Default Addon' (00:00.10) 
+(2012-07-29 16:37:33.6578) [Info] Initialization complete! 39 successful steps, 0 non-fatal failures. 
+(2012-07-29 16:37:33.7378) [Info] Starting the network layer! 
+(2012-07-29 16:37:33.9848) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-29 16:37:33.9848) [Info] Server is ready for connections! 
+(2012-07-29 16:37:33.9848) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-29 16:39:22.7372) [Info] (10.8.0.26:59543) -> Connected 
+(2012-07-29 16:39:46.7416) [Info] Account "ZOXER" logged in from 10.8.0.26. 
+(2012-07-29 16:39:48.7847) [Info] Account "ZOXER" logged in from 10.8.0.26. 
+(2012-07-29 16:40:05.8492) [Info] [Broadcast] Qucdr is now Online. 
+(2012-07-29 16:40:09.7139) [Info] (10.8.0.26:59560) -> Connected 
+(2012-07-29 16:40:16.8570) [Info] (10.8.0.26:59543 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 16:40:17.4908) [Info] (:-1 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 16:42:39.3325) [Info] (10.8.0.26:59560 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 16:43:57.3302) [Info] (10.8.0.10:29546) -> Connected 
+(2012-07-29 16:44:06.1797) [Info] (:-1 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 16:44:07.8708) [Info] (10.8.0.10:29549) -> Connected 
+(2012-07-29 16:44:17.9994) [Info] (10.8.0.10:29549) -> Disconnected 
+(2012-07-29 16:44:17.9994) [Info] (:-1) -> Disconnected 
+(2012-07-29 16:45:00.9179) [Info] (10.8.0.10:29558) -> Connected 
+(2012-07-29 16:46:59.7025) [Info] (10.8.0.10:29546 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 16:47:20.5847) [Info] Account "ZOXER1" logged in from 10.8.0.10. 
+(2012-07-29 16:47:21.3818) [Info] Account "ZOXER1" logged in from 10.8.0.10. 
+(2012-07-29 16:47:34.3875) [Info] [Broadcast] Cdr is now Online. 
+(2012-07-29 16:47:35.9706) [Info] (10.8.0.10:29581) -> Connected 
+(2012-07-29 16:47:45.1841) [Info] (10.8.0.10:29558 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-29 16:47:45.1841) [Info] (:-1 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-29 16:53:16.9566) [Info] (10.8.0.10:29581 - Account: ZOXER1 - Char: Cdr) -> Disconnected 
+(2012-07-29 16:58:09.2568) [Info] [Broadcast] Initiating Shutdown... 
+(2012-07-29 16:58:09.2568) [Info] [Broadcast] Halting server and saving World... 
+(2012-07-29 17:06:02.6743) [Info] Initialization Pass #0 
+(2012-07-29 17:06:04.0704) [Info] Step:  'Initialize Config' (00:01.392) 
+(2012-07-29 17:06:04.0704) [Info] Initialization Pass #1 
+(2012-07-29 17:06:16.3068) [Info] Step:  'Initialize Spells' (00:12.236) 
+(2012-07-29 17:06:16.4198) [Info] Found 1 Addon(s): 
+(2012-07-29 17:06:16.4198) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 17:06:16.4278) [Info] Step:  'Initialize Addons' (00:00.119) 
+(2012-07-29 17:06:20.3530) [Info] Step:  'Initialize database' (00:03.916) 
+(2012-07-29 17:06:20.3530) [Info] Initialization Pass #2 
+(2012-07-29 17:06:20.3530) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-07-29 17:06:20.5190) [Info] Step:  'Register packet handlers' (00:00.166) 
+(2012-07-29 17:06:20.5190) [Info] Initialization Pass #3 
+(2012-07-29 17:06:21.0895) [Info] Step:  'Initializing World' (00:00.570) 
+(2012-07-29 17:06:21.2745) [Info] Step:  'Initialize Spells (2)' (00:00.185) 
+(2012-07-29 17:06:21.7595) [Info] Initialization Pass #4 
+(2012-07-29 17:06:21.9325) [Info] Step:  'Initialize Commands' (00:00.173) 
+(2012-07-29 17:06:21.9325) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-07-29 17:07:10.0112) [Info] Step:  'Initialize Items' (00:48.78) 
+(2012-07-29 17:07:10.5893) [Info] Step:  'Privilege manager' (00:00.578) 
+(2012-07-29 17:07:15.1915) [Info] Step:  'Caching Ban list...' (00:04.602) 
+(2012-07-29 17:07:15.1915) [Info] Initialization Pass #5 
+(2012-07-29 17:07:31.3884) [Info] Step:  'Initialize NPCs' (00:16.196) 
+(2012-07-29 17:07:31.3884) [Info] Step:  'Initialize Experience-Table' (00:00.01) 
+(2012-07-29 17:07:31.6315) [Info] Step:  'Initializing World' (00:00.242) 
+(2012-07-29 17:07:40.4540) [Info] Step:  'Initialize GameObjects' (00:08.822) 
+(2012-07-29 17:07:44.9782) [Info] Step:  'Initialize Instances' (00:04.524) 
+(2012-07-29 17:07:45.3432) [Info] Step:  'Initialize Guilds' (00:00.365) 
+(2012-07-29 17:07:46.1173) [Info] Step:  'Initialize Accounts' (00:00.774) 
+(2012-07-29 17:07:47.4854) [Info] Step:  'Initialize Auctions' (00:01.368) 
+(2012-07-29 17:07:48.0934) [Info] Step:  'Start relation manager' (00:00.608) 
+(2012-07-29 17:07:48.1004) [Info] Step:  'Create default channels' (00:00.07) 
+(2012-07-29 17:07:48.1004) [Info] Initialization Pass #6 
+(2012-07-29 17:07:49.2365) [Info] Initialization Pass #7 
+(2012-07-29 17:07:49.6935) [Info] Step:  'Initializing Races and Classes' (00:00.457) 
+(2012-07-29 17:07:49.6935) [Info] Initialization Pass #10 
+(2012-07-29 17:08:01.8352) [Info] Step:  'Initialize Soulmates' (00:12.141) 
+(2012-07-29 17:08:05.3004) [Info] Step:  'Load Loot' (00:03.464) 
+(2012-07-29 17:08:05.3004) [Info] Initialization Pass #11 
+(2012-07-29 17:08:05.3974) [Info] Step:  'Initialize Default Addon' (00:00.08) 
+(2012-07-29 17:08:05.3974) [Info] Initialization complete! 39 successful steps, 0 non-fatal failures. 
+(2012-07-29 17:08:05.4954) [Info] Starting the network layer! 
+(2012-07-29 17:08:05.7424) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-29 17:08:05.7424) [Info] Server is ready for connections! 
+(2012-07-29 17:08:05.7424) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-29 17:09:57.5702) [Info] (10.8.0.10:29711) -> Connected 
+(2012-07-29 17:10:38.9275) [Info] Account "ZOXER" logged in from 10.8.0.10. 
+(2012-07-29 17:10:39.8036) [Info] Account "ZOXER" logged in from 10.8.0.10. 
+(2012-07-29 17:10:55.5970) [Info] [Broadcast] Qucdr is now Online. 
+(2012-07-29 17:10:58.0621) [Info] (10.8.0.10:29714) -> Connected 
+(2012-07-29 17:11:07.3361) [Info] (10.8.0.10:29711 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 17:11:07.3391) [Info] (:-1 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 17:16:28.5232) [Info] Initialization Pass #0 
+(2012-07-29 17:16:30.2153) [Info] Step:  'Initialize Config' (00:01.688) 
+(2012-07-29 17:16:30.2153) [Info] Initialization Pass #1 
+(2012-07-29 17:16:42.9361) [Info] Step:  'Initialize Spells' (00:12.720) 
+(2012-07-29 17:16:43.0241) [Info] Found 1 Addon(s): 
+(2012-07-29 17:16:43.0241) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 17:16:43.0241) [Info] Step:  'Initialize Addons' (00:00.95) 
+(2012-07-29 17:16:46.8393) [Info] Step:  'Initialize database' (00:03.799) 
+(2012-07-29 17:16:46.8393) [Info] Initialization Pass #2 
+(2012-07-29 17:16:46.8393) [Info] Step:  'Initialize Factions' (00:00.01) 
+(2012-07-29 17:16:47.1563) [Info] Step:  'Register packet handlers' (00:00.316) 
+(2012-07-29 17:16:47.1563) [Info] Initialization Pass #3 
+(2012-07-29 17:16:47.7653) [Info] Step:  'Initializing World' (00:00.609) 
+(2012-07-29 17:16:47.9704) [Info] Step:  'Initialize Spells (2)' (00:00.205) 
+(2012-07-29 17:16:48.4844) [Info] Initialization Pass #4 
+(2012-07-29 17:16:48.6444) [Info] Step:  'Initialize Commands' (00:00.160) 
+(2012-07-29 17:16:48.6444) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-07-29 17:17:23.9081) [Info] Step:  'Initialize Items' (00:35.263) 
+(2012-07-29 17:17:24.3694) [Info] Step:  'Privilege manager' (00:00.461) 
+(2012-07-29 17:17:29.0386) [Info] Step:  'Caching Ban list...' (00:04.669) 
+(2012-07-29 17:17:29.0386) [Info] Initialization Pass #5 
+(2012-07-29 17:17:51.5827) [Info] Step:  'Initialize NPCs' (00:22.544) 
+(2012-07-29 17:17:51.5827) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-07-29 17:17:51.8267) [Info] Step:  'Initializing World' (00:00.244) 
+(2012-07-29 17:18:02.0253) [Info] Step:  'Initialize GameObjects' (00:10.198) 
+(2012-07-29 17:18:11.8674) [Info] Step:  'Initialize Instances' (00:09.842) 
+(2012-07-29 17:18:12.3454) [Info] Step:  'Initialize Guilds' (00:00.478) 
+(2012-07-29 17:18:13.4755) [Info] Step:  'Initialize Accounts' (00:01.130) 
+(2012-07-29 17:18:15.2398) [Info] Step:  'Initialize Auctions' (00:01.764) 
+(2012-07-29 17:18:15.6448) [Info] Step:  'Start relation manager' (00:00.405) 
+(2012-07-29 17:18:15.6448) [Info] Step:  'Create default channels' (00:00.06) 
+(2012-07-29 17:18:15.6448) [Info] Initialization Pass #6 
+(2012-07-29 17:18:16.1904) [Info] Initialization Pass #7 
+(2012-07-29 17:18:16.4594) [Info] Step:  'Initializing Races and Classes' (00:00.269) 
+(2012-07-29 17:18:16.4594) [Info] Initialization Pass #10 
+(2012-07-29 17:18:28.3725) [Info] Step:  'Initialize Soulmates' (00:11.912) 
+(2012-07-29 17:18:30.0916) [Info] Step:  'Load Loot' (00:01.718) 
+(2012-07-29 17:18:30.0916) [Info] Initialization Pass #11 
+(2012-07-29 17:18:30.1996) [Info] Step:  'Initialize Default Addon' (00:00.09) 
+(2012-07-29 17:18:30.1996) [Info] Initialization complete! 39 successful steps, 0 non-fatal failures. 
+(2012-07-29 17:18:30.2936) [Info] Starting the network layer! 
+(2012-07-29 17:18:30.6416) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-29 17:18:30.6416) [Info] Server is ready for connections! 
+(2012-07-29 17:18:30.6416) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-29 17:19:26.0598) [Info] (10.8.0.10:29799) -> Connected 
+(2012-07-29 17:19:36.7184) [Info] Account "ZOXER" logged in from 10.8.0.10. 
+(2012-07-29 17:19:38.4165) [Info] Account "ZOXER" logged in from 10.8.0.10. 
+(2012-07-29 17:19:58.6206) [Info] [Broadcast] Qucdr is now Online. 
+(2012-07-29 17:20:03.4789) [Info] (10.8.0.10:29802) -> Connected 
+(2012-07-29 17:20:13.4344) [Info] (10.8.0.10:29799 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-07-29 17:21:27.8007) [Info] [Broadcast] Initiating Shutdown... 
+(2012-07-29 17:21:27.8007) [Info] [Broadcast] Halting server and saving World... 
+(2012-07-29 17:25:04.4101) [Info] Initialization Pass #0 
+(2012-07-29 17:25:06.1507) [Info] Step:  'Initialize Config' (00:01.737) 
+(2012-07-29 17:25:06.1507) [Info] Initialization Pass #1 
+(2012-07-29 17:25:19.9962) [Info] Step:  'Initialize Spells' (00:13.845) 
+(2012-07-29 17:25:20.1222) [Info] Found 1 Addon(s): 
+(2012-07-29 17:25:20.1222) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-07-29 17:25:20.1372) [Info] Step:  'Initialize Addons' (00:00.139) 
+(2012-07-29 17:25:24.0317) [Info] Step:  'Initialize database' (00:03.886) 
+(2012-07-29 17:25:24.0317) [Info] Initialization Pass #2 
+(2012-07-29 17:25:24.0317) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-07-29 17:25:24.2419) [Info] Step:  'Register packet handlers' (00:00.210) 
+(2012-07-29 17:25:24.2419) [Info] Initialization Pass #3 
+(2012-07-29 17:25:25.0132) [Info] Step:  'Initializing World' (00:00.771) 
+(2012-07-29 17:25:25.3013) [Info] Step:  'Initialize Spells (2)' (00:00.288) 
+(2012-07-29 17:25:25.8023) [Info] Initialization Pass #4 
+(2012-07-29 17:25:25.9733) [Info] Step:  'Initialize Commands' (00:00.171) 
+(2012-07-29 17:25:25.9733) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-07-29 17:26:03.1283) [Info] Step:  'Initialize Items' (00:37.155) 
+(2012-07-29 17:26:03.5633) [Info] Step:  'Privilege manager' (00:00.435) 
+(2012-07-29 17:26:06.9795) [Info] Step:  'Caching Ban list...' (00:03.416) 
+(2012-07-29 17:26:06.9795) [Info] Initialization Pass #5 
+(2012-07-29 17:26:18.5122) [Info] Step:  'Initialize NPCs' (00:11.532) 
+(2012-07-29 17:26:18.5122) [Info] Step:  'Initialize Experience-Table' (00:00.01) 
+(2012-07-29 17:26:18.7132) [Info] Step:  'Initializing World' (00:00.200) 
+(2012-07-29 17:26:25.6556) [Info] Step:  'Initialize GameObjects' (00:06.941) 
+(2012-07-29 17:26:29.6878) [Info] Step:  'Initialize Instances' (00:04.32) 
+(2012-07-29 17:26:29.9288) [Info] Step:  'Initialize Guilds' (00:00.241) 
+(2012-07-29 17:26:30.4318) [Info] Step:  'Initialize Accounts' (00:00.502) 
+(2012-07-29 17:26:31.1769) [Info] Step:  'Initialize Auctions' (00:00.745) 
+(2012-07-29 17:26:31.4209) [Info] Step:  'Start relation manager' (00:00.244) 
+(2012-07-29 17:26:31.4279) [Info] Step:  'Create default channels' (00:00.06) 
+(2012-07-29 17:26:31.4279) [Info] Initialization Pass #6 
+(2012-07-29 17:26:31.9019) [Info] Initialization Pass #7 
+(2012-07-29 17:26:32.1549) [Info] Step:  'Initializing Races and Classes' (00:00.253) 
+(2012-07-29 17:26:32.1549) [Info] Initialization Pass #10 
+(2012-07-29 17:26:40.1984) [Info] Step:  'Initialize Soulmates' (00:08.43) 
+(2012-07-29 17:26:41.0985) [Info] Step:  'Load Loot' (00:00.899) 
+(2012-07-29 17:26:41.0985) [Info] Initialization Pass #11 
+(2012-07-29 17:26:41.1935) [Info] Step:  'Initialize Default Addon' (00:00.16) 
+(2012-07-29 17:26:41.1935) [Info] Initialization complete! 39 successful steps, 0 non-fatal failures. 
+(2012-07-29 17:26:41.2955) [Info] Starting the network layer! 
+(2012-07-29 17:26:41.6245) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-07-29 17:26:41.6245) [Info] Server is ready for connections! 
+(2012-07-29 17:26:41.6245) [Info] Server started - Max Working Set Size: 1413120 
+(2012-07-29 19:15:30.7655) [Info] [Broadcast] Initiating Shutdown... 
+(2012-07-29 19:15:30.7655) [Info] [Broadcast] Halting server and saving World... 
+(2012-07-29 19:15:30.8445) [Info] [Broadcast] World saved. 
+(2012-07-29 19:15:30.8615) [Info] [Broadcast] Shutting down... 
+(2012-07-29 19:15:30.8635) [Info] Stopping the network layer! 
+(2012-07-29 19:15:30.8635) [Info] Server has been shutdown. 
+(2012-07-29 19:15:30.8635) [Info] Server is no longer accepting connections! 
+(2012-08-01 18:07:48.1202) [Info] Initialization Pass #0 
+(2012-08-01 18:07:49.5183) [Info] Step:  'Initialize Config' (00:01.395) 
+(2012-08-01 18:07:49.5183) [Info] Initialization Pass #1 
+(2012-08-01 18:08:09.8345) [Info] Step:  'Initialize Spells' (00:20.305) 
+(2012-08-01 18:08:24.4293) [Info] Step:  'Initialize database' (00:14.593) 
+(2012-08-01 18:08:24.6083) [Info] Found 1 Addon(s): 
+(2012-08-01 18:08:24.6083) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-08-01 18:08:24.6343) [Info] Step:  'Initialize Addons' (00:00.205) 
+(2012-08-01 18:08:24.6343) [Info] Initialization Pass #2 
+(2012-08-01 18:08:24.7793) [Info] Step:  'Register packet handlers' (00:00.145) 
+(2012-08-01 18:08:24.7793) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-08-01 18:08:24.7793) [Info] Initialization Pass #3 
+(2012-08-01 18:08:24.8633) [Info] Step:  'Initialize Spells (2)' (00:00.84) 
+(2012-08-01 18:08:25.1293) [Info] Step:  'Initializing World' (00:00.266) 
+(2012-08-01 18:08:25.1793) [Info] Initialization Pass #4 
+(2012-08-01 18:08:39.7882) [Info] Step:  'Caching Ban list...' (00:14.608) 
+(2012-08-01 18:08:39.7882) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-08-01 18:10:10.0473) [Info] Step:  'Initialize Items' (01:30.259) 
+(2012-08-01 18:10:10.1263) [Info] Step:  'Initialize Commands' (00:00.79) 
+(2012-08-01 18:10:10.5934) [Info] Step:  'Privilege manager' (00:00.467) 
+(2012-08-01 18:10:10.5934) [Info] Initialization Pass #5 
+(2012-08-01 18:14:03.4467) [Info] Step:  'Initialize Guilds' (03:52.853) 
+(2012-08-01 18:14:03.4727) [Info] Step:  'Create default channels' (00:00.26) 
+(2012-08-01 18:14:03.4817) [Info] Step:  'Start relation manager' (00:00.09) 
+(2012-08-01 18:14:18.1265) [Info] Step:  'Initialize GameObjects' (00:14.644) 
+(2012-08-01 18:15:03.2301) [Info] Step:  'Initialize NPCs' (00:45.103) 
+(2012-08-01 18:15:03.3591) [Info] Step:  'Initializing World' (00:00.129) 
+(2012-08-01 18:15:18.8380) [Info] Step:  'Initialize Instances' (00:15.478) 
+(2012-08-01 18:15:18.8820) [Info] Step:  'Initialize Auctions' (00:00.44) 
+(2012-08-01 18:15:18.8970) [Info] Step:  'Initialize Accounts' (00:00.15) 
+(2012-08-01 18:15:18.8970) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-08-01 18:15:18.8970) [Info] Initialization Pass #6 
+(2012-08-01 18:15:18.9090) [Info] Initialization Pass #7 
+(2012-08-01 18:15:18.9240) [Info] Step:  'Initializing Races and Classes' (00:00.15) 
+(2012-08-01 18:15:18.9240) [Info] Initialization Pass #10 
+(2012-08-01 18:15:33.8509) [Info] Step:  'Load Loot' (00:14.925) 
+(2012-08-01 18:15:48.4397) [Info] Step:  'Initialize Soulmates' (00:14.587) 
+(2012-08-01 18:15:48.4397) [Info] Initialization Pass #11 
+(2012-08-01 18:15:49.1577) [Info] Step:  'Initialize Default Addon' (00:00.559) 
+(2012-08-01 18:15:49.1577) [Info] Initialization complete! 39 successful steps, 0 non-fatal failures. 
+(2012-08-01 18:15:49.2757) [Info] Starting the network layer! 
+(2012-08-01 18:15:49.3487) [Info] Listening to TCP socket on 10.8.0.10:15001 
+(2012-08-01 18:15:49.3487) [Info] Server is ready for connections! 
+(2012-08-01 18:15:49.3487) [Info] Server started - Max Working Set Size: 1413120 
+(2012-08-01 18:28:16.1835) [Info] (10.8.0.10:50619) -> Connected 
+(2012-08-01 18:29:12.9407) [Info] Account "ZOXER" logged in from 10.8.0.10. 
+(2012-08-01 18:29:13.0197) [Info] Account "ZOXER" logged in from 10.8.0.10. 
+(2012-08-01 18:29:23.9473) [Info] [Broadcast] Qucdr is now Online. 
+(2012-08-01 18:29:24.6744) [Info] (10.8.0.10:50622) -> Connected 
+(2012-08-01 18:29:30.2767) [Info] (10.8.0.10:50619 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-08-01 18:29:30.2767) [Info] (:-1 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-08-01 18:29:55.6792) [Info] (10.8.0.10:50622 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-08-01 18:29:56.8382) [Info] (10.8.0.10:50625) -> Connected 
+(2012-08-01 18:30:00.4954) [Info] (:-1 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-08-01 18:42:07.9360) [Info] [Broadcast] Initiating Shutdown... 
+(2012-08-01 18:42:07.9360) [Info] [Broadcast] Halting server and saving World... 
+(2012-08-01 18:42:10.3862) [Info] (10.8.0.10:50625 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-08-01 18:42:10.3862) [Info] (:-1 - Account: ZOXER - Char: Qucdr) -> Disconnected 
+(2012-08-01 18:42:10.5472) [Info] [Broadcast] World saved. 
+(2012-08-01 18:42:10.5472) [Info] [Broadcast] Shutting down... 
+(2012-08-01 18:42:10.5532) [Info] Stopping the network layer! 
+(2012-08-01 18:42:10.5532) [Info] Server has been shutdown. 
+(2012-08-01 18:42:10.5532) [Info] Server is no longer accepting connections! 
+(2012-08-05 14:57:18.3680) [Info] Initialization Pass #0 
+(2012-08-05 14:57:19.0166) [Info] Step:  'Initialize Config' (00:00.646) 
+(2012-08-05 14:57:19.0166) [Info] Initialization Pass #1 
+(2012-08-05 14:57:51.2722) [Info] [Broadcast] Initiating Shutdown... 
+(2012-08-05 14:57:51.2722) [Info] [Broadcast] Halting server and saving World... 
+(2012-08-05 14:57:51.3658) [Info] [Broadcast] World saved. 
+(2012-08-05 14:57:51.3658) [Info] [Broadcast] Shutting down... 
+(2012-08-05 14:57:51.3970) [Info] Stopping the network layer! 
+(2012-08-05 14:57:51.3970) [Info] Server has been shutdown. 
+(2012-08-05 14:58:01.3849) [Info] Initialization Pass #0 
+(2012-08-05 14:58:02.0714) [Info] Step:  'Initialize Config' (00:00.686) 
+(2012-08-05 14:58:02.0714) [Info] Initialization Pass #1 
+(2012-08-05 14:58:13.5838) [Info] Step:  'Initialize Spells' (00:11.512) 
+(2012-08-05 14:58:18.0755) [Info] Step:  'Initialize database' (00:04.491) 
+(2012-08-05 14:58:18.1379) [Info] Found 1 Addon(s): 
+(2012-08-05 14:58:18.1379) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-08-05 14:58:18.1379) [Info] Step:  'Initialize Addons' (00:00.62) 
+(2012-08-05 14:58:18.1379) [Info] Initialization Pass #2 
+(2012-08-05 14:58:18.2159) [Info] Step:  'Register packet handlers' (00:00.78) 
+(2012-08-05 14:58:18.2159) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-08-05 14:58:18.2159) [Info] Initialization Pass #3 
+(2012-08-05 14:58:18.2939) [Info] Step:  'Initialize Spells (2)' (00:00.78) 
+(2012-08-05 14:58:18.5435) [Info] Step:  'Initializing World' (00:00.249) 
+(2012-08-05 14:58:19.2923) [Info] Initialization Pass #4 
+(2012-08-05 14:58:23.3795) [Info] Step:  'Caching Ban list...' (00:04.87) 
+(2012-08-05 14:58:23.3795) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-08-05 14:59:02.1366) [Info] Step:  'Initialize Items' (00:38.757) 
+(2012-08-05 14:59:02.1990) [Info] Step:  'Initialize Commands' (00:00.62) 
+(2012-08-05 14:59:02.4018) [Info] Step:  'Privilege manager' (00:00.202) 
+(2012-08-05 14:59:02.4018) [Info] Initialization Pass #5 
+(2012-08-05 14:59:06.3434) [Info] Step:  'Initialize Guilds' (00:03.941) 
+(2012-08-05 14:59:06.3564) [Info] Step:  'Create default channels' (00:00.13) 
+(2012-08-05 14:59:06.7184) [Info] Step:  'Start relation manager' (00:00.362) 
+(2012-08-05 14:59:11.0617) [Info] Step:  'Initialize GameObjects' (00:04.343) 
+(2012-08-05 14:59:29.9145) [Info] Step:  'Initialize NPCs' (00:18.852) 
+(2012-08-05 14:59:30.0115) [Info] Step:  'Initializing World' (00:00.97) 
+(2012-08-05 14:59:33.9005) [Info] Step:  'Initialize Instances' (00:03.889) 
+(2012-08-05 14:59:35.4316) [Info] Step:  'Initialize Auctions' (00:01.531) 
+(2012-08-05 14:59:36.0407) [Info] Step:  'Initialize Accounts' (00:00.609) 
+(2012-08-05 14:59:36.0407) [Info] Step:  'Initialize Experience-Table' (00:00.00) 
+(2012-08-05 14:59:36.0407) [Info] Initialization Pass #6 
+(2012-08-05 14:59:36.6577) [Info] Initialization Pass #7 
+(2012-08-05 14:59:36.9735) [Info] Step:  'Initializing Races and Classes' (00:00.315) 
+(2012-08-05 14:59:36.9735) [Info] Initialization Pass #10 
+(2012-08-05 14:59:41.5940) [Info] Step:  'Load Loot' (00:04.620) 
+(2012-08-05 14:59:45.3934) [Info] Step:  'Initialize Soulmates' (00:03.798) 
+(2012-08-05 14:59:45.3944) [Info] Initialization Pass #11 
+(2012-08-05 14:59:45.4984) [Info] Step:  'Initialize Default Addon' (00:00.07) 
+(2012-08-05 14:59:45.4984) [Info] Initialization complete! 39 successful steps, 0 non-fatal failures. 
+(2012-08-05 14:59:45.5414) [Info] Starting the network layer! 
+(2012-08-05 14:59:45.5974) [Info] Stopping the network layer! 
+(2012-08-05 14:59:45.5974) [Info] Stopping the network layer! 
+(2012-08-05 15:06:54.8170) [Info] [Broadcast] Initiating Shutdown... 
+(2012-08-05 15:06:54.8180) [Info] [Broadcast] Halting server and saving World... 
+(2012-08-05 15:06:54.8740) [Info] [Broadcast] World saved. 
+(2012-08-05 15:06:54.8740) [Info] [Broadcast] Shutting down... 
+(2012-08-05 15:06:54.8740) [Info] Stopping the network layer! 
+(2012-08-05 15:06:54.8740) [Info] Server has been shutdown. 
+(2012-08-05 19:45:19.0744) [Info] Initialization Pass #0 
+(2012-08-05 19:45:19.7404) [Info] Step:  'Initialize Config' (00:00.663) 
+(2012-08-05 19:45:19.7404) [Info] Initialization Pass #1 
+(2012-08-05 19:45:24.5487) [Info] [Broadcast] Initiating Shutdown... 
+(2012-08-05 19:45:24.5487) [Info] [Broadcast] Halting server and saving World... 
+(2012-08-05 19:45:24.6307) [Info] [Broadcast] World saved. 
+(2012-08-05 19:45:24.6307) [Info] [Broadcast] Shutting down... 
+(2012-08-05 19:45:24.6677) [Info] Stopping the network layer! 
+(2012-08-05 19:45:24.6677) [Info] Server has been shutdown. 
+(2012-08-05 21:29:03.2553) [Info] Initialization Pass #0 
+(2012-08-05 21:29:03.9254) [Info] Step:  'Initialize Config' (00:00.668) 
+(2012-08-05 21:29:03.9254) [Info] Initialization Pass #1 
+(2012-08-05 21:29:13.8379) [Info] Step:  'Initialize Spells' (00:09.908) 
+(2012-08-05 21:29:18.2777) [Info] Step:  'Initialize database' (00:04.438) 
+(2012-08-05 21:29:18.3257) [Info] Found 1 Addon(s): 
+(2012-08-05 21:29:18.3257) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-08-05 21:29:18.3257) [Info] Step:  'Initialize Addons' (00:00.54) 
+(2012-08-05 21:29:18.3257) [Info] Initialization Pass #2 
+(2012-08-05 21:29:18.4197) [Info] Step:  'Register packet handlers' (00:00.88) 
+(2012-08-05 21:29:18.4197) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-08-05 21:29:18.4197) [Info] Initialization Pass #3 
+(2012-08-05 21:29:18.5247) [Info] Step:  'Initialize Spells (2)' (00:00.105) 
+(2012-08-05 21:29:18.8178) [Info] Step:  'Initializing World' (00:00.292) 
+(2012-08-05 21:29:19.5228) [Info] Initialization Pass #4 
+(2012-08-05 21:29:23.2600) [Info] Step:  'Caching Ban list...' (00:03.737) 
+(2012-08-05 21:29:23.2600) [Info] Step:  'Initialize WorldSafeLocs' (00:00.00) 
+(2012-08-05 21:30:06.9893) [Info] Step:  'Initialize Items' (00:43.729) 
+(2012-08-05 21:30:07.0673) [Info] Step:  'Initialize Commands' (00:00.78) 
+(2012-08-05 21:30:07.2811) [Info] Step:  'Privilege manager' (00:00.213) 
+(2012-08-05 21:30:07.2811) [Info] Initialization Pass #5 
+(2012-08-05 21:30:10.8741) [Info] [Broadcast] Initiating Shutdown... 
+(2012-08-05 21:30:10.8741) [Info] [Broadcast] Halting server and saving World... 
+(2012-08-05 21:30:10.9731) [Info] [Broadcast] World saved. 
+(2012-08-05 21:30:10.9731) [Info] [Broadcast] Shutting down... 
+(2012-08-05 21:30:11.0161) [Info] Stopping the network layer! 
+(2012-08-05 21:30:11.0161) [Info] Server has been shutdown. 
+(2012-08-05 21:30:11.0161) [Info] Step:  'Initialize Guilds' (00:03.736) 
+(2012-08-05 21:30:11.0281) [Info] Step:  'Create default channels' (00:00.11) 
+(2012-08-05 21:30:11.3381) [Info] Step:  'Start relation manager' (00:00.310) 
+(2012-08-05 21:31:15.8090) [Info] Initialization Pass #0 
+(2012-08-05 21:31:16.4736) [Info] Step:  'Initialize Config' (00:00.662) 
+(2012-08-05 21:31:16.4736) [Info] Initialization Pass #1 
+(2012-08-05 21:31:20.2750) [Info] [Broadcast] Initiating Shutdown... 
+(2012-08-05 21:31:20.2750) [Info] [Broadcast] Halting server and saving World... 
+(2012-08-05 21:31:20.3650) [Info] [Broadcast] World saved. 
+(2012-08-05 21:31:20.3650) [Info] [Broadcast] Shutting down... 
+(2012-08-05 21:31:20.3650) [Info] Stopping the network layer! 
+(2012-08-05 21:31:20.3650) [Info] Server has been shutdown. 
+(2012-08-05 21:34:15.0600) [Info] Initialization Pass #0 
+(2012-08-05 21:34:15.6590) [Info] Step:  'Initialize Config' (00:00.599) 
+(2012-08-05 21:34:15.6590) [Info] Initialization Pass #1 
+(2012-08-05 21:34:24.2445) [Info] Step:  'Initialize Spells' (00:08.581) 
+(2012-08-05 21:34:28.5936) [Info] Step:  'Initialize database' (00:04.348) 
+(2012-08-05 21:34:28.6116) [Info] Found 1 Addon(s): 
+(2012-08-05 21:34:28.6116) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2012-08-05 21:34:28.6116) [Info] Step:  'Initialize Addons' (00:00.22) 
+(2012-08-05 21:34:28.6116) [Info] Initialization Pass #2 
+(2012-08-05 21:34:28.6576) [Info] Step:  'Register packet handlers' (00:00.42) 
+(2012-08-05 21:34:28.6576) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2012-08-05 21:34:28.6576) [Info] Initialization Pass #3 
+(2012-08-05 21:34:28.7486) [Info] Step:  'Initialize Spells (2)' (00:00.91) 
+(2012-08-05 21:34:29.0246) [Info] Step:  'Initializing World' (00:00.276) 
+(2012-08-05 21:34:29.8626) [Info] Initialization Pass #4 
+(2012-08-05 21:34:32.0098) [Info] [Broadcast] Initiating Shutdown... 
+(2012-08-05 21:34:32.0098) [Info] [Broadcast] Halting server and saving World... 
+(2012-08-05 21:34:32.0838) [Info] [Broadcast] World saved. 
+(2012-08-05 21:34:32.0838) [Info] [Broadcast] Shutting down... 
+(2012-08-05 21:34:32.0888) [Info] Stopping the network layer! 
+(2012-08-05 21:34:32.0888) [Info] Server has been shutdown. 
+(2012-08-05 21:34:39.0542) [Info] Initialization Pass #0 
+(2012-08-05 21:34:39.6852) [Info] Step:  'Initialize Config' (00:00.629) 
+(2012-08-05 21:34:39.6852) [Info] Initialization Pass #1 
+(2012-08-05 21:34:45.8265) [Info] [Broadcast] Initiating Shutdown... 
+(2012-08-05 21:34:45.8265) [Info] [Broadcast] Halting server and saving World... 
+(2012-08-05 21:34:45.9176) [Info] [Broadcast] World saved. 
+(2012-08-05 21:34:45.9176) [Info] [Broadcast] Shutting down... 
+(2012-08-05 21:34:45.9236) [Info] Stopping the network layer! 
+(2012-08-05 21:34:45.9236) [Info] Server has been shutdown. 
+(2012-08-05 21:34:53.2373) [Info] Initialization Pass #0 
+(2012-08-05 21:34:53.8294) [Info] Step:  'Initialize Config' (00:00.592) 
+(2012-08-05 21:34:53.8294) [Info] Initialization Pass #1 
+(2012-08-05 21:34:55.4030) [Info] [Broadcast] Initiating Shutdown... 
+(2012-08-05 21:34:55.4030) [Info] [Broadcast] Halting server and saving World... 
+(2012-08-05 21:34:55.4790) [Info] [Broadcast] World saved. 
+(2012-08-05 21:34:55.4790) [Info] [Broadcast] Shutting down... 
+(2012-08-05 21:34:55.4790) [Info] Stopping the network layer! 
+(2012-08-05 21:34:55.4790) [Info] Server has been shutdown. 
+(2013-05-01 13:18:55.6469) [Info] Initialization Pass #0 
+(2013-05-01 13:18:55.9419) [Info] Step:  'Initialize Config' (00:00.294) 
+(2013-05-01 13:18:55.9419) [Info] Initialization Pass #1 
+(2013-05-01 13:18:57.1110) [Info] [Broadcast] Initiating Shutdown... 
+(2013-05-01 13:18:57.1110) [Info] [Broadcast] Halting server and saving World... 
+(2013-05-01 13:18:57.1110) [Info] [Broadcast] World saved. 
+(2013-05-01 13:18:57.1110) [Info] [Broadcast] Shutting down... 
+(2013-05-01 13:18:57.1250) [Info] Stopping the network layer! 
+(2013-05-01 13:18:57.1250) [Info] Server has been shutdown. 
+(2013-05-01 13:18:57.4180) [Info] Step:  'Items sets system.' (00:01.476) 
+(2013-05-01 13:18:57.4240) [Info] Found 1 Addon(s): 
+(2013-05-01 13:18:57.4240) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2013-05-01 13:18:57.4240) [Info] Step:  'Initialize Addons' (00:00.08) 
+(2013-05-01 13:18:57.5610) [Info] Step:  'Initialize Spells' (00:00.133) 
+(2013-05-01 13:18:57.5650) [Info] Step:  'Initialize database' (00:00.04) 
+(2013-05-01 13:18:57.5650) [Info] Initialization Pass #2 
+(2013-05-01 13:18:57.6010) [Info] Step:  'Register packet handlers' (00:00.36) 
+(2013-05-01 13:18:57.6010) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2013-05-01 13:18:57.6010) [Info] Initialization Pass #3 
+(2013-05-01 13:18:57.6880) [Info] Step:  'Pet system' (00:00.87) 
+(2013-05-01 13:18:57.9070) [Info] Step:  'Initializing World' (00:00.203) 
+(2013-05-01 13:18:57.9530) [Info] Step:  'Initialize Spells (2)' (00:00.47) 
+(2013-05-01 13:18:57.9530) [Info] Initialization Pass #4 
+(2013-05-01 13:18:57.9750) [Info] Step:  'Caching Ban list...' (00:00.21) 
+(2013-05-01 13:18:58.0030) [Info] Step:  'Privilege manager' (00:00.28) 
+(2013-05-01 13:19:50.9281) [Info] Initialization Pass #0 
+(2013-05-01 13:19:51.2191) [Info] Step:  'Initialize Config' (00:00.290) 
+(2013-05-01 13:19:51.2191) [Info] Initialization Pass #1 
+(2013-05-01 13:19:52.6842) [Info] Step:  'Items sets system.' (00:01.465) 
+(2013-05-01 13:19:52.6842) [Info] Found 1 Addon(s): 
+(2013-05-01 13:19:52.6842) [Info]  Loaded: Default Addon v0.5.0.0 by The WCell Team (http://www.wcell.org) 
+(2013-05-01 13:19:52.6842) [Info] Step:  'Initialize Addons' (00:00.07) 
+(2013-05-01 13:19:52.8372) [Info] Step:  'Initialize Spells' (00:00.143) 
+(2013-05-01 13:19:52.8372) [Info] Step:  'Initialize database' (00:00.03) 
+(2013-05-01 13:19:52.8372) [Info] Initialization Pass #2 
+(2013-05-01 13:19:52.8502) [Info] Step:  'Register packet handlers' (00:00.18) 
+(2013-05-01 13:19:52.8502) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2013-05-01 13:19:52.8502) [Info] Initialization Pass #3 
+(2013-05-01 13:19:52.9572) [Info] Step:  'Pet system' (00:00.99) 
+(2013-05-01 13:19:53.0382) [Info] [Broadcast] Initiating Shutdown... 
+(2013-05-01 13:19:53.0382) [Info] [Broadcast] Halting server and saving World... 
+(2013-05-01 13:19:53.0542) [Info] [Broadcast] World saved. 
+(2013-05-01 13:19:53.0542) [Info] [Broadcast] Shutting down... 
+(2013-05-01 13:19:53.0542) [Info] Stopping the network layer! 
+(2013-05-01 13:19:53.0542) [Info] Server has been shutdown. 
+(2013-05-01 13:19:53.1912) [Info] Step:  'Initializing World' (00:00.218) 
+(2013-05-01 13:19:53.2232) [Info] Step:  'Initialize Spells (2)' (00:00.43) 
+(2013-05-01 13:19:53.2232) [Info] Initialization Pass #4 
+(2013-05-01 13:19:53.2552) [Info] Step:  'Caching Ban list...' (00:00.21) 
+(2013-05-01 13:19:53.2772) [Info] Step:  'Privilege manager' (00:00.22) 

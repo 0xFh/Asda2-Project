@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="PetTemplate">
+    <DefaultTable>PetTemplate</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<Flat Name="Name" Column="Name" />
+<Flat Name="EvolutionStep" Column="EvolutionStep" />
+<Flat Name="Rank" Column="Rank" />
+<Flat Name="Rarity" Column="Rarity" />
+<Flat Name="MaxLevel" Column="MaxLevel" />
+<Flat Name="Bonus1Type" Column="Bonus1Type" />
+<Flat Name="Bonus2Type" Column="Bonus2Type" />
+<Flat Name="Bonus3Type" Column="Bonus3Type" />
+<FlatArray Name="WhiteByRankPetIds">
+      <Column Name="WhiteByRankPetIds_0" Table="PetTemplate" />
+	  <Column Name="WhiteByRankPetIds_1" Table="PetTemplate" />
+	  <Column Name="WhiteByRankPetIds_2" Table="PetTemplate" />
+	  <Column Name="WhiteByRankPetIds_3" Table="PetTemplate" />
+	  <Column Name="WhiteByRankPetIds_4" Table="PetTemplate" />
+</FlatArray>
+<FlatArray Name="YellowByRankPetIds">
+      <Column Name="YellowByRankPetIds_0" Table="PetTemplate" />
+	  <Column Name="YellowByRankPetIds_1" Table="PetTemplate" />
+	  <Column Name="YellowByRankPetIds_2" Table="PetTemplate" />
+	  <Column Name="YellowByRankPetIds_3" Table="PetTemplate" />
+	  <Column Name="YellowByRankPetIds_4" Table="PetTemplate" />
+</FlatArray>
+<FlatArray Name="PurpleByRankPetIds">
+      <Column Name="PurpleByRankPetIds_0" Table="PetTemplate" />
+	  <Column Name="PurpleByRankPetIds_1" Table="PetTemplate" />
+	  <Column Name="PurpleByRankPetIds_2" Table="PetTemplate" />
+	  <Column Name="PurpleByRankPetIds_3" Table="PetTemplate" />
+	  <Column Name="PurpleByRankPetIds_4" Table="PetTemplate" />
+</FlatArray>
+<FlatArray Name="GreenByRankPetIds">
+      <Column Name="GreenByRankPetIds_0" Table="PetTemplate" />
+	  <Column Name="GreenByRankPetIds_1" Table="PetTemplate" />
+	  <Column Name="GreenByRankPetIds_2" Table="PetTemplate" />
+	  <Column Name="GreenByRankPetIds_3" Table="PetTemplate" />
+	  <Column Name="GreenByRankPetIds_4" Table="PetTemplate" />
+</FlatArray>
+  </DataHolder>
+</DataHolders>

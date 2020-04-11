@@ -1,0 +1,3 @@
+namespace WCell.RealmServer.Items
+{
+}

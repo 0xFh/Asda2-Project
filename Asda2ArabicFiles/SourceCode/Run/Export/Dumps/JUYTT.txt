@@ -1,0 +1,23 @@
+Saving Kloyp...
+Saved Kloyp (Map: Alpia).
+Saving Kloyp...
+Failed to save Kloyp: NHibernate.StaleStateException: Unexpected row count: 0; expected: 1
+   в NHibernate.AdoNet.Expectations.BasicExpectation.VerifyOutcomeNonBatched(Int32 rowCount, IDbCommand statement)
+   в NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   в NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   в NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   в NHibernate.Action.EntityDeleteAction.Execute()
+   в NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   в NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   в NHibernate.Engine.ActionQueue.ExecuteActions()
+   в NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   в NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   в NHibernate.Impl.SessionImpl.Flush()
+   в Castle.ActiveRecord.Framework.SessionFactoryHolder.ReleaseSession(ISession session)
+   в Castle.ActiveRecord.ActiveRecordBase.InternalDelete(Object instance, Boolean flush)
+   в Castle.ActiveRecord.ActiveRecordBase.Delete(Object instance)
+   в Castle.ActiveRecord.ActiveRecordBase.Delete()
+   в WCell.RealmServer.Spells.PlayerSpellCollection.SaveCooldowns[T](List`1 cooldowns)
+   в WCell.RealmServer.Spells.PlayerSpellCollection.SaveCooldowns()
+   в WCell.RealmServer.Spells.PlayerSpellCollection.OnSave()
+   в WCell.RealmServer.Entities.Character.SaveNow()

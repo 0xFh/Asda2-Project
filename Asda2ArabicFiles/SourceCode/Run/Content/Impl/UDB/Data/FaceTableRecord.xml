@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="FaceTableRecord">
+    <DefaultTable>FaceTableRecord</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<Flat Name="IsEnabled" Column="IsEnabled" />
+<Flat Name="OneOrTwo" Column="OneOrTwo" />
+<Flat Name="FaceId" Column="FaceId" />
+<Flat Name="Price" Column="Price" />
+<Flat Name="CuponCount" Column="CuponCount" />
+
+  </DataHolder>
+</DataHolders>

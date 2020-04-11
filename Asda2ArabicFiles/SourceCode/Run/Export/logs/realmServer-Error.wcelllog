@@ -1,0 +1,780 @@
+(2012-07-28 14:25:25.1050) [Error]  NHibernate.Bytecode.UnableToLoadProxyFactoryFactoryException: Unable to load type 'NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle' during configuration of proxy factory class.
+Possible causes are:
+- The NHibernate.Bytecode provider assembly was not deployed.
+- The typeName used to initialize the 'proxyfactory.factory_class' property of the session-factory section is not well formed.
+
+Solution:
+Confirm that your deployment folder contains one of the following assemblies:
+NHibernate.ByteCode.LinFu.dll
+NHibernate.ByteCode.Castle.dll ---> System.IO.FileLoadException: Невозможно загрузить файл или сборку "NHibernate.ByteCode.Castle" или один из зависимых от них компонентов. Аргумент находится за пределами допустимого диапазона. (Исключение из HRESULT: 0x80131502) ---> System.ArgumentOutOfRangeException: Длина не может быть меньше нуля.
+Имя параметра: length
+   в System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   в System.String.Substring(Int32 startIndex, Int32 length)
+   в WCell.RealmServerConsole.Program.MyResolveEventHandler(Object sender, ResolveEventArgs args) в G:\programming\Actual projects\WCell-WCell-6075fbb\Applications\WCell.RealmServerConsole\Program.cs:строка 69
+   в System.AppDomain.OnAssemblyResolveEvent(RuntimeAssembly assembly, String assemblyFullName)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   в System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, Boolean loadTypeFromPartialName)
+   в System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   в System.Type.GetType(String typeName)
+   в NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   в NHibernate.Util.ReflectHelper.ClassForName(String name)
+   в NHibernate.Bytecode.AbstractBytecodeProvider.SetProxyFactoryFactory(String typeName)
+   --- Конец трассировки внутреннего стека исключений ---
+   в NHibernate.Bytecode.AbstractBytecodeProvider.SetProxyFactoryFactory(String typeName)
+   в NHibernate.Cfg.Configuration.ConfigureProxyFactoryFactory()
+   в NHibernate.Cfg.Configuration.BuildSessionFactory()
+   в Castle.ActiveRecord.Framework.SessionFactoryHolder.GetSessionFactory(Type type)
+   в Castle.ActiveRecord.Framework.SessionFactoryHolder.CreateSession(Type type)
+   в Castle.ActiveRecord.ActiveRecordBase.ExecuteQuery(IActiveRecordQuery query)
+   в Castle.ActiveRecord.ActiveRecordBase.Count(Type targetType)
+   в Castle.ActiveRecord.ActiveRecordBase`1.Count()
+   в WCell.RealmServer.Database.CharacterRecord.GetCount()
+   в WCell.RealmServer.Database.RealmDBMgr.<Initialize>b__0(Exception exception)
+   в WCell.Core.Database.DatabaseUtil.OnDBError(Exception e, String warning)
+(2012-07-28 14:25:25.1050) [Error] Database Error occured 
+(2012-07-28 14:25:25.1160) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	OnDBError at offset 270 in file:line:column <filename unknown>:0:0
+	OnDBError at offset 51 in file:line:column <filename unknown>:0:0
+	Initialize at offset 340 in file:line:column <filename unknown>:0:0
+	InitializeDefault at offset 42 in file:line:column <filename unknown>:0:0
+	EnsureInitialized at offset 76 in file:line:column <filename unknown>:0:0
+	GetMapper at offset 65 in file:line:column <filename unknown>:0:0
+	GetMapper<T> at offset 116 in file:line:column <filename unknown>:0:0
+	LoadOverrides at offset 56 in file:line:column <filename unknown>:0:0
+	LoadSpells at offset 96 in file:line:column <filename unknown>:0:0
+	LoadSpells at offset 41 in file:line:column <filename unknown>:0:0
+	_InvokeMethodFast at offset 0 in file:line:column <filename unknown>:0:0
+	InvokeMethodFast at offset 73 in file:line:column <filename unknown>:0:0
+	Invoke at offset 336 in file:line:column <filename unknown>:0:0
+	Invoke at offset 29 in file:line:column <filename unknown>:0:0
+	Invoke at offset 20 in file:line:column <filename unknown>:0:0
+	Execute at offset 198 in file:line:column <filename unknown>:0:0
+	Execute at offset 204 in file:line:column <filename unknown>:0:0
+	PerformInitialization at offset 347 in file:line:column <filename unknown>:0:0
+	Start at offset 170 in file:line:column <filename unknown>:0:0
+	Start at offset 63 in file:line:column <filename unknown>:0:0
+	Start at offset 58 in file:line:column <filename unknown>:0:0
+	_InvokeMethodFast at offset 0 in file:line:column <filename unknown>:0:0
+	InvokeMethodFast at offset 73 in file:line:column <filename unknown>:0:0
+	Invoke at offset 336 in file:line:column <filename unknown>:0:0
+	Invoke at offset 29 in file:line:column <filename unknown>:0:0
+	InvokeMember at offset 2032 in file:line:column <filename unknown>:0:0
+	InvokeMember at offset 29 in file:line:column <filename unknown>:0:0
+	Main at offset 780 in file:line:column G:\programming\Actual projects\WCell-WCell-6075fbb\Applications\WCell.RealmServerConsole\Program.cs:49:13 
+(2012-07-28 14:25:25.1160) [Error]  
+(2012-07-28 14:25:25.1160) [Error] Castle.ActiveRecord.Framework.ActiveRecordException: Error adding information from class WCell.RealmServer.Guilds.GuildBankLogEntry to NHibernate. Check the inner exception for more information ---> NHibernate.MappingException: Could not compile the mapping document: (string) ---> NHibernate.MappingException: persistent class WCell.RealmServer.Guilds.GuildBankLogEntry, WCell.RealmServer not found ---> System.IO.FileLoadException: Невозможно загрузить файл или сборку "WCell.RealmServer" или один из зависимых от них компонентов. Аргумент находится за пределами допустимого диапазона. (Исключение из HRESULT: 0x80131502) ---> System.ArgumentOutOfRangeException: Длина не может быть меньше нуля.
+Имя параметра: length
+   в System.String.InternalSubStringWithChecks(Int32 startIndex, Int32 length, Boolean fAlwaysCopy)
+   в System.String.Substring(Int32 startIndex, Int32 length)
+   в WCell.RealmServerConsole.Program.MyResolveEventHandler(Object sender, ResolveEventArgs args) в G:\programming\Actual projects\WCell-WCell-6075fbb\Applications\WCell.RealmServerConsole\Program.cs:строка 69
+   в System.AppDomain.OnAssemblyResolveEvent(RuntimeAssembly assembly, String assemblyFullName)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   в System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, Boolean loadTypeFromPartialName)
+   в System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   в System.Type.GetType(String typeName)
+   в NHibernate.Util.ReflectHelper.TypeFromAssembly(AssemblyQualifiedTypeName name, Boolean throwOnError)
+   в NHibernate.Util.ReflectHelper.ClassForName(String name)
+   в NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+   --- Конец трассировки внутреннего стека исключений ---
+   в NHibernate.Cfg.XmlHbmBinding.Binder.ClassForFullNameChecked(String fullName, String errorMessage)
+   в NHibernate.Cfg.XmlHbmBinding.Binder.ClassForNameChecked(String name, Mappings mappings, String errorMessage)
+   в NHibernate.Cfg.XmlHbmBinding.ClassBinder.BindClass(IEntityMapping classMapping, PersistentClass model, IDictionary`2 inheritedMetas)
+   в NHibernate.Cfg.XmlHbmBinding.RootClassBinder.Bind(HbmClass classSchema, IDictionary`2 inheritedMetas)
+   в NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddRootClasses(HbmClass rootClass, IDictionary`2 inheritedMetas)
+   в NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.AddEntitiesMappings(HbmMapping mappingSchema, IDictionary`2 inheritedMetas)
+   в NHibernate.Cfg.XmlHbmBinding.MappingRootBinder.Bind(HbmMapping mappingSchema)
+   в NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   --- Конец трассировки внутреннего стека исключений ---
+   в NHibernate.Cfg.Configuration.LogAndThrow(Exception exception)
+   в NHibernate.Cfg.Configuration.AddDeserializedMapping(HbmMapping mappingDocument, String documentFileName)
+   в NHibernate.Cfg.Configuration.AddValidatedDocument(NamedXmlDocument doc)
+   в NHibernate.Cfg.Configuration.ProcessMappingsQueue()
+   в NHibernate.Cfg.Configuration.AddDocumentThroughQueue(NamedXmlDocument document)
+   в NHibernate.Cfg.Configuration.AddXmlReader(XmlReader hbmReader, String name)
+   в NHibernate.Cfg.Configuration.AddXml(String xml, String name)
+   в NHibernate.Cfg.Configuration.AddXml(String xml)
+   в NHibernate.Cfg.Configuration.AddXmlString(String xml)
+   в Castle.ActiveRecord.ActiveRecordStarter.AddXmlString(Configuration config, String xml, ActiveRecordModel model)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Castle.ActiveRecord.ActiveRecordStarter.AddXmlString(Configuration config, String xml, ActiveRecordModel model)
+   в Castle.ActiveRecord.ActiveRecordStarter.AddXmlToNHibernateCfg(ISessionFactoryHolder holder, ActiveRecordModelCollection models)
+   в Castle.ActiveRecord.ActiveRecordStarter.RegisterTypes(ISessionFactoryHolder holder, IConfigurationSource source, IEnumerable`1 types, Boolean ignoreProblematicTypes)
+   в Castle.ActiveRecord.ActiveRecordStarter.Initialize(IConfigurationSource source, Type[] types)
+   в Castle.ActiveRecord.ActiveRecordStarter.Initialize(Assembly[] assemblies, IConfigurationSource source, Type[] additionalTypes)
+   в Castle.ActiveRecord.ActiveRecordStarter.Initialize(Assembly assembly, IConfigurationSource source)
+   в WCell.Core.Database.DatabaseUtil.InitAR(Assembly asm)
+   в WCell.RealmServer.Database.RealmDBMgr.Initialize() 
+(2012-07-28 14:25:25.1160) [Error]  
+(2012-07-28 14:25:25.1160) [Error] Error adding information from class WCell.RealmServer.Guilds.GuildBankLogEntry to NHibernate. Check the inner exception for more information
+	Could not compile the mapping document: (string)
+	persistent class WCell.RealmServer.Guilds.GuildBankLogEntry, WCell.RealmServer not found
+	Невозможно загрузить файл или сборку "WCell.RealmServer" или один из зависимых от них компонентов. Аргумент находится за пределами допустимого диапазона. (Исключение из HRESULT: 0x80131502)
+	Длина не может быть меньше нуля.
+Имя параметра: length 
+(2012-07-29 01:06:42.9765) [Error] Could not save Character Kloyp (ID: High: 0x0000 (Player) - Low: 10000033, Account: JUYTT (Id: 33)) 
+(2012-07-29 01:06:42.9816) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	OnSaveFailed at offset 244 in file:line:column <filename unknown>:0:0
+	SaveNow at offset 3394 in file:line:column <filename unknown>:0:0
+	<SaveLater>b__71 at offset 44 in file:line:column <filename unknown>:0:0
+	Execute at offset 108 in file:line:column <filename unknown>:0:0
+	QueueUpdateCallback at offset 906 in file:line:column <filename unknown>:0:0
+	<StartNewDelayed>b__1b at offset 137 in file:line:column <filename unknown>:0:0
+	<ContinueWith>b__a at offset 16 in file:line:column <filename unknown>:0:0
+	InnerInvoke at offset 68 in file:line:column <filename unknown>:0:0
+	Execute at offset 67 in file:line:column <filename unknown>:0:0
+	ExecutionContextCallback at offset 39 in file:line:column <filename unknown>:0:0
+	runTryCode at offset 81 in file:line:column <filename unknown>:0:0
+	ExecuteCodeWithGuaranteedCleanup at offset 0 in file:line:column <filename unknown>:0:0
+	RunInternal at offset 106 in file:line:column <filename unknown>:0:0
+	Run at offset 126 in file:line:column <filename unknown>:0:0
+	ExecuteWithThreadLocal at offset 340 in file:line:column <filename unknown>:0:0
+	ExecuteEntry at offset 139 in file:line:column <filename unknown>:0:0
+	System.Threading.IThreadPoolWorkItem.ExecuteWorkItem at offset 7 in file:line:column <filename unknown>:0:0
+	Dispatch at offset 327 in file:line:column <filename unknown>:0:0
+	PerformWaitCallback at offset 45 in file:line:column <filename unknown>:0:0 
+(2012-07-29 01:06:42.9816) [Error]  
+(2012-07-29 01:06:42.9816) [Error] NHibernate.StaleStateException: Unexpected row count: 0; expected: 1
+   в NHibernate.AdoNet.Expectations.BasicExpectation.VerifyOutcomeNonBatched(Int32 rowCount, IDbCommand statement)
+   в NHibernate.AdoNet.NonBatchingBatcher.AddToBatch(IExpectation expectation)
+   в NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Int32 j, Object obj, SqlCommandInfo sql, ISessionImplementor session, Object[] loadedState)
+   в NHibernate.Persister.Entity.AbstractEntityPersister.Delete(Object id, Object version, Object obj, ISessionImplementor session)
+   в NHibernate.Action.EntityDeleteAction.Execute()
+   в NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   в NHibernate.Engine.ActionQueue.ExecuteActions(IList list)
+   в NHibernate.Engine.ActionQueue.ExecuteActions()
+   в NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session)
+   в NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event)
+   в NHibernate.Impl.SessionImpl.Flush()
+   в Castle.ActiveRecord.Framework.SessionFactoryHolder.ReleaseSession(ISession session)
+   в Castle.ActiveRecord.ActiveRecordBase.InternalDelete(Object instance, Boolean flush)
+   в Castle.ActiveRecord.ActiveRecordBase.Delete(Object instance)
+   в Castle.ActiveRecord.ActiveRecordBase.Delete()
+   в WCell.RealmServer.Spells.PlayerSpellCollection.SaveCooldowns[T](List`1 cooldowns)
+   в WCell.RealmServer.Spells.PlayerSpellCollection.SaveCooldowns()
+   в WCell.RealmServer.Spells.PlayerSpellCollection.OnSave()
+   в WCell.RealmServer.Entities.Character.SaveNow() 
+(2012-07-29 01:06:42.9816) [Error]  
+(2012-07-29 01:06:42.9816) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-07-29 01:06:42.9816) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-07-29 01:06:42.9816) [Error] Using: MySQL5Dialect 
+(2012-07-29 01:06:42.9816) [Error]  
+(2012-07-29 01:06:42.9816) [Error] Unexpected row count: 0; expected: 1 
+(2012-07-29 13:47:02.8627) [Error] Failed to load Character from Record: Qucdr (Id: 10000021, Account: 21) 
+(2012-07-29 13:47:02.8687) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	LoginCharacter at offset 859 in file:line:column <filename unknown>:0:0
+	PreLoginCharacter at offset 726 in file:line:column <filename unknown>:0:0
+	PlayerLoginRequestLS at offset 623 in file:line:column <filename unknown>:0:0
+	Execute at offset 142 in file:line:column <filename unknown>:0:0
+	Execute at offset 80 in file:line:column <filename unknown>:0:0
+	QueueUpdateCallback at offset 906 in file:line:column <filename unknown>:0:0
+	<StartNewDelayed>b__1b at offset 137 in file:line:column <filename unknown>:0:0
+	<ContinueWith>b__a at offset 16 in file:line:column <filename unknown>:0:0
+	InnerInvoke at offset 68 in file:line:column <filename unknown>:0:0
+	Execute at offset 67 in file:line:column <filename unknown>:0:0
+	ExecutionContextCallback at offset 39 in file:line:column <filename unknown>:0:0
+	runTryCode at offset 81 in file:line:column <filename unknown>:0:0
+	ExecuteCodeWithGuaranteedCleanup at offset 0 in file:line:column <filename unknown>:0:0
+	RunInternal at offset 106 in file:line:column <filename unknown>:0:0
+	Run at offset 126 in file:line:column <filename unknown>:0:0
+	ExecuteWithThreadLocal at offset 340 in file:line:column <filename unknown>:0:0
+	ExecuteEntry at offset 139 in file:line:column <filename unknown>:0:0
+	System.Threading.IThreadPoolWorkItem.ExecuteWorkItem at offset 7 in file:line:column <filename unknown>:0:0
+	Dispatch at offset 327 in file:line:column <filename unknown>:0:0
+	PerformWaitCallback at offset 45 in file:line:column <filename unknown>:0:0 
+(2012-07-29 13:47:02.8687) [Error]  
+(2012-07-29 13:47:02.8687) [Error] System.NullReferenceException: Faction cannot be set to null (Unit: Qucdr (ID: High: 0x0000 (Player) - Low: 10000021, Account: ZOXER (Id: 21)), Map: )
+   в WCell.RealmServer.Entities.Unit.set_Faction(Faction value)
+   в WCell.RealmServer.Entities.Character.Create(RealmAccount acc, CharacterRecord record, IRealmClient client)
+   в WCell.RealmServer.Handlers.Asda2LoginHandler.LoginCharacter(IRealmClient client, UInt32 charLowId, Boolean isLoginStep) 
+(2012-07-29 13:47:02.8687) [Error]  
+(2012-07-29 13:47:02.8687) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-07-29 13:47:02.8687) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-07-29 13:47:02.8687) [Error] Using: MySQL5Dialect 
+(2012-07-29 13:47:02.8687) [Error]  
+(2012-07-29 13:47:02.8687) [Error] Faction cannot be set to null (Unit: Qucdr (ID: High: 0x0000 (Player) - Low: 10000021, Account: ZOXER (Id: 21)), Map: ) 
+(2012-07-29 13:47:03.2007) [Error] Could not disconnect client System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WCell.RealmServer.Entities.Character.set_IsAsda2TradeDescriptionEnabled(Boolean value)
+   в WCell.RealmServer.Entities.Character.Logout(Boolean forced, Int32 delay, Boolean fromLogin)
+   в WCell.RealmServer.Entities.Character.Logout(Boolean forced, Boolean fromLogin)
+   в WCell.RealmServer.RealmServer.OnClientDisconnected(IClient client, Boolean forced)
+   в Cell.Core.ServerBase.DisconnectClient(IClient client, Boolean forced)
+(2012-07-29 13:57:07.7144) [Error] Step '' (Initialize) failed to finish 
+(2012-07-29 13:57:07.7144) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	Execute at offset 613 in file:line:column <filename unknown>:0:0
+	DoExecute at offset 69 in file:line:column <filename unknown>:0:0
+	TryResolve at offset 274 in file:line:column <filename unknown>:0:0
+	SignalGlobalMgrReady at offset 394 in file:line:column <filename unknown>:0:0
+	Initialize at offset 657 in file:line:column <filename unknown>:0:0
+	InitializeDefault at offset 42 in file:line:column <filename unknown>:0:0
+	EnsureInitialized at offset 76 in file:line:column <filename unknown>:0:0
+	GetMapper at offset 65 in file:line:column <filename unknown>:0:0
+	GetMapper<T> at offset 116 in file:line:column <filename unknown>:0:0
+	LoadOverrides at offset 56 in file:line:column <filename unknown>:0:0
+	LoadSpells at offset 96 in file:line:column <filename unknown>:0:0
+	LoadSpells at offset 41 in file:line:column <filename unknown>:0:0
+	_InvokeMethodFast at offset 0 in file:line:column <filename unknown>:0:0
+	InvokeMethodFast at offset 73 in file:line:column <filename unknown>:0:0
+	Invoke at offset 336 in file:line:column <filename unknown>:0:0
+	Invoke at offset 29 in file:line:column <filename unknown>:0:0
+	Invoke at offset 20 in file:line:column <filename unknown>:0:0
+	Execute at offset 198 in file:line:column <filename unknown>:0:0
+	Execute at offset 204 in file:line:column <filename unknown>:0:0
+	PerformInitialization at offset 347 in file:line:column <filename unknown>:0:0
+	Start at offset 170 in file:line:column <filename unknown>:0:0
+	Start at offset 63 in file:line:column <filename unknown>:0:0
+	Start at offset 58 in file:line:column <filename unknown>:0:0
+	_InvokeMethodFast at offset 0 in file:line:column <filename unknown>:0:0
+	InvokeMethodFast at offset 73 in file:line:column <filename unknown>:0:0
+	Invoke at offset 336 in file:line:column <filename unknown>:0:0
+	Invoke at offset 29 in file:line:column <filename unknown>:0:0
+	InvokeMember at offset 2032 in file:line:column <filename unknown>:0:0
+	InvokeMember at offset 29 in file:line:column <filename unknown>:0:0
+	Main at offset 781 in file:line:column G:\programming\Actual projects\WCell-WCell-6075fbb\Applications\WCell.RealmServerConsole\Program.cs:53:15 
+(2012-07-29 13:57:07.7144) [Error]  
+(2012-07-29 13:57:07.7144) [Error] System.Reflection.TargetInvocationException: Адресат вызова создал исключение. ---> System.IO.FileNotFoundException: Файл 'G:\programming\Actual projects\WCell-WCell-6075fbb\Run\Content\Impl\UDB\Tables.xml' не найден.
+   в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   в System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   в System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   в System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   в System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   в System.Xml.XmlReader.Create(String inputUri)
+   в WCell.Util.XmlFile`1.Load(String filename)
+   в WCell.Util.DB.LightDBDefinitionSet.LoadTableDefinitions(String file)
+   в WCell.RealmServer.Content.ContentMgr.Load()
+   в WCell.RealmServer.Content.ContentMgr.InitializeAndLoad(Assembly asm)
+   в WCell.RealmServer.Content.ContentMgr.Initialize()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeMethodHandle._InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   в System.RuntimeMethodHandle.InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   в System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   в System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   в WCell.Core.Initialization.InitMgr.Execute(InitializationStep step) 
+(2012-07-29 13:57:07.7144) [Error]  
+(2012-07-29 13:57:07.7144) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-07-29 13:57:07.7144) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-07-29 13:57:07.7144) [Error] Using: MySQL5Dialect 
+(2012-07-29 13:57:07.7144) [Error]  
+(2012-07-29 13:57:07.7304) [Error] Файл 'G:\programming\Actual projects\WCell-WCell-6075fbb\Run\Content\Impl\UDB\Tables.xml' не найден. 
+(2012-07-29 13:57:07.7304) [Error] 
+
+Initialization Step failed - Do you want to repeat and continue (y) [or cancel startup (n)]? (y/n) 
+(2012-07-29 14:13:14.3635) [Error] Failed to execute message: System.Action 
+(2012-07-29 14:13:14.3635) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	QueueUpdateCallback at offset 997 in file:line:column <filename unknown>:0:0
+	<StartNewDelayed>b__1b at offset 137 in file:line:column <filename unknown>:0:0
+	<ContinueWith>b__a at offset 16 in file:line:column <filename unknown>:0:0
+	InnerInvoke at offset 68 in file:line:column <filename unknown>:0:0
+	Execute at offset 67 in file:line:column <filename unknown>:0:0
+	ExecutionContextCallback at offset 39 in file:line:column <filename unknown>:0:0
+	runTryCode at offset 81 in file:line:column <filename unknown>:0:0
+	ExecuteCodeWithGuaranteedCleanup at offset 0 in file:line:column <filename unknown>:0:0
+	RunInternal at offset 106 in file:line:column <filename unknown>:0:0
+	Run at offset 126 in file:line:column <filename unknown>:0:0
+	ExecuteWithThreadLocal at offset 340 in file:line:column <filename unknown>:0:0
+	ExecuteEntry at offset 139 in file:line:column <filename unknown>:0:0
+	System.Threading.IThreadPoolWorkItem.ExecuteWorkItem at offset 7 in file:line:column <filename unknown>:0:0
+	Dispatch at offset 327 in file:line:column <filename unknown>:0:0
+	PerformWaitCallback at offset 45 in file:line:column <filename unknown>:0:0 
+(2012-07-29 14:13:14.3635) [Error]  
+(2012-07-29 14:13:14.3635) [Error] System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WCell.RealmServer.Network.RealmClient.Send(RealmPacketOut packet, Boolean addEndOfPacket)
+   в WCell.RealmServer.Auth.AuthenticationHandler.SendAuthChallengeSuccessReply(IRealmClient client)
+   в WCell.RealmServer.Auth.AuthenticationHandler.QueryAccountCallback(IRealmClient client, Account acct)
+   в WCell.RealmServer.Auth.AuthenticationHandler.<>c__DisplayClass2.<AuthChallengeRequestCallback>b__0()
+   в WCell.Util.Threading.Message.Execute()
+   в WCell.Core.SelfRunningTaskQueue.QueueUpdateCallback(Object state) 
+(2012-07-29 14:13:14.3635) [Error]  
+(2012-07-29 14:13:14.3635) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-07-29 14:13:14.3635) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-07-29 14:13:14.3635) [Error] Using: MySQL5Dialect 
+(2012-07-29 14:13:14.3635) [Error]  
+(2012-07-29 14:13:14.3635) [Error] Ссылка на объект не указывает на экземпляр объекта. 
+(2012-07-29 14:47:28.7326) [Error] Failed to execute message: System.Action 
+(2012-07-29 14:47:28.7456) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	QueueUpdateCallback at offset 997 in file:line:column <filename unknown>:0:0
+	<StartNewDelayed>b__1b at offset 137 in file:line:column <filename unknown>:0:0
+	<ContinueWith>b__a at offset 16 in file:line:column <filename unknown>:0:0
+	InnerInvoke at offset 68 in file:line:column <filename unknown>:0:0
+	Execute at offset 67 in file:line:column <filename unknown>:0:0
+	ExecutionContextCallback at offset 39 in file:line:column <filename unknown>:0:0
+	runTryCode at offset 81 in file:line:column <filename unknown>:0:0
+	ExecuteCodeWithGuaranteedCleanup at offset 0 in file:line:column <filename unknown>:0:0
+	RunInternal at offset 106 in file:line:column <filename unknown>:0:0
+	Run at offset 126 in file:line:column <filename unknown>:0:0
+	ExecuteWithThreadLocal at offset 340 in file:line:column <filename unknown>:0:0
+	ExecuteEntry at offset 139 in file:line:column <filename unknown>:0:0
+	System.Threading.IThreadPoolWorkItem.ExecuteWorkItem at offset 7 in file:line:column <filename unknown>:0:0
+	Dispatch at offset 327 in file:line:column <filename unknown>:0:0
+	PerformWaitCallback at offset 45 in file:line:column <filename unknown>:0:0 
+(2012-07-29 14:47:28.7456) [Error]  
+(2012-07-29 14:47:28.7456) [Error] System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WCell.RealmServer.Debugging.DebugUtil.GetTextWriter(RealmAccount account)
+   в WCell.RealmServer.Entities.Character.SaveNow()
+   в WCell.RealmServer.Entities.Character.<FinishLogout>b__6f()
+   в WCell.Util.Threading.Message.Execute()
+   в WCell.Core.SelfRunningTaskQueue.QueueUpdateCallback(Object state) 
+(2012-07-29 14:47:28.7456) [Error]  
+(2012-07-29 14:47:28.7456) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-07-29 14:47:28.7456) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-07-29 14:47:28.7456) [Error] Using: MySQL5Dialect 
+(2012-07-29 14:47:28.7456) [Error]  
+(2012-07-29 14:47:28.7456) [Error] Ссылка на объект не указывает на экземпляр объекта. 
+(2012-07-29 14:57:28.9091) [Error] Failed to execute message: System.Action 
+(2012-07-29 14:57:28.9091) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	QueueUpdateCallback at offset 997 in file:line:column <filename unknown>:0:0
+	<StartNewDelayed>b__1b at offset 137 in file:line:column <filename unknown>:0:0
+	<ContinueWith>b__a at offset 16 in file:line:column <filename unknown>:0:0
+	InnerInvoke at offset 68 in file:line:column <filename unknown>:0:0
+	Execute at offset 67 in file:line:column <filename unknown>:0:0
+	ExecutionContextCallback at offset 39 in file:line:column <filename unknown>:0:0
+	runTryCode at offset 81 in file:line:column <filename unknown>:0:0
+	ExecuteCodeWithGuaranteedCleanup at offset 0 in file:line:column <filename unknown>:0:0
+	RunInternal at offset 106 in file:line:column <filename unknown>:0:0
+	Run at offset 126 in file:line:column <filename unknown>:0:0
+	ExecuteWithThreadLocal at offset 340 in file:line:column <filename unknown>:0:0
+	ExecuteEntry at offset 139 in file:line:column <filename unknown>:0:0
+	System.Threading.IThreadPoolWorkItem.ExecuteWorkItem at offset 7 in file:line:column <filename unknown>:0:0
+	Dispatch at offset 327 in file:line:column <filename unknown>:0:0
+	PerformWaitCallback at offset 45 in file:line:column <filename unknown>:0:0 
+(2012-07-29 14:57:28.9091) [Error]  
+(2012-07-29 14:57:28.9091) [Error] System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WCell.RealmServer.Debugging.DebugUtil.GetTextWriter(RealmAccount account)
+   в WCell.RealmServer.Entities.Character.SaveNow()
+   в WCell.RealmServer.Entities.Character.<FinishLogout>b__6f()
+   в WCell.Util.Threading.Message.Execute()
+   в WCell.Core.SelfRunningTaskQueue.QueueUpdateCallback(Object state) 
+(2012-07-29 14:57:28.9091) [Error]  
+(2012-07-29 14:57:28.9091) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-07-29 14:57:28.9091) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-07-29 14:57:28.9091) [Error] Using: MySQL5Dialect 
+(2012-07-29 14:57:28.9091) [Error]  
+(2012-07-29 14:57:28.9091) [Error] Ссылка на объект не указывает на экземпляр объекта. 
+(2012-07-29 15:07:29.0258) [Error] Failed to execute message: System.Action 
+(2012-07-29 15:07:29.0258) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	QueueUpdateCallback at offset 997 in file:line:column <filename unknown>:0:0
+	<StartNewDelayed>b__1b at offset 137 in file:line:column <filename unknown>:0:0
+	<ContinueWith>b__a at offset 16 in file:line:column <filename unknown>:0:0
+	InnerInvoke at offset 68 in file:line:column <filename unknown>:0:0
+	Execute at offset 67 in file:line:column <filename unknown>:0:0
+	ExecutionContextCallback at offset 39 in file:line:column <filename unknown>:0:0
+	runTryCode at offset 81 in file:line:column <filename unknown>:0:0
+	ExecuteCodeWithGuaranteedCleanup at offset 0 in file:line:column <filename unknown>:0:0
+	RunInternal at offset 106 in file:line:column <filename unknown>:0:0
+	Run at offset 126 in file:line:column <filename unknown>:0:0
+	ExecuteWithThreadLocal at offset 340 in file:line:column <filename unknown>:0:0
+	ExecuteEntry at offset 139 in file:line:column <filename unknown>:0:0
+	System.Threading.IThreadPoolWorkItem.ExecuteWorkItem at offset 7 in file:line:column <filename unknown>:0:0
+	Dispatch at offset 327 in file:line:column <filename unknown>:0:0
+	PerformWaitCallback at offset 45 in file:line:column <filename unknown>:0:0 
+(2012-07-29 15:07:29.0258) [Error]  
+(2012-07-29 15:07:29.0258) [Error] System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WCell.RealmServer.Debugging.DebugUtil.GetTextWriter(RealmAccount account)
+   в WCell.RealmServer.Entities.Character.SaveNow()
+   в WCell.RealmServer.Entities.Character.<FinishLogout>b__6f()
+   в WCell.Util.Threading.Message.Execute()
+   в WCell.Core.SelfRunningTaskQueue.QueueUpdateCallback(Object state) 
+(2012-07-29 15:07:29.0258) [Error]  
+(2012-07-29 15:07:29.0258) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-07-29 15:07:29.0258) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-07-29 15:07:29.0258) [Error] Using: MySQL5Dialect 
+(2012-07-29 15:07:29.0258) [Error]  
+(2012-07-29 15:07:29.0258) [Error] Ссылка на объект не указывает на экземпляр объекта. 
+(2012-07-29 15:17:29.0456) [Error] Failed to execute message: System.Action 
+(2012-07-29 15:17:29.0456) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	QueueUpdateCallback at offset 997 in file:line:column <filename unknown>:0:0
+	<StartNewDelayed>b__1b at offset 137 in file:line:column <filename unknown>:0:0
+	<ContinueWith>b__a at offset 16 in file:line:column <filename unknown>:0:0
+	InnerInvoke at offset 68 in file:line:column <filename unknown>:0:0
+	Execute at offset 67 in file:line:column <filename unknown>:0:0
+	ExecutionContextCallback at offset 39 in file:line:column <filename unknown>:0:0
+	runTryCode at offset 81 in file:line:column <filename unknown>:0:0
+	ExecuteCodeWithGuaranteedCleanup at offset 0 in file:line:column <filename unknown>:0:0
+	RunInternal at offset 106 in file:line:column <filename unknown>:0:0
+	Run at offset 126 in file:line:column <filename unknown>:0:0
+	ExecuteWithThreadLocal at offset 340 in file:line:column <filename unknown>:0:0
+	ExecuteEntry at offset 139 in file:line:column <filename unknown>:0:0
+	System.Threading.IThreadPoolWorkItem.ExecuteWorkItem at offset 7 in file:line:column <filename unknown>:0:0
+	Dispatch at offset 327 in file:line:column <filename unknown>:0:0
+	PerformWaitCallback at offset 45 in file:line:column <filename unknown>:0:0 
+(2012-07-29 15:17:29.0456) [Error]  
+(2012-07-29 15:17:29.0456) [Error] System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WCell.RealmServer.Debugging.DebugUtil.GetTextWriter(RealmAccount account)
+   в WCell.RealmServer.Entities.Character.SaveNow()
+   в WCell.RealmServer.Entities.Character.<FinishLogout>b__6f()
+   в WCell.Util.Threading.Message.Execute()
+   в WCell.Core.SelfRunningTaskQueue.QueueUpdateCallback(Object state) 
+(2012-07-29 15:17:29.0456) [Error]  
+(2012-07-29 15:17:29.0456) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-07-29 15:17:29.0456) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-07-29 15:17:29.0456) [Error] Using: MySQL5Dialect 
+(2012-07-29 15:17:29.0456) [Error]  
+(2012-07-29 15:17:29.0456) [Error] Ссылка на объект не указывает на экземпляр объекта. 
+(2012-07-29 15:27:29.2288) [Error] Failed to execute message: System.Action 
+(2012-07-29 15:27:29.2288) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	QueueUpdateCallback at offset 997 in file:line:column <filename unknown>:0:0
+	<StartNewDelayed>b__1b at offset 137 in file:line:column <filename unknown>:0:0
+	<ContinueWith>b__a at offset 16 in file:line:column <filename unknown>:0:0
+	InnerInvoke at offset 68 in file:line:column <filename unknown>:0:0
+	Execute at offset 67 in file:line:column <filename unknown>:0:0
+	ExecutionContextCallback at offset 39 in file:line:column <filename unknown>:0:0
+	runTryCode at offset 81 in file:line:column <filename unknown>:0:0
+	ExecuteCodeWithGuaranteedCleanup at offset 0 in file:line:column <filename unknown>:0:0
+	RunInternal at offset 106 in file:line:column <filename unknown>:0:0
+	Run at offset 126 in file:line:column <filename unknown>:0:0
+	ExecuteWithThreadLocal at offset 340 in file:line:column <filename unknown>:0:0
+	ExecuteEntry at offset 139 in file:line:column <filename unknown>:0:0
+	System.Threading.IThreadPoolWorkItem.ExecuteWorkItem at offset 7 in file:line:column <filename unknown>:0:0
+	Dispatch at offset 327 in file:line:column <filename unknown>:0:0
+	PerformWaitCallback at offset 45 in file:line:column <filename unknown>:0:0 
+(2012-07-29 15:27:29.2288) [Error]  
+(2012-07-29 15:27:29.2288) [Error] System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WCell.RealmServer.Debugging.DebugUtil.GetTextWriter(RealmAccount account)
+   в WCell.RealmServer.Entities.Character.SaveNow()
+   в WCell.RealmServer.Entities.Character.<FinishLogout>b__6f()
+   в WCell.Util.Threading.Message.Execute()
+   в WCell.Core.SelfRunningTaskQueue.QueueUpdateCallback(Object state) 
+(2012-07-29 15:27:29.2288) [Error]  
+(2012-07-29 15:27:29.2288) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-07-29 15:27:29.2288) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-07-29 15:27:29.2288) [Error] Using: MySQL5Dialect 
+(2012-07-29 15:27:29.2288) [Error]  
+(2012-07-29 15:27:29.2288) [Error] Ссылка на объект не указывает на экземпляр объекта. 
+(2012-07-29 15:37:29.3670) [Error] Failed to execute message: System.Action 
+(2012-07-29 15:37:29.3670) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	QueueUpdateCallback at offset 997 in file:line:column <filename unknown>:0:0
+	<StartNewDelayed>b__1b at offset 137 in file:line:column <filename unknown>:0:0
+	<ContinueWith>b__a at offset 16 in file:line:column <filename unknown>:0:0
+	InnerInvoke at offset 68 in file:line:column <filename unknown>:0:0
+	Execute at offset 67 in file:line:column <filename unknown>:0:0
+	ExecutionContextCallback at offset 39 in file:line:column <filename unknown>:0:0
+	runTryCode at offset 81 in file:line:column <filename unknown>:0:0
+	ExecuteCodeWithGuaranteedCleanup at offset 0 in file:line:column <filename unknown>:0:0
+	RunInternal at offset 106 in file:line:column <filename unknown>:0:0
+	Run at offset 126 in file:line:column <filename unknown>:0:0
+	ExecuteWithThreadLocal at offset 340 in file:line:column <filename unknown>:0:0
+	ExecuteEntry at offset 139 in file:line:column <filename unknown>:0:0
+	System.Threading.IThreadPoolWorkItem.ExecuteWorkItem at offset 7 in file:line:column <filename unknown>:0:0
+	Dispatch at offset 327 in file:line:column <filename unknown>:0:0
+	PerformWaitCallback at offset 45 in file:line:column <filename unknown>:0:0 
+(2012-07-29 15:37:29.3670) [Error]  
+(2012-07-29 15:37:29.3730) [Error] System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WCell.RealmServer.Debugging.DebugUtil.GetTextWriter(RealmAccount account)
+   в WCell.RealmServer.Entities.Character.SaveNow()
+   в WCell.RealmServer.Entities.Character.<FinishLogout>b__6f()
+   в WCell.Util.Threading.Message.Execute()
+   в WCell.Core.SelfRunningTaskQueue.QueueUpdateCallback(Object state) 
+(2012-07-29 15:37:29.3730) [Error]  
+(2012-07-29 15:37:29.3730) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-07-29 15:37:29.3730) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-07-29 15:37:29.3730) [Error] Using: MySQL5Dialect 
+(2012-07-29 15:37:29.3730) [Error]  
+(2012-07-29 15:37:29.3730) [Error] Ссылка на объект не указывает на экземпляр объекта. 
+(2012-07-29 15:47:29.3257) [Error] Failed to execute message: System.Action 
+(2012-07-29 15:47:29.3257) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	QueueUpdateCallback at offset 997 in file:line:column <filename unknown>:0:0
+	<StartNewDelayed>b__1b at offset 137 in file:line:column <filename unknown>:0:0
+	<ContinueWith>b__a at offset 16 in file:line:column <filename unknown>:0:0
+	InnerInvoke at offset 68 in file:line:column <filename unknown>:0:0
+	Execute at offset 67 in file:line:column <filename unknown>:0:0
+	ExecutionContextCallback at offset 39 in file:line:column <filename unknown>:0:0
+	runTryCode at offset 81 in file:line:column <filename unknown>:0:0
+	ExecuteCodeWithGuaranteedCleanup at offset 0 in file:line:column <filename unknown>:0:0
+	RunInternal at offset 106 in file:line:column <filename unknown>:0:0
+	Run at offset 126 in file:line:column <filename unknown>:0:0
+	ExecuteWithThreadLocal at offset 340 in file:line:column <filename unknown>:0:0
+	ExecuteEntry at offset 139 in file:line:column <filename unknown>:0:0
+	System.Threading.IThreadPoolWorkItem.ExecuteWorkItem at offset 7 in file:line:column <filename unknown>:0:0
+	Dispatch at offset 327 in file:line:column <filename unknown>:0:0
+	PerformWaitCallback at offset 45 in file:line:column <filename unknown>:0:0 
+(2012-07-29 15:47:29.3257) [Error]  
+(2012-07-29 15:47:29.3257) [Error] System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WCell.RealmServer.Debugging.DebugUtil.GetTextWriter(RealmAccount account)
+   в WCell.RealmServer.Entities.Character.SaveNow()
+   в WCell.RealmServer.Entities.Character.<FinishLogout>b__6f()
+   в WCell.Util.Threading.Message.Execute()
+   в WCell.Core.SelfRunningTaskQueue.QueueUpdateCallback(Object state) 
+(2012-07-29 15:47:29.3257) [Error]  
+(2012-07-29 15:47:29.3257) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-07-29 15:47:29.3257) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-07-29 15:47:29.3257) [Error] Using: MySQL5Dialect 
+(2012-07-29 15:47:29.3257) [Error]  
+(2012-07-29 15:47:29.3257) [Error] Ссылка на объект не указывает на экземпляр объекта. 
+(2012-07-29 16:54:06.4918) [Error] Failed to execute message: System.Action 
+(2012-07-29 16:54:06.4988) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	QueueUpdateCallback at offset 997 in file:line:column <filename unknown>:0:0
+	<StartNewDelayed>b__1b at offset 137 in file:line:column <filename unknown>:0:0
+	<ContinueWith>b__a at offset 16 in file:line:column <filename unknown>:0:0
+	InnerInvoke at offset 68 in file:line:column <filename unknown>:0:0
+	Execute at offset 67 in file:line:column <filename unknown>:0:0
+	ExecutionContextCallback at offset 39 in file:line:column <filename unknown>:0:0
+	runTryCode at offset 81 in file:line:column <filename unknown>:0:0
+	ExecuteCodeWithGuaranteedCleanup at offset 0 in file:line:column <filename unknown>:0:0
+	RunInternal at offset 106 in file:line:column <filename unknown>:0:0
+	Run at offset 126 in file:line:column <filename unknown>:0:0
+	ExecuteWithThreadLocal at offset 340 in file:line:column <filename unknown>:0:0
+	ExecuteEntry at offset 139 in file:line:column <filename unknown>:0:0
+	System.Threading.IThreadPoolWorkItem.ExecuteWorkItem at offset 7 in file:line:column <filename unknown>:0:0
+	Dispatch at offset 327 in file:line:column <filename unknown>:0:0
+	PerformWaitCallback at offset 45 in file:line:column <filename unknown>:0:0 
+(2012-07-29 16:54:06.4988) [Error]  
+(2012-07-29 16:54:06.4988) [Error] System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WCell.RealmServer.Debugging.DebugUtil.GetTextWriter(RealmAccount account)
+   в WCell.RealmServer.Entities.Character.SaveNow()
+   в WCell.RealmServer.Entities.Character.<FinishLogout>b__6f()
+   в WCell.Util.Threading.Message.Execute()
+   в WCell.Core.SelfRunningTaskQueue.QueueUpdateCallback(Object state) 
+(2012-07-29 16:54:06.4988) [Error]  
+(2012-07-29 16:54:06.4988) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-07-29 16:54:06.4988) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-07-29 16:54:06.4988) [Error] Using: MySQL5Dialect 
+(2012-07-29 16:54:06.4988) [Error]  
+(2012-07-29 16:54:06.4988) [Error] Ссылка на объект не указывает на экземпляр объекта. 
+(2012-07-29 16:58:09.3258) [Error] Failed to execute message: System.Action 
+(2012-07-29 16:58:09.3258) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	QueueUpdateCallback at offset 997 in file:line:column <filename unknown>:0:0
+	<StartNewDelayed>b__1b at offset 137 in file:line:column <filename unknown>:0:0
+	<ContinueWith>b__a at offset 16 in file:line:column <filename unknown>:0:0
+	InnerInvoke at offset 68 in file:line:column <filename unknown>:0:0
+	Execute at offset 67 in file:line:column <filename unknown>:0:0
+	ExecutionContextCallback at offset 39 in file:line:column <filename unknown>:0:0
+	runTryCode at offset 81 in file:line:column <filename unknown>:0:0
+	ExecuteCodeWithGuaranteedCleanup at offset 0 in file:line:column <filename unknown>:0:0
+	RunInternal at offset 106 in file:line:column <filename unknown>:0:0
+	Run at offset 126 in file:line:column <filename unknown>:0:0
+	ExecuteWithThreadLocal at offset 340 in file:line:column <filename unknown>:0:0
+	ExecuteEntry at offset 139 in file:line:column <filename unknown>:0:0
+	System.Threading.IThreadPoolWorkItem.ExecuteWorkItem at offset 7 in file:line:column <filename unknown>:0:0
+	Dispatch at offset 327 in file:line:column <filename unknown>:0:0
+	PerformWaitCallback at offset 45 in file:line:column <filename unknown>:0:0 
+(2012-07-29 16:58:09.3258) [Error]  
+(2012-07-29 16:58:09.3258) [Error] System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WCell.RealmServer.Debugging.DebugUtil.GetTextWriter(RealmAccount account)
+   в WCell.RealmServer.Entities.Character.SaveNow()
+   в WCell.RealmServer.Global.World.<>c__DisplayClass12.<Save>b__f()
+   в WCell.Util.Threading.Message.Execute()
+   в WCell.Core.SelfRunningTaskQueue.QueueUpdateCallback(Object state) 
+(2012-07-29 16:58:09.3258) [Error]  
+(2012-07-29 16:58:09.3258) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-07-29 16:58:09.3258) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-07-29 16:58:09.3258) [Error] Using: MySQL5Dialect 
+(2012-07-29 16:58:09.3258) [Error]  
+(2012-07-29 16:58:09.3258) [Error] Ссылка на объект не указывает на экземпляр объекта. 
+(2012-08-01 18:10:25.4622) [Error] Database Error occured 
+(2012-08-01 18:10:25.5102) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	OnDBError at offset 270 in file:line:column <filename unknown>:0:0
+	OnDBError at offset 51 in file:line:column <filename unknown>:0:0
+	Start at offset 134 in file:line:column <filename unknown>:0:0
+	Initialize at offset 71 in file:line:column <filename unknown>:0:0
+	_InvokeMethodFast at offset 0 in file:line:column <filename unknown>:0:0
+	InvokeMethodFast at offset 73 in file:line:column <filename unknown>:0:0
+	Invoke at offset 336 in file:line:column <filename unknown>:0:0
+	Invoke at offset 29 in file:line:column <filename unknown>:0:0
+	Invoke at offset 20 in file:line:column <filename unknown>:0:0
+	Execute at offset 198 in file:line:column <filename unknown>:0:0
+	Execute at offset 204 in file:line:column <filename unknown>:0:0
+	PerformInitialization at offset 347 in file:line:column <filename unknown>:0:0
+	Start at offset 170 in file:line:column <filename unknown>:0:0
+	Start at offset 63 in file:line:column <filename unknown>:0:0
+	Start at offset 58 in file:line:column <filename unknown>:0:0
+	_InvokeMethodFast at offset 0 in file:line:column <filename unknown>:0:0
+	InvokeMethodFast at offset 73 in file:line:column <filename unknown>:0:0
+	Invoke at offset 336 in file:line:column <filename unknown>:0:0
+	Invoke at offset 29 in file:line:column <filename unknown>:0:0
+	InvokeMember at offset 2032 in file:line:column <filename unknown>:0:0
+	InvokeMember at offset 29 in file:line:column <filename unknown>:0:0
+	Main at offset 781 in file:line:column F:\programming\Actual projects\WCell-WCell-6075fbb\Applications\WCell.RealmServerConsole\Program.cs:53:15 
+(2012-08-01 18:10:25.5102) [Error]  
+(2012-08-01 18:10:25.5262) [Error] Castle.ActiveRecord.Framework.ActiveRecordException: Could not perform FindAll for Guild ---> NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.Id as Id16_0_, this_.Name as Name16_0_, this_.MOTD as MOTD16_0_, this_.Info as Info16_0_, this_.Created as Created16_0_, this_.LeaderLowId as LeaderLo6_16_0_, this_.PurchasedBankTabCount as Purchase7_16_0_, this_.Money as Money16_0_, this_.Level as Level16_0_, this_.MaxMembersCount as MaxMemb10_16_0_, this_.Points as Points16_0_, this_.NoticeDateTime as NoticeD12_16_0_, this_.NoticeWriter as NoticeW13_16_0_, this_.TabardEmblemStyle as TabardE14_16_0_, this_.TabardEmblemColor as TabardE15_16_0_, this_.TabardBorderStyle as TabardB16_16_0_, this_.TabardBorderColor as TabardB17_16_0_, this_.TabardBackgroundColor as TabardB18_16_0_ FROM Guild this_ ]
+[SQL: SELECT this_.Id as Id16_0_, this_.Name as Name16_0_, this_.MOTD as MOTD16_0_, this_.Info as Info16_0_, this_.Created as Created16_0_, this_.LeaderLowId as LeaderLo6_16_0_, this_.PurchasedBankTabCount as Purchase7_16_0_, this_.Money as Money16_0_, this_.Level as Level16_0_, this_.MaxMembersCount as MaxMemb10_16_0_, this_.Points as Points16_0_, this_.NoticeDateTime as NoticeD12_16_0_, this_.NoticeWriter as NoticeW13_16_0_, this_.TabardEmblemStyle as TabardE14_16_0_, this_.TabardEmblemColor as TabardE15_16_0_, this_.TabardBorderStyle as TabardB16_16_0_, this_.TabardBorderColor as TabardB17_16_0_, this_.TabardBackgroundColor as TabardB18_16_0_ FROM Guild this_] ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'this_.Level' in 'field list'
+   в MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   в MySql.Data.MySqlClient.NativeDriver.ReadResult(UInt64& affectedRows, Int64& lastInsertId)
+   в MySql.Data.MySqlClient.MySqlDataReader.GetResultSet()
+   в MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   в MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   в MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   в NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   в NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   в NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   в NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   в NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Конец трассировки внутреннего стека исключений ---
+   в NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   в NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   в NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces, IType[] resultTypes)
+   в NHibernate.Loader.Criteria.CriteriaLoader.List(ISessionImplementor session)
+   в NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   в NHibernate.Impl.CriteriaImpl.List(IList results)
+   в NHibernate.Impl.CriteriaImpl.List()
+   в Castle.ActiveRecord.ActiveRecordBase.FindAll(Type targetType, DetachedCriteria detachedCriteria, Order[] orders)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Castle.ActiveRecord.ActiveRecordBase.FindAll(Type targetType, DetachedCriteria detachedCriteria, Order[] orders)
+   в Castle.ActiveRecord.ActiveRecordBase.FindAll(Type targetType)
+   в Castle.ActiveRecord.ActiveRecordBase`1.FindAll()
+   в WCell.RealmServer.Guilds.GuildMgr.Start() 
+(2012-08-01 18:10:25.5262) [Error]  
+(2012-08-01 18:10:25.5262) [Error] Could not perform FindAll for Guild
+	could not execute query
+[ SELECT this_.Id as Id16_0_, this_.Name as Name16_0_, this_.MOTD as MOTD16_0_, this_.Info as Info16_0_, this_.Created as Created16_0_, this_.LeaderLowId as LeaderLo6_16_0_, this_.PurchasedBankTabCount as Purchase7_16_0_, this_.Money as Money16_0_, this_.Level as Level16_0_, this_.MaxMembersCount as MaxMemb10_16_0_, this_.Points as Points16_0_, this_.NoticeDateTime as NoticeD12_16_0_, this_.NoticeWriter as NoticeW13_16_0_, this_.TabardEmblemStyle as TabardE14_16_0_, this_.TabardEmblemColor as TabardE15_16_0_, this_.TabardBorderStyle as TabardB16_16_0_, this_.TabardBorderColor as TabardB17_16_0_, this_.TabardBackgroundColor as TabardB18_16_0_ FROM Guild this_ ]
+[SQL: SELECT this_.Id as Id16_0_, this_.Name as Name16_0_, this_.MOTD as MOTD16_0_, this_.Info as Info16_0_, this_.Created as Created16_0_, this_.LeaderLowId as LeaderLo6_16_0_, this_.PurchasedBankTabCount as Purchase7_16_0_, this_.Money as Money16_0_, this_.Level as Level16_0_, this_.MaxMembersCount as MaxMemb10_16_0_, this_.Points as Points16_0_, this_.NoticeDateTime as NoticeD12_16_0_, this_.NoticeWriter as NoticeW13_16_0_, this_.TabardEmblemStyle as TabardE14_16_0_, this_.TabardEmblemColor as TabardE15_16_0_, this_.TabardBorderStyle as TabardB16_16_0_, this_.TabardBorderColor as TabardB17_16_0_, this_.TabardBackgroundColor as TabardB18_16_0_ FROM Guild this_]
+	Unknown column 'this_.Level' in 'field list' 
+(2012-08-01 18:42:10.3692) [Error] Could not save Character Qucdr (ID: High: 0x0000 (Player) - Low: 10000021, Account: ZOXER (Id: 21)) 
+(2012-08-01 18:42:10.3692) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 59 in file:line:column <filename unknown>:0:0
+	OnSaveFailed at offset 107 in file:line:column <filename unknown>:0:0
+	SaveNow at offset 4186 in file:line:column <filename unknown>:0:0
+	<Save>b__f at offset 266 in file:line:column <filename unknown>:0:0
+	Execute at offset 108 in file:line:column <filename unknown>:0:0
+	QueueUpdateCallback at offset 906 in file:line:column <filename unknown>:0:0
+	<StartNewDelayed>b__1b at offset 137 in file:line:column <filename unknown>:0:0
+	<ContinueWith>b__a at offset 16 in file:line:column <filename unknown>:0:0
+	InnerInvoke at offset 68 in file:line:column <filename unknown>:0:0
+	Execute at offset 67 in file:line:column <filename unknown>:0:0
+	ExecutionContextCallback at offset 39 in file:line:column <filename unknown>:0:0
+	runTryCode at offset 81 in file:line:column <filename unknown>:0:0
+	ExecuteCodeWithGuaranteedCleanup at offset 0 in file:line:column <filename unknown>:0:0
+	RunInternal at offset 106 in file:line:column <filename unknown>:0:0
+	Run at offset 126 in file:line:column <filename unknown>:0:0
+	ExecuteWithThreadLocal at offset 340 in file:line:column <filename unknown>:0:0
+	ExecuteEntry at offset 139 in file:line:column <filename unknown>:0:0
+	System.Threading.IThreadPoolWorkItem.ExecuteWorkItem at offset 7 in file:line:column <filename unknown>:0:0
+	Dispatch at offset 327 in file:line:column <filename unknown>:0:0
+	PerformWaitCallback at offset 45 in file:line:column <filename unknown>:0:0 
+(2012-08-01 18:42:10.3692) [Error]  
+(2012-08-01 18:42:10.3692) [Error] System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WCell.RealmServer.Debugging.DebugUtil.GetTextWriter(RealmAccount account)
+   в WCell.RealmServer.Entities.Character.SaveNow() 
+(2012-08-01 18:42:10.3692) [Error]  
+(2012-08-01 18:42:10.3692) [Error] Asda2x100! - WCell RealmServer (v0.5.0.0)) - Debug 
+(2012-08-01 18:42:10.3692) [Error] OS: Microsoft Windows NT 6.1.7601 Service Pack 1 - CLR: 4.0.30319.544 
+(2012-08-01 18:42:10.3692) [Error] Using: MySQL5Dialect 
+(2012-08-01 18:42:10.3692) [Error]  
+(2012-08-01 18:42:10.3692) [Error] Ссылка на объект не указывает на экземпляр объекта. 
+(2012-08-05 14:57:50.8198) [Error]  MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   в MySql.Data.MySqlClient.NativeDriver.Open()
+   в MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   в MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   в MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   в MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   в MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   в MySql.Data.MySqlClient.MySqlConnection.Open()
+   в NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   в NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   в NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   в NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   в NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   в NHibernate.Cfg.Configuration.BuildSessionFactory()
+   в Castle.ActiveRecord.Framework.SessionFactoryHolder.GetSessionFactory(Type type)
+   в Castle.ActiveRecord.Framework.SessionFactoryHolder.CreateSession(Type type)
+   в Castle.ActiveRecord.ActiveRecordBase.ExecuteQuery(IActiveRecordQuery query)
+   в Castle.ActiveRecord.ActiveRecordBase.Count(Type targetType)
+   в Castle.ActiveRecord.ActiveRecordBase`1.Count()
+   в WCell.RealmServer.Database.CharacterRecord.GetCount()
+   в WCell.RealmServer.Database.RealmDBMgr.<Initialize>b__0(Exception exception)
+   в WCell.Core.Database.DatabaseUtil.OnDBError(Exception e, String warning)
+(2012-08-05 14:57:50.8198) [Error] Database Error occured 
+(2012-08-05 14:57:50.8198) [Error] LogStacktrace at offset 77 in file:line:column <filename unknown>:0:0
+	LogException at offset 152 in file:line:column <filename unknown>:0:0
+	ErrorException at offset 95 in file:line:column <filename unknown>:0:0
+	OnDBError at offset 270 in file:line:column <filename unknown>:0:0
+	OnDBError at offset 51 in file:line:column <filename unknown>:0:0
+	Initialize at offset 340 in file:line:column <filename unknown>:0:0
+	InitializeDefault at offset 42 in file:line:column <filename unknown>:0:0
+	EnsureInitialized at offset 76 in file:line:column <filename unknown>:0:0
+	GetMapper at offset 65 in file:line:column <filename unknown>:0:0
+	GetMapper<T> at offset 116 in file:line:column <filename unknown>:0:0
+	LoadOverrides at offset 56 in file:line:column <filename unknown>:0:0
+	LoadSpells at offset 96 in file:line:column <filename unknown>:0:0
+	LoadSpells at offset 41 in file:line:column <filename unknown>:0:0
+	_InvokeMethodFast at offset 0 in file:line:column <filename unknown>:0:0
+	InvokeMethodFast at offset 73 in file:line:column <filename unknown>:0:0
+	Invoke at offset 336 in file:line:column <filename unknown>:0:0
+	Invoke at offset 29 in file:line:column <filename unknown>:0:0
+	Invoke at offset 20 in file:line:column <filename unknown>:0:0
+	Execute at offset 198 in file:line:column <filename unknown>:0:0
+	Execute at offset 204 in file:line:column <filename unknown>:0:0
+	PerformInitialization at offset 347 in file:line:column <filename unknown>:0:0
+	Start at offset 170 in file:line:column <filename unknown>:0:0
+	Start at offset 63 in file:line:column <filename unknown>:0:0
+	Start at offset 58 in file:line:column <filename unknown>:0:0
+	_InvokeMethodFast at offset 0 in file:line:column <filename unknown>:0:0
+	InvokeMethodFast at offset 73 in file:line:column <filename unknown>:0:0
+	Invoke at offset 336 in file:line:column <filename unknown>:0:0
+	Invoke at offset 29 in file:line:column <filename unknown>:0:0
+	InvokeMember at offset 2032 in file:line:column <filename unknown>:0:0
+	InvokeMember at offset 29 in file:line:column <filename unknown>:0:0
+	Main at offset 908 in file:line:column F:\programming\Actual projects\WCell-WCell-6075fbb\Applications\WCell.RealmServerConsole\Program.cs:54:19 
+(2012-08-05 14:57:50.8198) [Error]  
+(2012-08-05 14:57:50.8198) [Error] MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   в MySql.Data.MySqlClient.NativeDriver.Open()
+   в MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   в MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   в MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   в MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   в MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   в MySql.Data.MySqlClient.MySqlConnection.Open()
+   в NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   в NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   в NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   в NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   в NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   в NHibernate.Cfg.Configuration.BuildSessionFactory()
+   в Castle.ActiveRecord.Framework.SessionFactoryHolder.GetSessionFactory(Type type)
+   в Castle.ActiveRecord.Framework.SessionFactoryHolder.CreateSession(Type type)
+   в WCell.Core.Database.DatabaseUtil.get_Session()
+   в WCell.Core.Database.DatabaseUtil.get_IsConnected()
+   в WCell.Core.Database.DatabaseUtil.InitAR(Assembly asm)
+   в WCell.RealmServer.Database.RealmDBMgr.Initialize() 
+(2012-08-05 14:57:50.8198) [Error]  
+(2012-08-05 14:57:50.8354) [Error] Unable to connect to any of the specified MySQL hosts. 

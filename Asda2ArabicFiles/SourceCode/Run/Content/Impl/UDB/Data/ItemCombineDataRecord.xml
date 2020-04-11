@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="ItemCombineDataRecord">
+    <DefaultTable>ItemCombineDataRecord</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<FlatArray Name="RequiredItems">
+      <Column Name="RequiredItems_0"/>
+      <Column Name="RequiredItems_1"/>
+	  <Column Name="RequiredItems_2"/>
+	  <Column Name="RequiredItems_3"/>
+	  <Column Name="RequiredItems_4"/>
+    </FlatArray>
+	<FlatArray Name="Amounts">
+      <Column Name="Amounts_0"/>
+      <Column Name="Amounts_1"/>
+	  <Column Name="Amounts_2"/>
+	  <Column Name="Amounts_3"/>
+	  <Column Name="Amounts_4"/>
+    </FlatArray>
+<Flat Name="ResultItem" Column="ResultItem" />
+
+  </DataHolder>
+</DataHolders>

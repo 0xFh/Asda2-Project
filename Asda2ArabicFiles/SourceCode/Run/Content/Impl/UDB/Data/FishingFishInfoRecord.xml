@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="FishingFishInfoRecord">
+    <DefaultTable>FishingFishInfoRecord</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<Flat Name="FishId" Column="FishId" />
+<Flat Name="FishingTime" Column="FishingTime" />
+<FlatArray Name="BaitIds">
+      <Column Name="BaitIds_0" />
+	  <Column Name="BaitIds_1" />
+	  <Column Name="BaitIds_2" />
+	  <Column Name="BaitIds_3" />
+	  <Column Name="BaitIds_4" />
+	  <Column Name="BaitIds_5" />
+</FlatArray>
+
+  </DataHolder>
+</DataHolders>

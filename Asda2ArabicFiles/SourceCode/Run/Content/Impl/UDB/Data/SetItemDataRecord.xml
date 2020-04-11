@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="SetItemDataRecord">
+   <DefaultTable>SetItemDataRecord</DefaultTable>
+
+<Flat Name="Name" Column="Name" />
+<Flat Name="Id" Column="Id" />
+<FlatArray Name="ItemIds">
+      <Column Name="ItemIds_0"/>
+      <Column Name="ItemIds_1"/>
+      <Column Name="ItemIds_2"/>
+      <Column Name="ItemIds_3"/>
+      <Column Name="ItemIds_4"/>
+      <Column Name="ItemIds_5"/>
+	  <Column Name="ItemIds_6"/>
+      <Column Name="ItemIds_7"/>
+      <Column Name="ItemIds_8"/>
+      <Column Name="ItemIds_9"/>
+</FlatArray>
+<Flat Name="Stat1Type" Column="Stat1Type" />
+<Flat Name="Stat1Value" Column="Stat1Value" />
+<Flat Name="Stat2Type" Column="Stat2Type" />
+<Flat Name="Stat2Value" Column="Stat2Value" />
+<Flat Name="Stat3Type" Column="Stat3Type" />
+<Flat Name="Stat3Value" Column="Stat3Value" />
+
+  </DataHolder>
+</DataHolders>
