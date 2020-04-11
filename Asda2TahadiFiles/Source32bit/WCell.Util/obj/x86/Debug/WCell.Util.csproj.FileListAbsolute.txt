@@ -1,0 +1,6 @@
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\Run\DebugX86\WCell.Util.dll
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\Run\DebugX86\WCell.Util.pdb
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\WCell.Util\obj\x86\Debug\WCell.Util.csproj.CoreCompileInputs.cache
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\WCell.Util\obj\x86\Debug\WCell.Util.csproj.CopyComplete
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\WCell.Util\obj\x86\Debug\WCell.Util.dll
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\WCell.Util\obj\x86\Debug\WCell.Util.pdb

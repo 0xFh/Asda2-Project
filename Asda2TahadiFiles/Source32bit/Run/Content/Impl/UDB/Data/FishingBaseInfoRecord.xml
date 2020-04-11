@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="FishingBaseInfoRecord">
+    <DefaultTable>FishingBaseInfoRecord</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<Flat Name="Key" Column="Key" />
+<Flat Name="IsPremium" Column="IsPremium" />
+<FlatArray Name="ItemIds">
+      <Column Name="ItemIds_0"/>
+	  <Column Name="ItemIds_1"/>
+	  <Column Name="ItemIds_2"/>
+	  <Column Name="ItemIds_3"/>
+	  <Column Name="ItemIds_4"/>
+	  <Column Name="ItemIds_5"/>
+	  <Column Name="ItemIds_6"/>
+	  <Column Name="ItemIds_7"/>
+	  <Column Name="ItemIds_8"/>
+	  <Column Name="ItemIds_9"/>
+	  <Column Name="ItemIds_10"/>
+	  <Column Name="ItemIds_11"/>
+	  <Column Name="ItemIds_12"/>
+	  <Column Name="ItemIds_13"/>
+	  <Column Name="ItemIds_14"/>
+	  <Column Name="ItemIds_15"/>
+	  <Column Name="ItemIds_16"/>
+	  <Column Name="ItemIds_17"/>
+	  <Column Name="ItemIds_18"/>
+	  <Column Name="ItemIds_19"/>
+</FlatArray>
+<FlatArray Name="MaxFishLenghts">
+      <Column Name="MaxFishLenghts_0"/>
+	  <Column Name="MaxFishLenghts_1"/>
+	  <Column Name="MaxFishLenghts_2"/>
+	  <Column Name="MaxFishLenghts_3"/>
+	  <Column Name="MaxFishLenghts_4"/>
+	  <Column Name="MaxFishLenghts_5"/>
+	  <Column Name="MaxFishLenghts_6"/>
+	  <Column Name="MaxFishLenghts_7"/>
+	  <Column Name="MaxFishLenghts_8"/>
+	  <Column Name="MaxFishLenghts_9"/>
+	  <Column Name="MaxFishLenghts_10"/>
+	  <Column Name="MaxFishLenghts_11"/>
+	  <Column Name="MaxFishLenghts_12"/>
+	  <Column Name="MaxFishLenghts_13"/>
+	  <Column Name="MaxFishLenghts_14"/>
+	  <Column Name="MaxFishLenghts_15"/>
+	  <Column Name="MaxFishLenghts_16"/>
+	  <Column Name="MaxFishLenghts_17"/>
+	  <Column Name="MaxFishLenghts_18"/>
+	  <Column Name="MaxFishLenghts_19"/>
+</FlatArray>
+<FlatArray Name="MinFishLengths">
+      <Column Name="MinFishLengths_0"/>
+	  <Column Name="MinFishLengths_1"/>
+	  <Column Name="MinFishLengths_2"/>
+	  <Column Name="MinFishLengths_3"/>
+	  <Column Name="MinFishLengths_4"/>
+	  <Column Name="MinFishLengths_5"/>
+	  <Column Name="MinFishLengths_6"/>
+	  <Column Name="MinFishLengths_7"/>
+	  <Column Name="MinFishLengths_8"/>
+	  <Column Name="MinFishLengths_9"/>
+	  <Column Name="MinFishLengths_10"/>
+	  <Column Name="MinFishLengths_11"/>
+	  <Column Name="MinFishLengths_12"/>
+	  <Column Name="MinFishLengths_13"/>
+	  <Column Name="MinFishLengths_14"/>
+	  <Column Name="MinFishLengths_15"/>
+	  <Column Name="MinFishLengths_16"/>
+	  <Column Name="MinFishLengths_17"/>
+	  <Column Name="MinFishLengths_18"/>
+	  <Column Name="MinFishLengths_19"/>
+</FlatArray>
+<FlatArray Name="Chances">
+      <Column Name="Chances_0"/>
+	  <Column Name="Chances_1"/>
+	  <Column Name="Chances_2"/>
+	  <Column Name="Chances_3"/>
+	  <Column Name="Chances_4"/>
+	  <Column Name="Chances_5"/>
+	  <Column Name="Chances_6"/>
+	  <Column Name="Chances_7"/>
+	  <Column Name="Chances_8"/>
+	  <Column Name="Chances_9"/>
+	  <Column Name="Chances_10"/>
+	  <Column Name="Chances_11"/>
+	  <Column Name="Chances_12"/>
+	  <Column Name="Chances_13"/>
+	  <Column Name="Chances_14"/>
+	  <Column Name="Chances_15"/>
+	  <Column Name="Chances_16"/>
+	  <Column Name="Chances_17"/>
+	  <Column Name="Chances_18"/>
+	  <Column Name="Chances_19"/>
+</FlatArray>
+
+  </DataHolder>
+</DataHolders>

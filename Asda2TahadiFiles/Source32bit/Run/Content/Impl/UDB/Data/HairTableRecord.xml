@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="HairTableRecord">
+    <DefaultTable>HairTableRecord</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<Flat Name="IsEnabled" Column="IsEnabled" />
+<Flat Name="HairId" Column="HairId" />
+<Flat Name="OneOrTwo" Column="OneOrTwo" />
+<Flat Name="HairColor" Column="HairColor" />
+<Flat Name="Price" Column="Price" />
+<Flat Name="CuponCount" Column="CuponCount" />
+
+  </DataHolder>
+</DataHolders>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="Asda2ItemTemplate">
+    <DefaultTable>asda2itemtemlate</DefaultTable>
+    <Flat Name="Id" Column="id" />
+    <Flat Name="Weight" Column="weight" />
+    <Flat Name="AttackTime" Column="atack_time" />    
+    <Flat Name="DefaultSoul1Id" Column="default_soul_id" />
+    <Flat Name="AtackRange" Column="atack_range" />
+    <Flat Name="BoosterId" Column="booster_id" />
+	<Flat Name="PackageId" Column="package_id" />
+    <Flat Name="BuyPrice" Column="buy_cost" />
+    <Flat Name="SellPrice" Column="sell_cost" />
+    <Flat Name="InventoryType" Column="inventory_type" />
+    <Flat Name="MaxDurability" Column="max_durability" />
+    <Flat Name="RequiredProfession" Column="requaired_profession" />
+    <Flat Name="RequiredLevel" Column="reqaired_level" />
+    <Flat Name="ValueOnUse" Column="value_on_use" />
+    <Flat Name="EquipmentSlot" Column="equipment_slot" />
+    <Flat Name="Category" Column="category" />
+    <Flat Name="Quality" Column="quality" />    
+    <Flat Name="MaxAmount" Column="amount_in_stack" />   
+    <Flat Name="SetId" Column="setId" />   
+    <Flat Name="Duration" Column="Duration" />	
+	<Flat Name="SowelBonusType" Column="sowel_bonus_type" />   
+    <Flat Name="SowelBonusValue" Column="sowel_bonus_value" />   
+    <Flat Name="SowelEquipmentType" Column="sowel_equipment_type" />	
+	<Flat Name="SowelItemType" Column="sowelItemType" />	
+	<Flat Name="IsStackable" Column="stackable" />	
+	<Flat Name="Name" Column="Name" />	
+  </DataHolder>
+</DataHolders>

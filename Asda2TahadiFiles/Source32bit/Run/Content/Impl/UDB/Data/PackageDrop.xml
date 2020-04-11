@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="PackageDrop">
+    <DefaultTable>PackageDrop</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<Flat Name="PackageId" Column="PackageId" />
+<Flat Name="ItemId" Column="ItemId" />
+<Flat Name="Amount" Column="Amount" />
+  </DataHolder>
+</DataHolders>
+

@@ -1,0 +1,62 @@
+(2018-08-26 13:54:19.0442) [Info] Initialization Pass #Config 
+(2018-08-26 13:54:21.0988) [Info] Step:  'Initialize Config' (00:02.49) 
+(2018-08-26 13:54:21.0988) [Info] Initialization Pass #First 
+(2018-08-26 13:54:21.1048) [Info] Step:  'Asda2 Security System' (00:00.06) 
+(2018-08-26 13:54:21.1048) [Info] No addons found. 
+(2018-08-26 13:54:21.1048) [Info] Step:  'Initialize Addons' (00:00.06) 
+(2018-08-26 13:54:31.8990) [Info] Step:  'Initialize Spells' (00:10.771) 
+(2018-08-26 13:54:32.1119) [Info] Step:  'Items sets system.' (00:00.212) 
+(2018-08-26 13:54:32.1319) [Info] Step:  'Initialize database' (00:00.19) 
+(2018-08-26 13:54:32.1319) [Info] Initialization Pass #Second 
+(2018-08-26 13:54:32.2588) [Info] Step:  'Register packet handlers' (00:00.126) 
+(2018-08-26 13:54:32.2588) [Info] Step:  'Initialize Factions' (00:00.00) 
+(2018-08-26 13:54:32.2588) [Info] Initialization Pass #Third 
+(2018-08-26 13:54:32.6391) [Info] Step:  'Initialize Spells (2)' (00:00.216) 
+(2018-08-26 13:54:33.3781) [Info] Step:  'Initializing World' (00:00.739) 
+(2018-08-26 13:54:34.0580) [Info] Step:  'Pet system' (00:00.679) 
+(2018-08-26 13:54:34.0580) [Info] Initialization Pass #Fourth 
+(2018-08-26 13:54:34.1386) [Info] Step:  'Privilege manager' (00:00.80) 
+(2018-08-26 13:54:34.1386) [Info] Step:  'Initialize WorldSafeLocs' (00:00.01) 
+(2018-08-26 13:54:34.3215) [Info] Step:  'Initialize Commands' (00:00.181) 
+(2018-08-26 13:54:34.4882) [Info] Step:  'Caching Ban list...' (00:00.166) 
+(2018-08-26 13:54:49.6057) [Info] Step:  'Initialize Items' (00:15.117) 
+(2018-08-26 13:54:49.6057) [Info] Initialization Pass #Fifth 
+(2018-08-26 13:55:00.4080) [Info] Step:  'Initialize Guilds' (00:10.801) 
+(2018-08-26 13:55:00.4910) [Info] Step:  'Start relation manager' (00:00.83) 
+(2018-08-26 13:55:00.8124) [Info] Step:  'Initialize GameObjects' (00:00.321) 
+(2018-08-26 13:55:00.8473) [Info] Step:  'Create default channels' (00:00.34) 
+(2018-08-26 13:55:03.0820) [Info] Step:  'Initialize NPCs' (00:02.234) 
+(2018-08-26 13:55:03.1670) [Info] Step:  'Initialize Auctions' (00:00.85) 
+(2018-08-26 13:55:03.3102) [Info] Step:  'Initialize Instances' (00:00.142) 
+(2018-08-26 13:55:03.3582) [Info] Step:  'Initializing World' (00:00.47) 
+(2018-08-26 13:55:03.4477) [Info] Step:  'Initialize Accounts' (00:00.89) 
+(2018-08-26 13:55:03.5810) [Info] Step:  'Initialize Achievements' (00:00.133) 
+(2018-08-26 13:55:03.5810) [Info] Initialization Pass #Sixth 
+(2018-08-26 13:55:03.7064) [Info] Initialization Pass #Seventh 
+(2018-08-26 13:55:03.7678) [Info] Step:  'Initializing Races and Classes' (00:00.61) 
+(2018-08-26 13:55:03.7678) [Info] Initialization Pass #Tenth 
+(2018-08-26 13:55:03.9077) [Info] Step:  'Initialize Soulmates' (00:00.138) 
+(2018-08-26 13:55:03.9722) [Info] Step:  'Digging system.' (00:00.64) 
+(2018-08-26 13:55:05.4089) [Info] Step:  'Load Loot' (00:01.435) 
+(2018-08-26 13:55:34.3172) [Info] Step:  'Asda2 title system.' (00:28.907) 
+(2018-08-26 13:55:34.7710) [Info] Step:  'Style shop.' (00:00.453) 
+(2018-08-26 13:55:35.9361) [Info] Step:  'Fishing system.' (00:01.165) 
+(2018-08-26 13:55:36.1172) [Info] Step:  'Asda2 battleground system.' (00:00.181) 
+(2018-08-26 13:55:37.2671) [Info] Step:  'Auction System' (00:01.148) 
+(2018-08-26 13:55:37.4096) [Info] Step:  'Craft' (00:00.142) 
+(2018-08-26 13:55:37.4096) [Info] Initialization Pass #Last 
+(2018-08-26 13:55:37.6425) [Info] Step:  'GG Emu started.' (00:00.232) 
+(2018-08-26 13:55:37.8154) [Info] Step:  'PerLevelBonuses' (00:00.142) 
+(2018-08-26 13:55:37.8873) [Info] Step:  'Mount system' (00:00.71) 
+(2018-08-26 13:55:38.0033) [Info] Step:  'Logging system' (00:00.115) 
+(2018-08-26 13:55:38.0033) [Info] Step:  'Teleport manager.' (00:00.02) 
+(2018-08-26 13:55:38.0072) [Info] Initialization complete! 53 successful steps, 0 non-fatal failures. 
+(2018-08-26 13:55:38.0072) [Info] Starting the network layer! 
+(2018-08-26 13:55:38.0813) [Info] Listening to TCP socket on 127.0.0.1:5000 
+(2018-08-26 13:55:38.0813) [Info] Server is ready for connections! 
+(2018-08-26 13:55:38.0813) [Info] Server started - Max Working Set Size: 1413120 
+(2018-08-26 13:55:46.1696) [Info] IPC service started on net.tcp://127.0.0.1:7470/ 
+(2018-08-26 13:55:53.4761) [Info] [Broadcast] Initiating Shutdown... 
+(2018-08-26 13:55:53.4761) [Info] [Broadcast] Halting server and saving World... 
+(2018-08-26 13:55:53.4761) [Info] [Broadcast] Saving guilds... 
+(2018-08-26 13:55:53.7498) [Info] [Broadcast] Saving auction... 

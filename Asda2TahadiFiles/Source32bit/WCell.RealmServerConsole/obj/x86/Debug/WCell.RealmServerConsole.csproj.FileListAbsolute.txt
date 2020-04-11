@@ -1,0 +1,6 @@
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\Run\DebugX86\WCell.RealmServerConsole.exe
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\Run\DebugX86\WCell.RealmServerConsole.pdb
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\WCell.RealmServerConsole\obj\x86\Debug\WCell.RealmServerConsole.csproj.CoreCompileInputs.cache
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\WCell.RealmServerConsole\obj\x86\Debug\WCell.RealmServerConsole.csproj.CopyComplete
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\WCell.RealmServerConsole\obj\x86\Debug\WCell.RealmServerConsole.exe
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\WCell.RealmServerConsole\obj\x86\Debug\WCell.RealmServerConsole.pdb

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="Asda2Portal">
+    <DefaultTable>Asda2Portal</DefaultTable>
+    
+    <Flat Name="FromX" Column="FromX" />
+    <Flat Name="FromY" Column="FromY" />
+	<Flat Name="FromMap" Column="FromMap" />
+	<Flat Name="ToX" Column="ToX" />
+	<Flat Name="ToY" Column="ToY" />
+	<Flat Name="ToMap" Column="ToMap" />
+	<Flat Name="Id" Column="Id" />
+  </DataHolder>
+</DataHolders>

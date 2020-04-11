@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="Asda2TitleTemplate">
+    <DefaultTable>Asda2TitleTemplate</DefaultTable>
+    <Flat Name="Id" Column="Id" />
+    <Flat Name="Name" Column="Name" />
+	<Flat Name="LongDescr" Column="LongDescr" />
+	<Flat Name="Rarity" Column="Rarity" />
+	<Flat Name="Points" Column="Points" />
+	<Flat Name="IsEnabled" Column="IsEnabled" />
+	<Flat Name="Category" Column="Category" />
+  </DataHolder>
+</DataHolders>

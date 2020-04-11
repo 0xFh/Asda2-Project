@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="AvatarDisasembleRecord">
+    <DefaultTable>AvatarDisasembleRecord</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<Flat Name="IsRegular" Column="IsRegular" />
+<Flat Name="Level" Column="Level" />
+<FlatArray Name="ItemIds">
+      <Column Name="ItemIds_0"/>
+	  <Column Name="ItemIds_1"/>
+	  <Column Name="ItemIds_2"/>
+	  <Column Name="ItemIds_3"/>
+	  <Column Name="ItemIds_4"/>
+	  <Column Name="ItemIds_5"/>
+	  <Column Name="ItemIds_6"/>
+	  <Column Name="ItemIds_7"/>
+	  <Column Name="ItemIds_8"/>
+	  <Column Name="ItemIds_9"/>
+</FlatArray>
+<FlatArray Name="Chances">
+      <Column Name="Chances_0"/>
+	  <Column Name="Chances_1"/>
+	  <Column Name="Chances_2"/>
+	  <Column Name="Chances_3"/>
+	  <Column Name="Chances_4"/>
+	  <Column Name="Chances_5"/>
+	  <Column Name="Chances_6"/>
+	  <Column Name="Chances_7"/>
+	  <Column Name="Chances_8"/>
+	  <Column Name="Chances_9"/>
+</FlatArray>
+  </DataHolder>
+</DataHolders>

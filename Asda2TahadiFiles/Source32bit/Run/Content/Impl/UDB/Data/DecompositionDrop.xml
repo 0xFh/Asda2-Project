@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="DecompositionDrop">
+  <DefaultTable>DecompositionDrop</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<Flat Name="FromItemId" Column="FromItemId" />
+<Flat Name="ItemId" Column="ItemId" />
+<Flat Name="Chance" Column="Chance" />
+<Flat Name="MinAmount" Column="MinAmount" />
+<Flat Name="MaxAmount" Column="MaxAmount" />
+
+  </DataHolder>
+</DataHolders>
+

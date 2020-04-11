@@ -1,0 +1,30 @@
+﻿namespace WCell.RealmServer.Asda2_Items
+{
+    public enum Asda2EquipmentSlots
+    {
+        Head,
+        Shirt,
+        Pans,
+        Boots,
+        Gloves,
+        LeftRing,
+        RightRing,
+        Nackles,
+        Shild,
+        Weapon,
+        Ammo,
+        AvatarHead,
+        AvatarShirt,
+        AvatarPans,
+        AvatarBoots,
+        AvatarGloves,
+        Accessory,
+        AvaratRightHead,
+        Cape,
+        Wings,
+        AnyArmor,
+        AnyAvatar,
+        Jevelery,
+        AnyAvatarAccecory,
+    }
+}

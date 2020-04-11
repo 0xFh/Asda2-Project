@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="Asda2NPCLootItemEntry">
+    <DefaultTable>asda2itemdroptemplate</DefaultTable>
+	<Flat Name="Guid" Column="Guid" />
+    <Flat Name="MonstrId" Column="MonstrId" />
+    <Flat Name="MinAmount" Column="MinAmount" />
+    <Flat Name="MaxAmount" Column="MaxAmount" />    
+    <Flat Name="ItemId" Column="ItemId" />
+    <Flat Name="DropChance" Column="Chance" />
+    <Flat Name="RequiredQuestId" Column="RequiredQuestId" />	
+	<Flat Name="LootType" Column="Type" />		
+  </DataHolder>
+</DataHolders>

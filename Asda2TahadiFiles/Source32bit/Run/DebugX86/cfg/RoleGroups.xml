@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RoleGroupConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Privileges>
+    <Privilege Name="Guest" Status="Player" MaySkipAuthQueue="false" ScrambleChat="true" AppearAsGM="false" AppearAsQA="false" Rank="0" CanUseCommandsOnOthers="false" CanHandleTickets="false">
+      <Inheritance>
+        <InheritsFrom>#</InheritsFrom>
+      </Inheritance>
+      <Commands>
+        <Command>#</Command>
+      </Commands>
+    </Privilege>
+    <Privilege Name="Player" Status="Player" MaySkipAuthQueue="false" ScrambleChat="true" AppearAsGM="false" AppearAsQA="false" Rank="1" CanUseCommandsOnOthers="false" CanHandleTickets="false">
+      <Inheritance>
+        <InheritsFrom>Guest</InheritsFrom>
+      </Inheritance>
+      <Commands>
+        <Command>#</Command>
+      </Commands>
+    </Privilege>
+    <Privilege Name="Vip" Status="Player" MaySkipAuthQueue="true" ScrambleChat="true" AppearAsGM="false" AppearAsQA="false" Rank="5" CanUseCommandsOnOthers="false" CanHandleTickets="false">
+      <Inheritance>
+        <InheritsFrom>Player</InheritsFrom>
+      </Inheritance>
+      <Commands>
+        <Command>#</Command>
+      </Commands>
+    </Privilege>
+    <Privilege Name="EM" Status="EventManager" MaySkipAuthQueue="true" ScrambleChat="true" AppearAsGM="false" AppearAsQA="false" Rank="4" CanUseCommandsOnOthers="false" CanHandleTickets="false">
+      <Inheritance>
+        <InheritsFrom>Player</InheritsFrom>
+      </Inheritance>
+      <Commands>
+        <Command>#</Command>
+      </Commands>
+    </Privilege>
+    <Privilege Name="QA" Status="Staff" MaySkipAuthQueue="true" ScrambleChat="false" AppearAsGM="false" AppearAsQA="true" Rank="100" CanUseCommandsOnOthers="false" CanHandleTickets="true">
+      <Inheritance>
+        <InheritsFrom>Vip</InheritsFrom>
+      </Inheritance>
+      <Commands>
+        <Command>#</Command>
+      </Commands>
+    </Privilege>
+    <Privilege Name="GM" Status="Staff" MaySkipAuthQueue="true" ScrambleChat="false" AppearAsGM="true" AppearAsQA="false" Rank="500" CanUseCommandsOnOthers="true" CanHandleTickets="true">
+      <Inheritance>
+        <InheritsFrom>QA</InheritsFrom>
+      </Inheritance>
+      <Commands>
+        <Command>#</Command>
+      </Commands>
+    </Privilege>
+    <Privilege Name="Developer" Status="Admin" MaySkipAuthQueue="true" ScrambleChat="false" AppearAsGM="true" AppearAsQA="false" Rank="1000" CanUseCommandsOnOthers="true" CanHandleTickets="true">
+      <Inheritance>
+        <InheritsFrom>GM</InheritsFrom>
+      </Inheritance>
+      <Commands>
+        <Command>#</Command>
+      </Commands>
+    </Privilege>
+    <Privilege Name="Admin" Status="Admin" MaySkipAuthQueue="true" ScrambleChat="false" AppearAsGM="true" AppearAsQA="false" Rank="5000" CanUseCommandsOnOthers="true" CanHandleTickets="true">
+      <Inheritance>
+        <InheritsFrom>GM</InheritsFrom>
+      </Inheritance>
+      <Commands>
+        <Command>#</Command>
+      </Commands>
+    </Privilege>
+    <Privilege Name="Owner" Status="Admin" MaySkipAuthQueue="true" ScrambleChat="false" AppearAsGM="true" AppearAsQA="false" Rank="10000" CanUseCommandsOnOthers="true" CanHandleTickets="true">
+      <Inheritance>
+        <InheritsFrom>Admin</InheritsFrom>
+      </Inheritance>
+      <Commands>
+        <Command>*</Command>
+      </Commands>
+    </Privilege>
+  </Privileges>
+</RoleGroupConfig>

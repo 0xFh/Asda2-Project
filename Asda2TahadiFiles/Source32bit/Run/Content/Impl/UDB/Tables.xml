@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tables>
+  <DBVersion Table="db_version" Column="version" MinVersion="1" MaxVersion="1" />
+ 
+  <Table Name="pool_template" MainDataHolder="SpawnPoolTemplateEntry">
+    <PrimaryColumn Name="entry"/>
+  </Table>
+
+ <Table Name="ItemStatsInfo" MainDataHolder="ItemStatsInfo">
+    <PrimaryColumn Name="Id"/>
+  </Table>
+  <Table Name="MountTemplate" MainDataHolder="MountTemplate">
+    <PrimaryColumn Name="Id"/>
+  </Table>
+  <Table Name="creature" MainDataHolder="NPCSpawnEntry">
+    <PrimaryColumn Name="guid"/>
+  </Table>
+  <Table Name="PerlevelItemBonusTemplateItems" MainDataHolder="PerlevelItemBonusTemplateItem">
+    <PrimaryColumn Name="Id"/>
+  </Table>
+  <Table Name="PerlevelItemBonusTemplate" MainDataHolder="PerlevelItemBonusTemplate">
+    <PrimaryColumn Name="Id"/>
+  </Table>
+   <Table Name="CraftRecord" MainDataHolder="Asda2RecipeTemplate">
+    <PrimaryColumn Name="Id"/>
+  </Table>
+  <Table Name="SetItemDataRecord" MainDataHolder="SetItemDataRecord">
+    <PrimaryColumn Name="Id"/>
+  </Table>
+  <Table Name="pool_creature" MainDataHolder="NPCSpawnEntry">
+    <PrimaryColumn Name="guid" TypeName="UInt32"/>
+  </Table>
+
+  <Table Name="ItemCombineDataRecord">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+  <Table Name="AvatarDisasembleRecord">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+  <Table Name="Asda2GuildWaveItemRecord">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+   <Table Name="Asda2BossSummonRecord">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+  <Table Name="MineTableRecord">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+  <Table Name="creature_movement">
+    <PrimaryColumn Name="id"/>
+    <PrimaryColumn Name="point"/>
+  </Table>
+  
+  <Table Name="FishingBookTemplate">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+    <Table Name="FishingBaseInfoRecord">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+ <Table Name="FishingSpotInfoRecord">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+  <Table Name="FishingFishInfoRecord">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+  
+  <Table Name="FaceTableRecord">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+  <Table Name="HairTableRecord">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+  
+  <Table Name="PetTemplate">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+  <Table Name="PetOptionValueRecord">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+  <Table Name="PetExpTableRecord">
+    <PrimaryColumn Name="Id" TypeName="Int32"/>
+  </Table>
+  <Table Name="PackageDrop">
+    <PrimaryColumn Name="id" TypeName="Int32"/>
+  </Table>
+  <Table Name="WarShopDataRecord">
+    <PrimaryColumn Name="id" TypeName="Int32"/>
+  </Table>
+  <Table Name="regularshoprecord">
+    <PrimaryColumn Name="id" TypeName="Int32"/>
+  </Table>
+  <Table Name="DecompositionDrop">
+    <PrimaryColumn Name="id" TypeName="Int32"/>
+  </Table>
+   <Table Name="BoosterDrop">
+    <PrimaryColumn Name="id" TypeName="Int32"/>
+  </Table>
+    <Table Name="Asda2TitleTemplate">
+    <PrimaryColumn Name="id" TypeName="Int32"/>
+  </Table>
+   <Table Name="asda2itemtemlate">
+    <PrimaryColumn Name="id" TypeName="Int32"/>
+  </Table>
+  <Table Name="asda2itemdroptemplate">
+    <PrimaryColumn Name="Guid" TypeName="Int32"/>
+  </Table>
+
+  <Table Name="creature_template" MainDataHolder="NPCEntry">
+    <PrimaryColumn Name="entry"/>
+  </Table>
+  <Table Name="SkillTemplate" MainDataHolder="Spell">
+    <PrimaryColumn Name="Id"/>
+  </Table>
+ <Table Name="Asda2Portal" MainDataHolder="Asda2Portal">
+    <PrimaryColumn Name="Id"/>
+  </Table>
+  <Table Name="gameobject">
+    <PrimaryColumn Name="guid"/>
+  </Table>
+
+  <Table Name="gameobject_template">
+    <PrimaryColumn Name="entry"/>
+  </Table>
+
+  <Table Name="playercreateinfo">
+    <PrimaryColumn Name="race" />
+    <PrimaryColumn Name="class" />
+  </Table>
+
+  <Table Name="player_classlevelstats">
+    <PrimaryColumn Name="Class" />
+    <PrimaryColumn Name="level" />
+  </Table>
+
+
+  <Table Name="player_levelstats">
+    <PrimaryColumn Name="race" />
+    <PrimaryColumn Name="Class" />
+    <PrimaryColumn Name="level" />
+  </Table>
+  
+   
+</Tables>

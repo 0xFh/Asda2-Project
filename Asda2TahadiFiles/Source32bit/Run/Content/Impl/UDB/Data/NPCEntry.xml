@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="NPCEntry">
+    <DefaultTable>creature_template</DefaultTable>
+    <Flat Name="Id" Column="entry" Type="UInt32" />	
+    <Flat Name="BoundingRadius" Column="BoundingRadius" />
+    <Flat Name="CombatReach" Column="CombatReach" />
+    <Flat Name="InfoString" Column="IconName" />
+    <Flat Name="MinLevel" Column="Level" />
+    <Flat Name="MaxLevel" Column="Level" />
+    <Flat Name="MinHealth" Column="Health" />
+    <Flat Name="MaxHealth" Column="Health" />
+    <Flat Name="MinMana" Column="Mana" />
+    <Flat Name="MaxMana" Column="Mana" />
+    <Flat Name="MinDamage" Column="mindmg" />
+    <Flat Name="MaxDamage" Column="maxdmg" />
+    <FlatArray Name="Resistances">
+      <Column Name="PhisicalResist"/>
+      <Column Name="MagicalResist"/>
+      <Column Name="FireResist"/>
+      <Column Name="NatureResist"/>
+      <Column Name="FrostResist"/>
+      <Column Name="ShadowResist"/>
+      <Column Name="ArcaneResist"/>
+    </FlatArray>
+    <Flat Name="Rank" Column="rank" />
+    <Flat Name="DamageSchool" Column="dmgschool" />
+    <Flat Name="AttackPower" Column="attackpower" />
+    <Flat Name="DamageMod" Column="dmg_multiplier" />
+    <Flat Name="AttackTime" Column="baseattacktime" />
+    <Flat Name="MoneyDrop" Column="MoneyDrop" />
+    <Flat Name="MovementType" Column="MovementType" />
+    <Flat Name="Regenerates" Column="RegenHealth" />
+    <Flat Name="SpellGroupId" Column="PetSpellDataId" />
+	<Flat Name="IsAgressive" Column="IsAgressive" />
+	<Flat Name="AtackRange" Column="CombatReach" />	
+	<Flat Name="WalkSpeed" Column="speed_walk" />
+	<Flat Name="RunSpeed" Column="speed_run" />
+    <FlatArray Name="FixedSpells" Pattern="spell{#}" Offset="1" /> 
+    
+  </DataHolder>
+</DataHolders>

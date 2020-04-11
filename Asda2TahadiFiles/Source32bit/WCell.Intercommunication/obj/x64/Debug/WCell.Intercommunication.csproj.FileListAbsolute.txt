@@ -1,0 +1,11 @@
+C:\Users\NoN\Desktop\Asda2_Server\Run\DebugX64\WCell.Intercommunication.dll
+C:\Users\NoN\Desktop\Asda2_Server\Run\DebugX64\WCell.Intercommunication.pdb
+C:\Users\NoN\Desktop\Asda2_Server\WCell.Intercommunication\obj\x64\Debug\WCell.Intercommunication.csprojAssemblyReference.cache
+C:\Users\NoN\Desktop\Asda2_Server\WCell.Intercommunication\obj\x64\Debug\WCell.Intercommunication.csproj.CoreCompileInputs.cache
+C:\Users\NoN\Desktop\Asda2_Server\WCell.Intercommunication\obj\x64\Debug\WCell.Intercommunication.dll
+C:\Users\NoN\Desktop\Asda2_Server\WCell.Intercommunication\obj\x64\Debug\WCell.Intercommunication.pdb
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\Run\DebugX64\WCell.Intercommunication.dll
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\Run\DebugX64\WCell.Intercommunication.pdb
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\WCell.Intercommunication\obj\x64\Debug\WCell.Intercommunication.csproj.CoreCompileInputs.cache
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\WCell.Intercommunication\obj\x64\Debug\WCell.Intercommunication.dll
+C:\ttweer asda2\Asda2_Server\tahadi server\Asda2_Server_Tahadi_Bin32bit\Asda2_Server\WCell.Intercommunication\obj\x64\Debug\WCell.Intercommunication.pdb

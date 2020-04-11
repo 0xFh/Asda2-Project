@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="PetExpTableRecord">
+    <DefaultTable>PetExpTableRecord</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<Flat Name="Rank" Column="Rank" />
+<Flat Name="Rarity" Column="Rarity" />
+<FlatArray Name="Exps">
+      <Column Name="Exps_0" Table="PetExpTableRecord" />
+	  <Column Name="Exps_1" Table="PetExpTableRecord" />
+	  <Column Name="Exps_2" Table="PetExpTableRecord" />
+	  <Column Name="Exps_3" Table="PetExpTableRecord" />
+	  <Column Name="Exps_4" Table="PetExpTableRecord" />
+	  <Column Name="Exps_5" Table="PetExpTableRecord" />
+	  <Column Name="Exps_6" Table="PetExpTableRecord" />
+	  <Column Name="Exps_7" Table="PetExpTableRecord" />
+	  <Column Name="Exps_8" Table="PetExpTableRecord" />
+	  <Column Name="Exps_9" Table="PetExpTableRecord" />
+</FlatArray>
+  </DataHolder>
+</DataHolders>
