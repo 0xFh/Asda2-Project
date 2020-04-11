@@ -1,0 +1,23 @@
+1- Şã Èİß ÖÛØ ãáİ Debug
+2- ÇİÊÍ Warshop.exe  ÈÇáãİßÑÉ (íİÖá ÈÑäÇãÌ Notepad++) æÚÏá ãÚáæãÇÊ ŞÇÚÏÉ ÇáÈíÇäÇÊ
+3-ÇÏÎá Úáì ÊØÈíŞ Warshop Ëã ÇÎÊÑ äæÚ ÇáãáİÇÊ [ÇĞÇ ßÇäÊ ÚÑÈíÉ ar]  [ÇĞÇ ßÇäÊ ÇäÌáíÒíÉ en]
+4-ÇÏÎá ÇÓã ÇáÔíÁ ÇáĞí ÊÑíÏ ÇÓÊíÑÇÏå ãËá:
+
+ ÇáÃáŞÇÈ: Title 
+ãÊÌÑ ÇáÍÑÈ:Warshop 
+ÇáÃÏæÇÊ:Items
+
+-
+
+1-Extract Debug file
+2-open Warshop.exe With Note or (Notepad++ recomnded) and change database info
+3-open Warshop and choose file type if arabic files write (ar) if english write (en)
+4-write the name of the thing you want to get like:
+
+Title
+Warshop
+Items
+
+-
+
+ãÔÑæÚ ÊØæíÑ áÚÈÉ ÇÓÏÇ2   -  Asda2 Development Project

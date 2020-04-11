@@ -1,0 +1,18 @@
+1-  Şã Èİß ÖÛØ ãáİ Xorer
+2-ÇÏÎá Úáì åĞÇ ÇáãÓÇÑ: Xorer\Xorer\bin\Debug
+3- ÖÚ Çáãáİ ÇáĞí ÊÑÛÈ Èİß ÊÔİíÑå
+4-  Şã ÈİÊÍ ãæÌå ÇáÃæÇãÑ (CMD) 
+5- Şã ÈáÕŞ Xorer.exe Çáì ãæÌå ÇáÃæÇãÑ æÃÖİ áå ãÓÇİÉ Ëã -ar æÇĞÇ ßÇä ãáİ ÇáÈíä ÇäÌáíÒí áÇ ÊÖİ áå -ar (ÇáÔÑØÉ ŞÈá ar)
+6- ÚäÏ ÇáÑÛÈÉ İí ÇÚÇÏÉ ÊÔİíÑ Çáãáİ ÖÚ Çáãáİ ÇáÛíÑ ãÔİÑ İí äİÓ ÇáãßÇä æÃÚÏ ÇáÚãáíÉ
+
+-
+
+1- Extract Xorer file
+2- go to: Xorer\Xorer\bin\Debug
+3- put the file/s you want to decrypt
+4- open cmd 
+5- pull Xorer.exe to the cmd and then enter if arabic just add -ar (- before ar)
+6-If you want to encrypt the file/s again just but the decryptes file/s in the same place and repeat the procese 
+
+-
+ãÔÑæÚ ÊØæíÑ áÚÈÉ ÇÓÏÇ2   -  Asda2 Development Project

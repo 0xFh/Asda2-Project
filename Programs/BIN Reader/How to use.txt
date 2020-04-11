@@ -1,0 +1,20 @@
+1- İß ÖÛØ Çáãáİ: Universal Table Reader
+2- ÇÏÎá Úáì åĞÇ ÇáãÓÇÑ: Universal Table Reader\Universal Table Reader\bin\Debug
+3- Şã ÈäÓÎ ãáİ ÇáÈíä ÇáÛíÑ ãÔİÑ İí ÇáãÓÇÑ ÇáãÍÏÏ (áÇ íãßä ÚÑÖ ÇáãáİÇÊ ÇáãÔİÑÉ)
+4- ÇİÊÍ ãáİ Universal Table Reader.exe
+5- ÇÖÛØ Úáì ÇáŞÇÆãÉ İí ÇŞÕì ÇáíÓÇÑ Ëã ÇÎÊÑ Çáãáİ ÇáĞí ŞãÊ ÈæÖÚå áÚÑÖå
+6- ÈÚÏ ÇÎÊíÇÑ Çáãáİ ÇÖÛØ Úáì Load data
+
+-
+
+1- Extract: Universal Table Reader file
+2- go to:Universal Table Reader\Universal Table Reader\bin\Debug
+3- Copy the decrypted files 
+4- Open Universal Table Reader.exe
+5- In the left you will find menu option open it 
+6- after you choose the file you want to read just press load data
+
+-
+
+ãÔÑæÚ ÊØæíÑ áÚÈÉ ÇÓÏÇ2   -  Asda2 Development Project 
+
