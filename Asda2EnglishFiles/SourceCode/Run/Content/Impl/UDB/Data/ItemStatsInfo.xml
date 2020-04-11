@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="ItemStatsInfo">
+    <DefaultTable>ItemStatsInfo</DefaultTable>
+    
+    <Flat Name="ClassMask" Column="ClassMask" />
+    <Flat Name="StatType" Column="StatType" />
+	<Flat Name="ItemType" Column="ItemType" />
+	<Flat Name="BaseValue" Column="BaseValue" />
+	<Flat Name="SpreadingPrc" Column="SpreadingPrc" />
+	<Flat Name="PerLevelInc" Column="PerLevelInc" />
+	<Flat Name="Id" Column="Id" />
+	<Flat Name="StatSlot" Column="StatSlot" />
+	<Flat Name="Chance" Column="Chance" />
+	<Flat Name="ReqiredQuality" Columt="ReqiredQuality"/>
+  </DataHolder>
+</DataHolders>

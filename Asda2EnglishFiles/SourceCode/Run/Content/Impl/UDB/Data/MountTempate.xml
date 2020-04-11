@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="MountTemplate">
+    <DefaultTable>MountTemplate</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<Flat Name="Unk" Column="Unk" />
+<Flat Name="Time" Column="Time" />
+<Flat Name="Unk2" Column="Unk2" />
+<Flat Name="ItemId" Column="ItemId" />
+<Flat Name="Name" Column="Name" />
+<Flat Name="ImageName" Column="ImageName" />
+<Flat Name="Unk1" Column="Unk1" />
+
+  </DataHolder>
+</DataHolders>

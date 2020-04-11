@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D97CAC5E-505F-4ECD-9436-9567A4CEAD1B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>WCell.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>0.5.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>WCell</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\Run\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>..\Run\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.ActiveRecord, Version=2.1.2.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Castle.ActiveRecord.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.4.369, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=1.0.0.505, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ObjectCopier.cs" />
+    <Compile Include="Asda2EncodingHelper.cs" />
+    <Compile Include="AsdaStoryTextDecoder.cs" />
+    <Compile Include="ByteBuffer.cs" />
+    <Compile Include="ClientTypeUtility.cs" />
+    <Compile Include="ClientLocaleUtility.cs" />
+    <Compile Include="CommandUtil.cs" />
+    <Compile Include="AsyncTaskPool.cs" />
+    <Compile Include="DataConvertionHelpers.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Compression.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="ReflectUtil.cs" />
+    <Compile Include="SelfRunningTaskQueue.cs" />
+    <Compile Include="ServerApp.cs" />
+    <Compile Include="SingletonHolder.cs" />
+    <Compile Include="Statistics.cs" />
+    <Compile Include="StatisticsGenaric.cs" />
+    <Compile Include="WCellConfig.cs" />
+    <Compile Include="WCellConstants.cs" />
+    <Compile Include="AppConfig.cs" />
+    <Compile Include="EntityId.cs" />
+    <Compile Include="ClientInformation.cs" />
+    <Compile Include="WCellException.cs" />
+    <Compile Include="WCellUtil.cs" />
+    <Compile Include="Addons\WCellAddonAttribute.cs" />
+    <Compile Include="Addons\WCellAddonBase.cs" />
+    <Compile Include="Addons\WCellAddonBaseGenaric.cs" />
+    <Compile Include="Addons\WCellAddonContext.cs" />
+    <Compile Include="Addons\WCellAddonMgr.cs" />
+    <Compile Include="Addons\WCellAddonMgrGenaric.cs" />
+    <Compile Include="Addons\WCellAddonUtil.cs" />
+    <Compile Include="Cryptography\ARC4.cs" />
+    <Compile Include="Cryptography\PacketCrypt.cs" />
+    <Compile Include="Cryptography\Authenticator.cs" />
+    <Compile Include="Cryptography\BigInteger.cs" />
+    <Compile Include="Cryptography\HashUtilities.cs" />
+    <Compile Include="Cryptography\SecureRemotePassword.cs" />
+    <Compile Include="Database\SqlUtil.cs" />
+    <Compile Include="Database\WCellRecord.cs" />
+    <Compile Include="Database\DatabaseConfiguration.cs" />
+    <Compile Include="Database\DatabaseUtil.cs" />
+    <Compile Include="Database\SingleStringMover.cs" />
+    <Compile Include="Database\ConsoleStringMover.cs" />
+    <Compile Include="Initialization\InitializationDependency.cs" />
+    <Compile Include="Initialization\DependentInitializationAttribute.cs" />
+    <Compile Include="Initialization\GlobalMgrInfo.cs" />
+    <Compile Include="Initialization\DependentInitializationStep.cs" />
+    <Compile Include="Initialization\InitializationException.cs" />
+    <Compile Include="Initialization\InitializationAttribute.cs" />
+    <Compile Include="Initialization\InitMgr.cs" />
+    <Compile Include="Initialization\InitializationStep.cs" />
+    <Compile Include="Network\Asda2CryptHelper.cs" />
+    <Compile Include="Network\IOExtensions.cs" />
+    <Compile Include="Network\NetworkStatistics.cs" />
+    <Compile Include="Network\PacketIn.cs" />
+    <Compile Include="Network\PrimitiveWriter.cs" />
+    <Compile Include="Network\PacketOut.cs" />
+    <Compile Include="Network\DisposableRealmPacketIn.cs" />
+    <Compile Include="Network\FakeClientBase.cs" />
+    <Compile Include="Network\PacketHandler.cs" />
+    <Compile Include="Network\PacketHandlerAttribute.cs" />
+    <Compile Include="Network\ClientPacketHandlerAttribute.cs" />
+    <Compile Include="Network\PacketId.cs" />
+    <Compile Include="Network\PacketManager.cs" />
+    <Compile Include="Network\RealmPacketOut.cs" />
+    <Compile Include="Timers\BucketTimer.cs" />
+    <Compile Include="Timers\TimerBucket.cs" />
+    <Compile Include="Timers\TimerRunner.cs" />
+    <Compile Include="Timers\SimpleUpdatable.cs" />
+    <Compile Include="Timers\SimpleTimerEntry.cs" />
+    <Compile Include="Timers\TimerEntry.cs" />
+    <Compile Include="Paths\Path.cs" />
+    <Compile Include="Paths\PathQuery.cs" />
+    <Compile Include="Variables\WCellVariableAttribute.cs" />
+    <Compile Include="Variables\WCellVariableDefinition.cs" />
+    <Compile Include="DBC\DBCReader.cs" />
+    <Compile Include="DBC\MappedDBCReader.cs" />
+    <Compile Include="DBC\ListDBCReader.cs" />
+    <Compile Include="DBC\DBCRecordConverter.cs" />
+    <Compile Include="DBC\AdvancedDBCRecordConverter.cs" />
+    <Compile Include="DBC\GameTableConverter.cs" />
+    <Compile Include="DBC\ChatChannelConverter.cs" />
+    <Compile Include="DBC\CharStartOutfitConverter.cs" />
+    <Compile Include="DBC\CharBaseInfoConverter.cs" />
+    <Compile Include="Localization\WCell_Core.cs" />
+    <Compile Include="Localization\Resources.cs" />
+    <Compile Include="WDB\WDBReader.cs" />
+    <Compile Include="WDB\CreatureCacheConverter.cs" />
+    <Compile Include="Network\RealmPacketIn.cs" />
+    <Compile Include="Database\NHIdGenerator.cs" />
+    <Compile Include="Network\AuthPacketIn.cs" />
+    <Compile Include="Network\AuthPacketOut.cs" />
+    <Compile Include="HighId.cs" />
+    <Compile Include="HighGuid8.cs" />
+    <Compile Include="HighGuidType.cs" />
+    <Compile Include="Addons\IWCellAddon.cs" />
+    <Compile Include="Database\RecordState.cs" />
+    <Compile Include="Initialization\GlobalMgrAttribute.cs" />
+    <Compile Include="Initialization\IInitializationInfo.cs" />
+    <Compile Include="Initialization\InitializationPass.cs" />
+    <Compile Include="Initialization\InitFailedHandler.cs" />
+    <Compile Include="Network\Locale.cs" />
+    <Compile Include="Network\PacketInfo.cs" />
+    <Compile Include="Network\ServiceType.cs" />
+    <Compile Include="Timers\1IUpdatable.cs" />
+    <Compile Include="Timers\TimerPriority.cs" />
+    <Compile Include="Paths\IHasPosition.cs" />
+    <Compile Include="Paths\IPathVertex.cs" />
+    <Compile Include="Terrain\ITerrain.cs" />
+    <Compile Include="Terrain\ITerrainProvider.cs" />
+    <Compile Include="DBC\MapInfo.cs" />
+    <Compile Include="DBC\ChatChannelEntry.cs" />
+    <Compile Include="DBC\CharStartOutfit.cs" />
+    <Compile Include="DBC\CharBaseInfo.cs" />
+    <Compile Include="WDB\IWDBEntry.cs" />
+    <Compile Include="WDB\WDBRecordConverter.cs" />
+    <Compile Include="WDB\CreatureCache.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Core\Database\Configurations\DB2Configuration.arconfig" />
+    <EmbeddedResource Include="Core\Database\Configurations\FireBirdConfiguration.arconfig" />
+    <EmbeddedResource Include="Core\Database\Configurations\MySQL5Configuration.arconfig" />
+    <EmbeddedResource Include="Core\Database\Configurations\MySQLConfiguration.arconfig" />
+    <EmbeddedResource Include="Core\Database\Configurations\OracleConfiguration.arconfig" />
+    <EmbeddedResource Include="Core\Database\Configurations\PostgreSQLConfiguration.arconfig" />
+    <EmbeddedResource Include="Core\Database\Configurations\SQLLiteConfiguration.arconfig" />
+    <EmbeddedResource Include="Core\Database\Configurations\SQLServer2005Configuration.arconfig" />
+    <EmbeddedResource Include="Core\Database\Configurations\SQLServerConfiguration.arconfig" />
+    <EmbeddedResource Include="Core\Localization\WCell\Core.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cell.Core\Cell.Core.csproj">
+      <Project>{53c2615d-dc87-4c76-bf6f-9ea9020ee065}</Project>
+      <Name>Cell.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WCell.Constants\WCell.Constants.csproj">
+      <Project>{258f541c-46be-44be-a8b6-9373218e374b}</Project>
+      <Name>WCell.Constants</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WCell.Intercommunication\WCell.Intercommunication.csproj">
+      <Project>{d9c21db6-90b7-436a-8397-20a6b26bfc84}</Project>
+      <Name>WCell.Intercommunication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WCell.Util\WCell.Util.csproj">
+      <Project>{fd88900c-ac2b-458f-8b51-25e643a1cc9b}</Project>
+      <Name>WCell.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <DataHolder Name="WarShopDataRecord">
+    <DefaultTable>WarShopDataRecord</DefaultTable>
+
+<Flat Name="Location" Column="Location" />
+<Flat Name="Id" Column="Id" />
+<Flat Name="ItemId" Column="ItemId" />
+<Flat Name="Amount" Column="Amount" />
+<Flat Name="Money1Type" Column="Money1Type" />
+<Flat Name="Money2Type" Column="Money2Type" />
+<Flat Name="Cost1" Column="Cost1" />
+<Flat Name="Cost2" Column="Cost2" />
+<Flat Name="Page" Column="Page" />
+
+  </DataHolder>
+</DataHolders>

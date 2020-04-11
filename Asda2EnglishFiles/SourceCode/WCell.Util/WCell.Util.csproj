@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD88900C-AC2B-458F-8B51-25E643A1CC9B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>WCell.Util</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>0.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>WCell.Util</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\Run\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>..\Run\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NLog, Version=1.0.0.505, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrayUtil.cs" />
+    <Compile Include="BoxExtensions.cs" />
+    <Compile Include="MiscExtensions.cs" />
+    <Compile Include="VectorExtensions.cs" />
+    <Compile Include="MathExtensions.cs" />
+    <Compile Include="IOExtensions.cs" />
+    <Compile Include="StaticCircularList.cs" />
+    <Compile Include="XmlFileBase.cs" />
+    <Compile Include="XmlFile.cs" />
+    <Compile Include="ExceptionExtensions.cs" />
+    <Compile Include="Synchronization\ReaderWriterLockWrapper.cs" />
+    <Compile Include="EmailAddressParser.cs" />
+    <Compile Include="EnumUtil.cs" />
+    <Compile Include="CustomGetterSetter.cs" />
+    <Compile Include="DefaultVariableAccessor.cs" />
+    <Compile Include="CollectionExtensions.cs" />
+    <Compile Include="IndentTextWriter.cs" />
+    <Compile Include="DefaultProducer.cs" />
+    <Compile Include="DefaultProducerGenaric.cs" />
+    <Compile Include="CustomProducer.cs" />
+    <Compile Include="DefaultOneArgumenteProducer.cs" />
+    <Compile Include="DefaultArrayProducer.cs" />
+    <Compile Include="DefaultArrayProducerGenaric.cs" />
+    <Compile Include="AppUtil.cs" />
+    <Compile Include="FileStreamTarget.cs" />
+    <Compile Include="MathUtil.cs" />
+    <Compile Include="ReflectionUtils.cs" />
+    <Compile Include="SortedTopN.cs" />
+    <Compile Include="StringParser.cs" />
+    <Compile Include="StringUtils.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="SingleEnumerator.cs" />
+    <Compile Include="SerializablePairCollection.cs" />
+    <Compile Include="WeakReference.cs" />
+    <Compile Include="Code\CodeFileWriter.cs" />
+    <Compile Include="Graphics\RectInt32.cs" />
+    <Compile Include="Graphics\Triangle.cs" />
+    <Compile Include="Graphics\Point2D.cs" />
+    <Compile Include="Graphics\MathHelper.cs" />
+    <Compile Include="Graphics\Point.cs" />
+    <Compile Include="Graphics\Ray2D.cs" />
+    <Compile Include="Graphics\Rect.cs" />
+    <Compile Include="Graphics\Size.cs" />
+    <Compile Include="Graphics\BoundingBox.cs" />
+    <Compile Include="Graphics\BoundingSphere.cs" />
+    <Compile Include="Graphics\Color.cs" />
+    <Compile Include="Graphics\Extensions.cs" />
+    <Compile Include="Graphics\HalfSingle.cs" />
+    <Compile Include="Graphics\HalfUtils.cs" />
+    <Compile Include="Graphics\Matrix.cs" />
+    <Compile Include="Graphics\OBB.cs" />
+    <Compile Include="Graphics\Plane.cs" />
+    <Compile Include="Graphics\Quaternion.cs" />
+    <Compile Include="Graphics\Ray.cs" />
+    <Compile Include="Graphics\Vector2.cs" />
+    <Compile Include="Graphics\Vector2Short.cs" />
+    <Compile Include="Graphics\Vector3.cs" />
+    <Compile Include="Graphics\Vector4.cs" />
+    <Compile Include="ObjectPools\ObjectPoolInfo.cs" />
+    <Compile Include="ObjectPools\ObjectPool.cs" />
+    <Compile Include="Collections\BaseImmutableDictionary.cs" />
+    <Compile Include="Collections\ImmutableDictionary.cs" />
+    <Compile Include="Collections\ImmutableList.cs" />
+    <Compile Include="Collections\LockfreeQueue.cs" />
+    <Compile Include="Collections\LockfreeStack.cs" />
+    <Compile Include="Collections\HeapEntry.cs" />
+    <Compile Include="Collections\PriorityQueue.cs" />
+    <Compile Include="Collections\SynchronizedDictionary.cs" />
+    <Compile Include="Collections\SynchronizedList.cs" />
+    <Compile Include="Collections\SynchronizedQueue.cs" />
+    <Compile Include="Collections\IdQueue.cs" />
+    <Compile Include="Commands\BaseCommand.cs" />
+    <Compile Include="Commands\CmdTrigger.cs" />
+    <Compile Include="Commands\Command.cs" />
+    <Compile Include="Commands\CommandMgr.cs" />
+    <Compile Include="Commands\NestedCmdTrigger.cs" />
+    <Compile Include="Commands\SilentCmdTrigger.cs" />
+    <Compile Include="Conversion\Converters.cs" />
+    <Compile Include="Conversion\ToIntConverter.cs" />
+    <Compile Include="Conversion\ToUIntConverter.cs" />
+    <Compile Include="Conversion\ToUIntEnumConverter.cs" />
+    <Compile Include="Conversion\ToStringConverter.cs" />
+    <Compile Include="Conversion\CustomReader.cs" />
+    <Compile Include="Data\BinaryContentStream.cs" />
+    <Compile Include="Data\DataFieldProxy.cs" />
+    <Compile Include="Data\DataHolderMgr.cs" />
+    <Compile Include="Data\ArrayPersistor.cs" />
+    <Compile Include="Data\NestedPersistor.cs" />
+    <Compile Include="Data\BinaryPersistors.cs" />
+    <Compile Include="Data\SimpleBinaryPersistor.cs" />
+    <Compile Include="Data\BoolPersistor.cs" />
+    <Compile Include="Data\Int32Persistor.cs" />
+    <Compile Include="Data\StringPersistor.cs" />
+    <Compile Include="Data\UInt32Persistor.cs" />
+    <Compile Include="Data\Int16Persistor.cs" />
+    <Compile Include="Data\UInt16Persistor.cs" />
+    <Compile Include="Data\BytePersistor.cs" />
+    <Compile Include="Data\SBytePersistor.cs" />
+    <Compile Include="Data\Int64Persistor.cs" />
+    <Compile Include="Data\UInt64Persistor.cs" />
+    <Compile Include="Data\FloatPersistor.cs" />
+    <Compile Include="Data\DoublePersistor.cs" />
+    <Compile Include="Data\DataFieldBase.cs" />
+    <Compile Include="Data\DataField.cs" />
+    <Compile Include="Data\FlatSimpleDataField.cs" />
+    <Compile Include="Data\NestedDataField.cs" />
+    <Compile Include="Data\NestedSimpleDataField.cs" />
+    <Compile Include="Data\ArrayDataField.cs" />
+    <Compile Include="Data\FlatArrayDataField.cs" />
+    <Compile Include="Data\FlatArrayAccessor.cs" />
+    <Compile Include="Data\NestedArrayDataField.cs" />
+    <Compile Include="Data\NestedArrayAccessor.cs" />
+    <Compile Include="Data\DataHolderException.cs" />
+    <Compile Include="Data\PersistentAttribute.cs" />
+    <Compile Include="Data\DataHolderAttribute.cs" />
+    <Compile Include="Data\DependingProducer.cs" />
+    <Compile Include="Data\DataHolderDefinition.cs" />
+    <Compile Include="DB\BaseDataColumn.cs" />
+    <Compile Include="DB\DataHolderTableMapping.cs" />
+    <Compile Include="DB\KeyValueListBase.cs" />
+    <Compile Include="DB\UpdateKeyValueList.cs" />
+    <Compile Include="DB\LightDBDefinitionSet.cs" />
+    <Compile Include="DB\LightDBMgr.cs" />
+    <Compile Include="DB\LightDBMapper.cs" />
+    <Compile Include="DB\SimpleDataColumn.cs" />
+    <Compile Include="DB\Patterns.cs" />
+    <Compile Include="DB\TableDefinition.cs" />
+    <Compile Include="DB\Xml\DefVersion.cs" />
+    <Compile Include="DB\Xml\PrimaryColumn.cs" />
+    <Compile Include="DB\Xml\LightRecordXmlConfig.cs" />
+    <Compile Include="DB\Xml\DataFieldDefinition.cs" />
+    <Compile Include="DB\Xml\NestedSimpleFieldDefinition.cs" />
+    <Compile Include="DB\Xml\FlatArrayFieldDefinition.cs" />
+    <Compile Include="DB\Xml\NestedArrayFieldDefinition.cs" />
+    <Compile Include="DB\Xml\XmlDataHolderDefinition.cs" />
+    <Compile Include="DB\Xml\SimpleFlatFieldDefinition.cs" />
+    <Compile Include="DB\Xml\BasicTableDefinition.cs" />
+    <Compile Include="DotNetDocs\DocEntry.cs" />
+    <Compile Include="DotNetDocs\DotNetDocumentation.cs" />
+    <Compile Include="DynamicAccess\PropertyAccessorException.cs" />
+    <Compile Include="DynamicAccess\AccessorMgr.cs" />
+    <Compile Include="DynamicAccess\MethodExcecutable.cs" />
+    <Compile Include="ReflectionUtil\MemberAccessor.cs" />
+    <Compile Include="ReflectionUtil\ReflectionMember.cs" />
+    <Compile Include="Lang\TranslatableItem.cs" />
+    <Compile Include="Lang\Translation.cs" />
+    <Compile Include="Lang\Localizer.cs" />
+    <Compile Include="NLog\LogUtil.cs" />
+    <Compile Include="NLog\StreamTarget.cs" />
+    <Compile Include="Serialization\SerializerCollection.cs" />
+    <Compile Include="Strings\StringStream.cs" />
+    <Compile Include="Strings\StringNode.cs" />
+    <Compile Include="Strings\StringTree.cs" />
+    <Compile Include="Synchronization\SimpleLockWrapper.cs" />
+    <Compile Include="Threading\_ContextUtil.cs" />
+    <Compile Include="Threading\Message.cs" />
+    <Compile Include="Threading\WaitMessage.cs" />
+    <Compile Include="Threading\Message1.cs" />
+    <Compile Include="Threading\Message2.cs" />
+    <Compile Include="Threading\Message3.cs" />
+    <Compile Include="Threading\Message4.cs" />
+    <Compile Include="Threading\ActorModel\Actor.cs" />
+    <Compile Include="Threading\ActorModel\ActorException.cs" />
+    <Compile Include="Threading\ActorModel\Channel.cs" />
+    <Compile Include="Threading\TaskParallel\AggregateExceptionExtensions.cs" />
+    <Compile Include="Threading\TaskParallel\BlockingCollectionExtensions.cs" />
+    <Compile Include="Threading\TaskParallel\CancellationTokenExtensions.cs" />
+    <Compile Include="Threading\TaskParallel\DelegateBasedObserver.cs" />
+    <Compile Include="Threading\TaskParallel\DelegateExtensions.cs" />
+    <Compile Include="Threading\TaskParallel\LazyExtensions.cs" />
+    <Compile Include="Threading\TaskParallel\LinqToTasks.cs" />
+    <Compile Include="Threading\TaskParallel\ParallelLinqExtensions.cs" />
+    <Compile Include="Threading\TaskParallel\ParallelLinqOptions.cs" />
+    <Compile Include="Threading\TaskParallel\ParallelOptionsExtensions.cs" />
+    <Compile Include="Threading\TaskParallel\TaskCompletionSourceExtensions.cs" />
+    <Compile Include="Threading\TaskParallel\TaskExtensions.cs" />
+    <Compile Include="Threading\TaskParallel\TaskFactoryExtensions.cs" />
+    <Compile Include="Threading\TaskParallel\TaskSchedulerExtensions.cs" />
+    <Compile Include="Toolshed\ToolAttribute.cs" />
+    <Compile Include="Toolshed\ToolException.cs" />
+    <Compile Include="Toolshed\ToolMgr.cs" />
+    <Compile Include="Variables\ConfigUtil.cs" />
+    <Compile Include="Variables\VariableConfiguration.cs" />
+    <Compile Include="Variables\VariableConfigurationGenaric.cs" />
+    <Compile Include="Variables\VariableDefinition.cs" />
+    <Compile Include="Variables\VariableAttribute.cs" />
+    <Compile Include="Variables\VariableClassAttribute.cs" />
+    <Compile Include="Variables\TypeVariableDefinition.cs" />
+    <Compile Include="Variables\VariableException.cs" />
+    <Compile Include="Xml\XmlUtil.cs" />
+    <Compile Include="IIndexedGetterSetter.cs" />
+    <Compile Include="IGetterSetter.cs" />
+    <Compile Include="SubmitValueHandler.cs" />
+    <Compile Include="IValueSetter.cs" />
+    <Compile Include="INamed.cs" />
+    <Compile Include="IProducer.cs" />
+    <Compile Include="IProducerGenaric.cs" />
+    <Compile Include="IOneArgumentProducer.cs" />
+    <Compile Include="IStreamTarget.cs" />
+    <Compile Include="Graphics\ContainmentType.cs" />
+    <Compile Include="Graphics\OutFlags.cs" />
+    <Compile Include="Graphics\RectInt.cs" />
+    <Compile Include="Graphics\IntersectionType.cs" />
+    <Compile Include="Graphics\IPackedVector.cs" />
+    <Compile Include="Graphics\IPackedVectorTPacked.cs" />
+    <Compile Include="Graphics\PlaneIntersectionType.cs" />
+    <Compile Include="ObjectPools\IObjectPool.cs" />
+    <Compile Include="ObjectPools\IPooledObject.cs" />
+    <Compile Include="Collections\SingleLinkNode.cs" />
+    <Compile Include="Commands\ICmdArgs.cs" />
+    <Compile Include="Commands\DefaultCmdArgs.cs" />
+    <Compile Include="Commands\ITriggerer.cs" />
+    <Compile Include="Conversion\IConverter.cs" />
+    <Compile Include="Conversion\IConverterProvider.cs" />
+    <Compile Include="Conversion\IFieldReader.cs" />
+    <Compile Include="Data\IDataFieldAccessor.cs" />
+    <Compile Include="Data\IFlatDataFieldAccessor.cs" />
+    <Compile Include="Data\DataHolderState.cs" />
+    <Compile Include="Data\GetDataHolderHandler.cs" />
+    <Compile Include="Data\SetDataHolderHandler.cs" />
+    <Compile Include="Data\IBinaryPersistor.cs" />
+    <Compile Include="Data\IComplexBinaryPersistor.cs" />
+    <Compile Include="Data\ISimpleBinaryPersistor.cs" />
+    <Compile Include="Data\IStringPersistor.cs" />
+    <Compile Include="Data\IDataFieldBase.cs" />
+    <Compile Include="Data\INestedDataField.cs" />
+    <Compile Include="Data\IDataField.cs" />
+    <Compile Include="Data\NotPersistentAttribute.cs" />
+    <Compile Include="Data\DBAttribute.cs" />
+    <Compile Include="Data\IDataHolder.cs" />
+    <Compile Include="Data\DataHolderBase.cs" />
+    <Compile Include="DB\DataFieldType.cs" />
+    <Compile Include="DB\IDbWrapper.cs" />
+    <Compile Include="DB\Xml\ArrayConstraint.cs" />
+    <Compile Include="DB\Xml\Column.cs" />
+    <Compile Include="DB\Xml\IHasDataFieldDefinitions.cs" />
+    <Compile Include="DB\Xml\IDataFieldDefinition.cs" />
+    <Compile Include="DB\Xml\INestedFieldDefinition.cs" />
+    <Compile Include="DB\Xml\IFlatField.cs" />
+    <Compile Include="DB\Xml\IArray.cs" />
+    <Compile Include="DB\Xml\BaseFieldArrayDefinition.cs" />
+    <Compile Include="DB\Xml\BasicTableDefinitions.cs" />
+    <Compile Include="DB\Xml\XmlWhereClause.cs" />
+    <Compile Include="DotNetDocs\MemberType.cs" />
+    <Compile Include="DynamicAccess\DontCopyAttribute.cs" />
+    <Compile Include="DynamicAccess\IExecutable.cs" />
+    <Compile Include="DynamicAccess\IGenericPropertyAccessor.cs" />
+    <Compile Include="ReflectionUtil\ReflectionMemberChain.cs" />
+    <Compile Include="Lang\ILocalizer.cs" />
+    <Compile Include="Lang\TranslatedItem.cs" />
+    <Compile Include="Serialization\VersionedSerializer.cs" />
+    <Compile Include="Threading\IContextHandler.cs" />
+    <Compile Include="Threading\IMessage.cs" />
+    <Compile Include="Threading\ActorModel\ActorStatus.cs" />
+    <Compile Include="Threading\ActorModel\IChannel.cs" />
+    <Compile Include="Toolshed\NoToolAttribute.cs" />
+    <Compile Include="Variables\IConfiguration.cs" />
+    <Compile Include="Variables\IVariableDefinition.cs" />
+    <Compile Include="Variables\NotVariableAttribute.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

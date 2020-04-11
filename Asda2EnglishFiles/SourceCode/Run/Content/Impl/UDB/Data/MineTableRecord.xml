@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="MineTableRecord">
+   <DefaultTable>MineTableRecord</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<Flat Name="MapId" Column="MapId" />
+<Flat Name="IsPremium" Column="IsPremium" />
+<Flat Name="DigTime" Column="DigTime" />
+<Flat Name="MinLevel" Column="MinLevel" />
+<FlatArray Name="ItemIds">
+      <Column Name="ItemIds_0"/>
+	  <Column Name="ItemIds_1"/>
+	  <Column Name="ItemIds_2"/>
+	  <Column Name="ItemIds_3"/>
+	  <Column Name="ItemIds_4"/>
+	  <Column Name="ItemIds_5"/>
+	  <Column Name="ItemIds_6"/>
+	  <Column Name="ItemIds_7"/>
+	  <Column Name="ItemIds_8"/>
+	  <Column Name="ItemIds_9"/>
+	  <Column Name="ItemIds_10"/>
+	  <Column Name="ItemIds_11"/>
+	  <Column Name="ItemIds_12"/>
+	  <Column Name="ItemIds_13"/>
+	  <Column Name="ItemIds_14"/>
+	  <Column Name="ItemIds_15"/>
+	  <Column Name="ItemIds_16"/>
+	  <Column Name="ItemIds_17"/>
+	  <Column Name="ItemIds_18"/>
+	  <Column Name="ItemIds_19"/>
+	   <Column Name="ItemIds_20"/>
+	    <Column Name="ItemIds_21"/>
+		 <Column Name="ItemIds_22"/>
+		  <Column Name="ItemIds_23"/>
+		   <Column Name="ItemIds_24"/>
+		    <Column Name="ItemIds_25"/>
+			 <Column Name="ItemIds_26"/>
+			  <Column Name="ItemIds_27"/>
+			   <Column Name="ItemIds_28"/>
+			    <Column Name="ItemIds_29"/>
+				<Column Name="ItemIds_30"/>
+				<Column Name="ItemIds_31"/>
+				<Column Name="ItemIds_32"/>
+				<Column Name="ItemIds_33"/>
+				<Column Name="ItemIds_34"/>
+				<Column Name="ItemIds_35"/>
+				<Column Name="ItemIds_36"/>
+				<Column Name="ItemIds_37"/>
+				<Column Name="ItemIds_38"/>
+				<Column Name="ItemIds_39"/>
+				<Column Name="ItemIds_40"/>
+				<Column Name="ItemIds_41"/>
+				<Column Name="ItemIds_42"/>
+				<Column Name="ItemIds_43"/>
+				<Column Name="ItemIds_44"/>
+				<Column Name="ItemIds_45"/>
+				<Column Name="ItemIds_46"/>
+				<Column Name="ItemIds_47"/>
+				<Column Name="ItemIds_48"/>
+				<Column Name="ItemIds_49"/>
+</FlatArray>
+<FlatArray Name="Chances">
+      <Column Name="Chances_0"/>
+	  <Column Name="Chances_1"/>
+	  <Column Name="Chances_2"/>
+	  <Column Name="Chances_3"/>
+	  <Column Name="Chances_4"/>
+	  <Column Name="Chances_5"/>
+	  <Column Name="Chances_6"/>
+	  <Column Name="Chances_7"/>
+	  <Column Name="Chances_8"/>
+	  <Column Name="Chances_9"/>
+	  <Column Name="Chances_10"/>
+	  <Column Name="Chances_11"/>
+	  <Column Name="Chances_12"/>
+	  <Column Name="Chances_13"/>
+	  <Column Name="Chances_14"/>
+	  <Column Name="Chances_15"/>
+	  <Column Name="Chances_16"/>
+	  <Column Name="Chances_17"/>
+	  <Column Name="Chances_18"/>
+	  <Column Name="Chances_19"/>
+	   <Column Name="Chances_20"/>
+	    <Column Name="Chances_21"/>
+		 <Column Name="Chances_22"/>
+		  <Column Name="Chances_23"/>
+		   <Column Name="Chances_24"/>
+		    <Column Name="Chances_25"/>
+			 <Column Name="Chances_26"/>
+			  <Column Name="Chances_27"/>
+			   <Column Name="Chances_28"/>
+			    <Column Name="Chances_29"/>
+				<Column Name="Chances_30"/>
+				<Column Name="Chances_31"/>
+				<Column Name="Chances_32"/>
+				<Column Name="Chances_33"/>
+				<Column Name="Chances_34"/>
+				<Column Name="Chances_35"/>
+				<Column Name="Chances_36"/>
+				<Column Name="Chances_37"/>
+				<Column Name="Chances_38"/>
+				<Column Name="Chances_39"/>
+				<Column Name="Chances_40"/>
+				<Column Name="Chances_41"/>
+				<Column Name="Chances_42"/>
+				<Column Name="Chances_43"/>
+				<Column Name="Chances_44"/>
+				<Column Name="Chances_45"/>
+				<Column Name="Chances_46"/>
+				<Column Name="Chances_47"/>
+				<Column Name="Chances_48"/>
+				<Column Name="Chances_49"/>
+</FlatArray>
+  </DataHolder>
+</DataHolders>

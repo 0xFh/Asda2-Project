@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="FishingBookTemplate">
+    <DefaultTable>FishingBookTemplate</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<Flat Name="BookId" Column="BookId" />
+<FlatArray Name="RequiredFishes">
+      <Column Name="RequiredFishes_0"/>
+	  <Column Name="RequiredFishes_1"/>
+	  <Column Name="RequiredFishes_2"/>
+	  <Column Name="RequiredFishes_3"/>
+	  <Column Name="RequiredFishes_4"/>
+	  <Column Name="RequiredFishes_5"/>
+	  <Column Name="RequiredFishes_6"/>
+	  <Column Name="RequiredFishes_7"/>
+	  <Column Name="RequiredFishes_8"/>
+	  <Column Name="RequiredFishes_9"/>
+	  <Column Name="RequiredFishes_10"/>
+	  <Column Name="RequiredFishes_11"/>
+	  <Column Name="RequiredFishes_12"/>
+	  <Column Name="RequiredFishes_13"/>
+	  <Column Name="RequiredFishes_14"/>
+	  <Column Name="RequiredFishes_15"/>
+	  <Column Name="RequiredFishes_16"/>
+	  <Column Name="RequiredFishes_17"/>
+	  <Column Name="RequiredFishes_18"/>
+	  <Column Name="RequiredFishes_19"/>
+	   <Column Name="RequiredFishes_20"/>
+	    <Column Name="RequiredFishes_21"/>
+		 <Column Name="RequiredFishes_22"/>
+		  <Column Name="RequiredFishes_23"/>
+		   <Column Name="RequiredFishes_24"/>
+		    <Column Name="RequiredFishes_25"/>
+			 <Column Name="RequiredFishes_26"/>
+			  <Column Name="RequiredFishes_27"/>
+			   <Column Name="RequiredFishes_28"/>
+			    <Column Name="RequiredFishes_29"/>
+</FlatArray>
+
+<FlatArray Name="RequiredFishesAmounts">
+      <Column Name="RequiredFishesAmounts_0"/>
+	  <Column Name="RequiredFishesAmounts_1"/>
+	  <Column Name="RequiredFishesAmounts_2"/>
+	  <Column Name="RequiredFishesAmounts_3"/>
+	  <Column Name="RequiredFishesAmounts_4"/>
+	  <Column Name="RequiredFishesAmounts_5"/>
+	  <Column Name="RequiredFishesAmounts_6"/>
+	  <Column Name="RequiredFishesAmounts_7"/>
+	  <Column Name="RequiredFishesAmounts_8"/>
+	  <Column Name="RequiredFishesAmounts_9"/>
+	  <Column Name="RequiredFishesAmounts_10"/>
+	  <Column Name="RequiredFishesAmounts_11"/>
+	  <Column Name="RequiredFishesAmounts_12"/>
+	  <Column Name="RequiredFishesAmounts_13"/>
+	  <Column Name="RequiredFishesAmounts_14"/>
+	  <Column Name="RequiredFishesAmounts_15"/>
+	  <Column Name="RequiredFishesAmounts_16"/>
+	  <Column Name="RequiredFishesAmounts_17"/>
+	  <Column Name="RequiredFishesAmounts_18"/>
+	  <Column Name="RequiredFishesAmounts_19"/>
+	   <Column Name="RequiredFishesAmounts_20"/>
+	    <Column Name="RequiredFishesAmounts_21"/>
+		 <Column Name="RequiredFishesAmounts_22"/>
+		  <Column Name="RequiredFishesAmounts_23"/>
+		   <Column Name="RequiredFishesAmounts_24"/>
+		    <Column Name="RequiredFishesAmounts_25"/>
+			 <Column Name="RequiredFishesAmounts_26"/>
+			  <Column Name="RequiredFishesAmounts_27"/>
+			   <Column Name="RequiredFishesAmounts_28"/>
+			    <Column Name="RequiredFishesAmounts_29"/>
+</FlatArray>
+
+<FlatArray Name="Rewards">
+      <Column Name="Rewards_0"/>
+	  <Column Name="Rewards_1"/>
+	  <Column Name="Rewards_2"/>
+	  <Column Name="Rewards_3"/>
+</FlatArray>
+<FlatArray Name="RewardAmounts">
+      <Column Name="RewardAmounts_0"/>
+	  <Column Name="RewardAmounts_1"/>
+	  <Column Name="RewardAmounts_2"/>
+	  <Column Name="RewardAmounts_3"/>
+</FlatArray>
+  </DataHolder>
+</DataHolders>

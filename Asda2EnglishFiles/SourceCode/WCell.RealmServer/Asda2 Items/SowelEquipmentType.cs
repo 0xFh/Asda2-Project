@@ -1,0 +1,33 @@
+﻿namespace WCell.RealmServer.Items
+{
+    public enum SowelEquipmentType
+    {
+        Head,
+        Shirt,
+        Pans,
+        Boots,
+        Gloves,
+        LeftRing,
+        RightRing,
+        Nackles,
+        Shild,
+        Weapon,
+        Ammo,
+        AvatarHead,
+        AvatarShirt,
+        AvatarPans,
+        AvatarBoots,
+        AvatarGloves,
+        Accessory,
+        AvaratRightHead,
+        Cape,
+        Wings,
+        U1,
+        U2,
+        U3,
+        U4,
+        U5,
+        U6,
+        End,
+    }
+}

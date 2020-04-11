@@ -1,0 +1,31 @@
+﻿namespace WCell.RealmServer.Items
+{
+    public enum ItemBonusType
+    {
+        None,
+        WeaponAtack,
+        WaponMAtack,
+        Defence,
+        Strength,
+        Agility,
+        Stamina,
+        Energy,
+        Intelect,
+        Luck,
+        StrengthByPrc,
+        StaminaByPrc,
+        IntelegenceByPrc,
+        ErengyByPrc,
+        LuckByPrc,
+        AtackSpeedByPrc,
+        MovementSpeedByPrc,
+        PhysicalDamageReduceByPrc,
+        MagicalDamageReduceByPrc,
+        DropGoldByPrc,
+        Expirience,
+        SellingCostBonusType,
+        DropByPrc,
+        FishSizeAndFishingAblilityByPrc,
+        End,
+    }
+}

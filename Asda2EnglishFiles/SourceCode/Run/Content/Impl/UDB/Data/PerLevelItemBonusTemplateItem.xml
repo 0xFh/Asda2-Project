@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="PerlevelItemBonusTemplateItem">
+    <DefaultTable>PerlevelItemBonusTemplateItems</DefaultTable>    
+    <Flat Name="Id" Column="Id" />
+    <Flat Name="TemplateId" Column="TemplateId" />
+	<Flat Name="ItemId" Column="ItemId" />
+	<Flat Name="Level" Column="Level" />
+	<Flat Name="Amount" Column="Amount" />
+	<Flat Name="Chance" Column="Chance" />
+  </DataHolder>
+</DataHolders>

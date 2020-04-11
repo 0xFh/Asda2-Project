@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53C2615D-DC87-4C76-BF6F-9EA9020EE065}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Cell.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>0.5.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Cell.Core</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\Run\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>..\Run\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NLog, Version=1.0.0.505, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrayBuffer.cs" />
+    <Compile Include="BufferManager.cs" />
+    <Compile Include="BufferSegment.cs" />
+    <Compile Include="ClientBase.cs" />
+    <Compile Include="ByteArrHelper.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="NetworkUtil.cs" />
+    <Compile Include="ObjectPoolMgr.cs" />
+    <Compile Include="SegmentStream.cs" />
+    <Compile Include="UDPSendToArgs.cs" />
+    <Compile Include="ServerBase.cs" />
+    <Compile Include="SocketHelpers.cs" />
+    <Compile Include="SpinWaitLock.cs" />
+    <Compile Include="XmlIPAddress.cs" />
+    <Compile Include="Exceptions\InvalidEndpointException.cs" />
+    <Compile Include="Exceptions\NoAvailableAdaptersException.cs" />
+    <Compile Include="Localization\Cell_Core.cs" />
+    <Compile Include="CellDef.cs" />
+    <Compile Include="IClient.cs" />
+    <Compile Include="ClientConnectedHandler.cs" />
+    <Compile Include="ClientDisconnectedHandler.cs" />
+    <Compile Include="Localization\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\Cell\Core.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WCell.Util\WCell.Util.csproj">
+      <Project>{fd88900c-ac2b-458f-8b51-25e643a1cc9b}</Project>
+      <Name>WCell.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

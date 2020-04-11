@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D9C21DB6-90B7-436A-8397-20A6B26BFC84}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>WCell.Intercommunication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>0.5.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>WCell.Intercommunication</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\Run\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>..\Run\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CharacterBaseInfo.cs" />
+    <Compile Include="AddStatStatus.cs" />
+    <Compile Include="Client\AuthenticationClientAdapter.cs" />
+    <Compile Include="DataTypes\UpdateRealmResponse.cs" />
+    <Compile Include="DataTypes\BufferedCommandResponse.cs" />
+    <Compile Include="DataTypes\RoleGroupInfo.cs" />
+    <Compile Include="IWCellIntercomService.cs" />
+    <Compile Include="Formula.cs" />
+    <Compile Include="ClassIdContract.cs" />
+    <Compile Include="CharacterFullInfo.cs" />
+    <Compile Include="CharactersInfo.cs" />
+    <Compile Include="AccountsInfo.cs" />
+    <Compile Include="AccountBaseInfo.cs" />
+    <Compile Include="AccountFullInfo.cs" />
+    <Compile Include="UnlockWarehouseEnum.cs" />
+    <Compile Include="SetWarehousePassEnum.cs" />
+    <Compile Include="ResetStatsEnum.cs" />
+    <Compile Include="LogoutEnum.cs" />
+    <Compile Include="RebornEnum.cs" />
+    <Compile Include="StartPkModeEnum.cs" />
+    <Compile Include="ErrorTeleportationEnum.cs" />
+    <Compile Include="ChangeProffessionEnum.cs" />
+    <Compile Include="AddStatStatusEnum.cs" />
+    <Compile Include="Asda2StatType.cs" />
+    <Compile Include="UpdateData.cs" />
+    <Compile Include="RegisterStatus.cs" />
+    <Compile Include="PreRegisterData.cs" />
+    <Compile Include="AuthorizeStatus.cs" />
+    <Compile Include="IAccountInfo.cs" />
+    <Compile Include="IAccount.cs" />
+    <Compile Include="FullAccountInfo.cs" />
+    <Compile Include="AccountInfo.cs" />
+    <Compile Include="Client\IAuthenticationClientChasnnel.cs" />
+    <Compile Include="DataTypes\IRoleGroup.cs" />
+    <Compile Include="DataTypes\AuthenticationInfo.cs" />
+    <Compile Include="DataTypes\IBufferedCommandResponse.cs" />
+    <Compile Include="DataTypes\RoleStatus.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

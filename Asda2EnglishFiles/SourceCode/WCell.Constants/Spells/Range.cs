@@ -1,0 +1,71 @@
+﻿namespace WCell.Constants.Spells
+{
+    public enum Range : uint
+    {
+        SelfOnly = 0,
+        Trap = 2,
+        ThreeYards = 3,
+        CombatRange = 5,
+        InteractRange = 5,
+        SixYards = 6,
+        SevenYards = 7,
+        EightYards = 8,
+        MinRange110 = 10, // 0x0000000A
+        TenYards = 10, // 0x0000000A
+        ElevenYards = 11, // 0x0000000B
+        ThirteenYards = 13, // 0x0000000D
+        FourteenYards = 14, // 0x0000000E
+        FifteenYards = 15, // 0x0000000F
+        MinRange515 = 15, // 0x0000000F
+        MediumShortRange = 20, // 0x00000014
+        MinRange1020 = 20, // 0x00000014
+        ShortLongRange = 20, // 0x00000014
+        TwentyYards = 20, // 0x00000014
+        Charge = 25, // 0x00000019
+        MinRange1025 = 25, // 0x00000019
+        MinRange525 = 25, // 0x00000019
+        TournamentRanged = 25, // 0x00000019
+        TwentyFiveYards = 25, // 0x00000019
+        DeathGrip = 30, // 0x0000001E
+        MediumLongRange_2 = 30, // 0x0000001E
+        MediumRange = 30, // 0x0000001E
+        MediumRange_2 = 30, // 0x0000001E
+        MonsterShoot = 30, // 0x0000001E
+        RangedWeapon = 30, // 0x0000001E
+        HunterRange = 35, // 0x00000023
+        MediumLongRange = 35, // 0x00000023
+        MediumLongRange38 = 38, // 0x00000026
+        LongRange = 40, // 0x00000028
+        LongRange_2 = 40, // 0x00000028
+        Sting = 40, // 0x00000028
+        TESTLongRange = 40, // 0x00000028
+        HunterRangeLong = 45, // 0x0000002D
+        LongRangeHunterShoot = 45, // 0x0000002D
+        LongRangeHunterShoot_2 = 45, // 0x0000002D
+        LongerRange = 45, // 0x0000002D
+        ExtendedRange = 50, // 0x00000032
+        FiftyFiveYards = 55, // 0x00000037
+        Charge60 = 60, // 0x0000003C
+        ExtraLongRange = 60, // 0x0000003C
+        CatapultRange = 70, // 0x00000046
+        Donut2070 = 70, // 0x00000046
+        SeventyYards = 70, // 0x00000046
+        ThirtyTo80 = 80, // 0x00000050
+        Tower80 = 80, // 0x00000050
+        Tower8010 = 80, // 0x00000050
+        Ninety = 90, // 0x0000005A
+        Tower100 = 100, // 0x00000064
+        Valgarde8100 = 100, // 0x00000064
+        VisionRange = 100, // 0x00000064
+        SuperLong = 150, // 0x00000096
+        SuperLong15Min = 150, // 0x00000096
+        SuperLongMinRange = 150, // 0x00000096
+        BoulderRange = 200, // 0x000000C8
+        TwoHundredYardRange = 200, // 0x000000C8
+        ThreeHundredYards = 300, // 0x0000012C
+        End = 301, // 0x0000012D
+        ULTRA = 1000, // 0x000003E8
+        Anywhere = 50000, // 0x0000C350
+        AnywhereCombatMinRange = 50000, // 0x0000C350
+    }
+}

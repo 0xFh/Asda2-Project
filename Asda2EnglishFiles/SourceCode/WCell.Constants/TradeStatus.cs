@@ -1,0 +1,29 @@
+﻿namespace WCell.Constants
+{
+    public enum TradeStatus
+    {
+        PlayerBusy,
+        Proposed,
+        Initiated,
+        Cancelled,
+        Accepted,
+        AlreadyTrading,
+        PlayerNotFound,
+        StateChanged,
+        Complete,
+        Denied,
+        TooFarAway,
+        WrongFaction,
+        Failed,
+        TargetDead,
+        Petition,
+        PlayerIgnored,
+        TargetStunned,
+        PlayerDead,
+        TradeTargetDead,
+        LoggingOut,
+        TargetLoggingOut,
+        TrialAccountRestriction,
+        WrongRealm,
+    }
+}

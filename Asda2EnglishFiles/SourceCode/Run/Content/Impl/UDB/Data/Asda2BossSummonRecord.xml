@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="Asda2BossSummonRecord">
+    <DefaultTable>Asda2BossSummonRecord</DefaultTable>
+    
+    <Flat Name="Amount" Column="Amount" />
+    <Flat Name="MobId" Column="MobId" />
+	<Flat Name="MapId" Column="MapId" />
+	<Flat Name="X" Column="X" />
+	<Flat Name="Y" Column="Y" />
+	<Flat Name="Id" Column="Id" />
+  </DataHolder>
+</DataHolders>

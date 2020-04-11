@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.RealmServerConsole", "WCell.RealmServerConsole\WCell.RealmServerConsole.csproj", "{1948A051-4CB4-4C0E-8E33-0C83352135F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{24DDD0A8-BE9F-4C9F-884B-52A81FD60BBC} = {24DDD0A8-BE9F-4C9F-884B-52A81FD60BBC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.RealmServer", "WCell.RealmServer\WCell.RealmServer.csproj", "{24DDD0A8-BE9F-4C9F-884B-52A81FD60BBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.Intercommunication", "WCell.Intercommunication\WCell.Intercommunication.csproj", "{D9C21DB6-90B7-436A-8397-20A6B26BFC84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.Util", "WCell.Util\WCell.Util.csproj", "{FD88900C-AC2B-458F-8B51-25E643A1CC9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cell.Core", "Cell.Core\Cell.Core.csproj", "{53C2615D-DC87-4C76-BF6F-9EA9020EE065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.Constants", "WCell.Constants\WCell.Constants.csproj", "{258F541C-46BE-44BE-A8B6-9373218E374B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCell.Core", "WCell.Core\WCell.Core.csproj", "{D97CAC5E-505F-4ECD-9436-9567A4CEAD1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1948A051-4CB4-4C0E-8E33-0C83352135F7}.Debug|x86.ActiveCfg = Debug|x86
+		{1948A051-4CB4-4C0E-8E33-0C83352135F7}.Debug|x86.Build.0 = Debug|x86
+		{1948A051-4CB4-4C0E-8E33-0C83352135F7}.Release|x86.ActiveCfg = Release|x86
+		{1948A051-4CB4-4C0E-8E33-0C83352135F7}.Release|x86.Build.0 = Release|x86
+		{24DDD0A8-BE9F-4C9F-884B-52A81FD60BBC}.Debug|x86.ActiveCfg = Debug|x86
+		{24DDD0A8-BE9F-4C9F-884B-52A81FD60BBC}.Debug|x86.Build.0 = Debug|x86
+		{24DDD0A8-BE9F-4C9F-884B-52A81FD60BBC}.Release|x86.ActiveCfg = Release|x86
+		{24DDD0A8-BE9F-4C9F-884B-52A81FD60BBC}.Release|x86.Build.0 = Release|x86
+		{D9C21DB6-90B7-436A-8397-20A6B26BFC84}.Debug|x86.ActiveCfg = Debug|x86
+		{D9C21DB6-90B7-436A-8397-20A6B26BFC84}.Debug|x86.Build.0 = Debug|x86
+		{D9C21DB6-90B7-436A-8397-20A6B26BFC84}.Release|x86.ActiveCfg = Release|x86
+		{D9C21DB6-90B7-436A-8397-20A6B26BFC84}.Release|x86.Build.0 = Release|x86
+		{FD88900C-AC2B-458F-8B51-25E643A1CC9B}.Debug|x86.ActiveCfg = Debug|x86
+		{FD88900C-AC2B-458F-8B51-25E643A1CC9B}.Debug|x86.Build.0 = Debug|x86
+		{FD88900C-AC2B-458F-8B51-25E643A1CC9B}.Release|x86.ActiveCfg = Release|x86
+		{FD88900C-AC2B-458F-8B51-25E643A1CC9B}.Release|x86.Build.0 = Release|x86
+		{53C2615D-DC87-4C76-BF6F-9EA9020EE065}.Debug|x86.ActiveCfg = Debug|x86
+		{53C2615D-DC87-4C76-BF6F-9EA9020EE065}.Debug|x86.Build.0 = Debug|x86
+		{53C2615D-DC87-4C76-BF6F-9EA9020EE065}.Release|x86.ActiveCfg = Release|x86
+		{53C2615D-DC87-4C76-BF6F-9EA9020EE065}.Release|x86.Build.0 = Release|x86
+		{258F541C-46BE-44BE-A8B6-9373218E374B}.Debug|x86.ActiveCfg = Debug|x86
+		{258F541C-46BE-44BE-A8B6-9373218E374B}.Debug|x86.Build.0 = Debug|x86
+		{258F541C-46BE-44BE-A8B6-9373218E374B}.Release|x86.ActiveCfg = Release|x86
+		{258F541C-46BE-44BE-A8B6-9373218E374B}.Release|x86.Build.0 = Release|x86
+		{D97CAC5E-505F-4ECD-9436-9567A4CEAD1B}.Debug|x86.ActiveCfg = Debug|x86
+		{D97CAC5E-505F-4ECD-9436-9567A4CEAD1B}.Debug|x86.Build.0 = Debug|x86
+		{D97CAC5E-505F-4ECD-9436-9567A4CEAD1B}.Release|x86.ActiveCfg = Release|x86
+		{D97CAC5E-505F-4ECD-9436-9567A4CEAD1B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6CC18B9-1206-4CF3-8029-92BF8AD8D855}
+	EndGlobalSection
+EndGlobal

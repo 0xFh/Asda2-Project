@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="FishingSpotInfoRecord">
+     <DefaultTable>FishingSpotInfoRecord</DefaultTable>
+
+<Flat Name="Id" Column="Id" />
+<FlatArray Name="RequiredFishingLvls">
+      <Column Name="RequiredFishingLvls_0"/>
+	  <Column Name="RequiredFishingLvls_1"/>
+	  <Column Name="RequiredFishingLvls_2"/>
+	  <Column Name="RequiredFishingLvls_3"/>
+	  <Column Name="RequiredFishingLvls_4"/>
+	  <Column Name="RequiredFishingLvls_5"/>
+	  <Column Name="RequiredFishingLvls_6"/>
+	  <Column Name="RequiredFishingLvls_7"/>
+	  <Column Name="RequiredFishingLvls_8"/>
+	  <Column Name="RequiredFishingLvls_9"/>
+</FlatArray>
+<FlatArray Name="Points">
+      <Column Name="Points_0"/>
+	  <Column Name="Points_1"/>
+	  <Column Name="Points_2"/>
+	  <Column Name="Points_3"/>
+	  <Column Name="Points_4"/>
+	  <Column Name="Points_5"/>
+	  <Column Name="Points_6"/>
+	  <Column Name="Points_7"/>
+	  <Column Name="Points_8"/>
+	  <Column Name="Points_9"/>
+	  <Column Name="Points_10"/>
+	  <Column Name="Points_11"/>
+	  <Column Name="Points_12"/>
+	  <Column Name="Points_13"/>
+	  <Column Name="Points_14"/>
+	  <Column Name="Points_15"/>
+	  <Column Name="Points_16"/>
+	  <Column Name="Points_17"/>
+	  <Column Name="Points_18"/>
+	  <Column Name="Points_19"/>
+</FlatArray>
+<FlatArray Name="Radius">
+      <Column Name="Radius_0"/>
+	  <Column Name="Radius_1"/>
+	  <Column Name="Radius_2"/>
+	  <Column Name="Radius_3"/>
+	  <Column Name="Radius_4"/>
+	  <Column Name="Radius_5"/>
+	  <Column Name="Radius_6"/>
+	  <Column Name="Radius_7"/>
+	  <Column Name="Radius_8"/>
+	  <Column Name="Radius_9"/>
+</FlatArray>
+<FlatArray Name="DataKey">
+      <Column Name="DataKey_0"/>
+	  <Column Name="DataKey_1"/>
+	  <Column Name="DataKey_2"/>
+	  <Column Name="DataKey_3"/>
+	  <Column Name="DataKey_4"/>
+	  <Column Name="DataKey_5"/>
+	  <Column Name="DataKey_6"/>
+	  <Column Name="DataKey_7"/>
+	  <Column Name="DataKey_8"/>
+	  <Column Name="DataKey_9"/>
+</FlatArray>
+
+  </DataHolder>
+</DataHolders>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="Asda2GuildWaveItemRecord">
+    <DefaultTable>Asda2GuildWaveItemRecord</DefaultTable>
+    
+    <Flat Name="Wave" Column="Wave" />
+    <Flat Name="Lvl" Column="Lvl" />
+	<Flat Name="Difficulty" Column="Difficulty" />
+	<Flat Name="Item1" Column="Item1" />
+	<Flat Name="Item2" Column="Item2" />
+	<Flat Name="Item3" Column="Item3" />
+	<Flat Name="Item4" Column="Item4" />
+	<Flat Name="Item5" Column="Item5" />
+	<Flat Name="Item6" Column="Item6" />
+	<Flat Name="Item7" Column="Item7" />
+	<Flat Name="Item8" Column="Item8" />
+	<Flat Name="Chance1" Column="Chance1" />
+	<Flat Name="Chance2" Column="Chance2" />
+	<Flat Name="Chance3" Column="Chance3" />
+	<Flat Name="Chance4" Column="Chance4" />
+	<Flat Name="Chance5" Column="Chance5" />
+	<Flat Name="Chance6" Column="Chance6" />
+	<Flat Name="Chance7" Column="Chance7" />
+	<Flat Name="Chance8" Column="Chance8" />
+	<Flat Name="Id" Column="Id" />
+  </DataHolder>
+</DataHolders>

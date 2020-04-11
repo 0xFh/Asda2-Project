@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataHolders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataHolder Name="Asda2RecipeTemplate">
+    <DefaultTable>CraftRecord</DefaultTable>
+
+<Flat Name="Name" Column="Name" />
+<Flat Name="Id" Column="Id" />
+<Flat Name="CraftingLevel" Column="CraftingLevel" />
+<FlatArray Name="RequredItemIds">
+      <Column Name="RequredItemId_0"/>
+      <Column Name="RequredItemId_1"/>
+      <Column Name="RequredItemId_2"/>
+      <Column Name="RequredItemId_3"/>
+      <Column Name="RequredItemId_4"/>
+      <Column Name="RequredItemId_5"/>
+    </FlatArray>
+	
+<FlatArray Name="ReqiredItemAmounts">
+      <Column Name="ReqiredItemAmount_0"/>
+      <Column Name="ReqiredItemAmount_1"/>
+      <Column Name="ReqiredItemAmount_2"/>
+      <Column Name="ReqiredItemAmount_3"/>
+      <Column Name="ReqiredItemAmount_4"/>
+      <Column Name="ReqiredItemAmount_5"/>
+    </FlatArray>
+	<FlatArray Name="ResultItemIds">
+      <Column Name="ResultItemId_0"/>
+      <Column Name="ResultItemId_1"/>
+      <Column Name="ResultItemId_2"/>
+      <Column Name="ResultItemId_3"/>
+      <Column Name="ResultItemId_4"/>
+      <Column Name="ResultItemId_5"/>
+	  <Column Name="ResultItemId_6"/>
+    </FlatArray>
+<FlatArray Name="ResultItemAmounts">
+      <Column Name="ResultItemAmount_0"/>
+      <Column Name="ResultItemAmount_1"/>
+      <Column Name="ResultItemAmount_2"/>
+      <Column Name="ResultItemAmount_3"/>
+      <Column Name="ResultItemAmount_4"/>
+      <Column Name="ResultItemAmount_5"/>
+	  <Column Name="ResultItemAmount_6"/>
+    </FlatArray>
+  </DataHolder>
+</DataHolders>
